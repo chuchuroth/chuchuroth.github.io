@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Product Description for Aktiv Kohle Filter"
+date: 2025-06-22 
+categories: Product Description
+---
 
 
 ### **Unique Design Aktivkohlefilter Growset - 200m³/h 24W**
