@@ -1,13 +1,10 @@
 ---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 7" 
+title: "Das Buch der Klarheit " 
 date: 2025-06-22 
 categories: psychologie
 ---
 
-# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
-
----
 
 ## Kapitel 07: Nachtrag – Strategien, um dominante Persönlichkeiten zu meiden
 
@@ -70,7 +67,7 @@ Du wirst unsicher, fragst sie um Rat, hast Angst, etwas „falsch“ zu machen.
 **❌ Nicht versuchen, sie zu „verstehen“ zu lassen**  
 Sie werden nicht verstehen. Sie wollen nicht verstehen – sie wollen, dass du ihren Regeln folgst.  
 
-**❌ Nicht erklären“  
+**❌ Nicht erklären** 
 Je mehr du erklärst, desto mehr wirst du widerlegt. Sie sind besser im Argumentieren – du kannst nicht gewinnen.  
 
 **❌ Nicht deine Gefühle als Maßstab nehmen**  
