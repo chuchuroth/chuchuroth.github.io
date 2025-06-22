@@ -1,3 +1,5 @@
+ayout: post title: "Das Buch der Klarheit Kapitel 3" date: 2025-06-22 categories: psychologie
+
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
 ---
@@ -13,7 +15,7 @@ Doch ich werde das nicht tun. Ich weiß: Rache ist keine Besessenheit, sondern H
 ---
 
 ### 01. Niemand darf mir Böses tun, ohne Konsequenzen zu tragen
-Xu Jian, T Jian, Betrüger, die „elf Apostel“…  
+ex, Betrüger, die „elf Apostel“…  
 Warum haben sie sich mir genähert? Nicht aus Freundschaft, nicht aus Liebe, sondern aus **Interesse**.
 
 Manche wollten Geld, manche Gefühle, manche wollten mich ausnutzen, erschöpfen, zerstören. Am Anfang war ich naiv und dachte: „Menschen können nicht so böse sein.“ Doch die Realität hat mir ins Gesicht geschlagen – bösartig, heuchlerisch, kalt, skrupellos. Sie haben mich ohne Zögern niedergetreten, als wäre ich eine Ameise.
