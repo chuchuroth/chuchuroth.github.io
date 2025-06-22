@@ -1,4 +1,6 @@
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
+
+---
 ## 02. Chinesen sind kein Einzelfall: China ist eine Gesellschaft des gegenseitigen Schadens
 
 Du denkst, es sei das Problem einer einzelnen Person, aber es ist das Problem aller. Du denkst, es sei Zufall, aber es ist Struktur. Du denkst, es seien ein paar miese Typen, aber es ist die „Norm“, die durch Kultur, Gesellschaft, System und Bildung entsteht.
