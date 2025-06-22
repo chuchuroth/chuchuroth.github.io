@@ -30,7 +30,7 @@ twitter_username: chuchu
 github_username:  chuchu
 
 # Build settings
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
