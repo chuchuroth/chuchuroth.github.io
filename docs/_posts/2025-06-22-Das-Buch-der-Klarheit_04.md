@@ -1,4 +1,4 @@
-
+# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 ---
 
 ## Kapitel 04: Ich war leicht zu täuschen, aber ich werde klarer
