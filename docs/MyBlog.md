@@ -1,6 +1,6 @@
 layout: page
 title: "my first blog"
-permalink: https://chuchuroth.github.io/Blog
+permalink: https://chuchuroth.github.io/About
 
 # Die Kunst des Erwachens: Wie man Menschlichkeit, Schutz und Selbstbestimmung meistert
 
