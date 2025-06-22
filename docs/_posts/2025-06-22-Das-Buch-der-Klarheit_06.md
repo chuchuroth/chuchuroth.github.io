@@ -1,13 +1,11 @@
 ---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 6" 
+title: "Das Buch der Klarheit " 
 date: 2025-06-22 
 categories: psychologie
 ---
 
-# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
----
 
 ## Kapitel 06: Strukturdenken: Die zugrunde liegende Logik bestimmt dein Leben
 
