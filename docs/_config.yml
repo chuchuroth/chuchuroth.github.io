@@ -31,7 +31,6 @@ github_username:  chuchu
 
 # Build settings
 theme: minima
-theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
