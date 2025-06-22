@@ -30,7 +30,9 @@ twitter_username: chuchu
 github_username:  chuchu
 
 # Build settings
-theme: minima
+#theme: minima
+theme: cayman
+#theme: slate
 # theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
