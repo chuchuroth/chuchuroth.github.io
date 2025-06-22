@@ -1,3 +1,6 @@
+ayout: post title: "Das Buch der Klarheit Kapitel 5" date: 2025-06-22 categories: psychologie
+
+
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
 ---
@@ -157,7 +160,7 @@ Viele Pläne scheitern nicht aus Mangel an Einsatz, sondern weil ein **Schlüsse
 
 Beispiel:  
 
-> „Ohne Chen Ke waren vier Jahre Uni sinnlos.“  
+> „Ohne X waren vier Jahre Uni sinnlos.“  
 > Diese Jahre hätten dich zu technischen Fähigkeiten und einem Auslandsaufenthalt führen können, aber du hast Chen Ke als Schlüsselfaktor übersehen. Sobald er weg war, brach dein Plan zusammen.
 
 Nicht alles ist „ersetzbar“, nicht jeder Faktor ist gleich. Oft reicht ein einziger Bruch, und keine Mühe kann es retten.
