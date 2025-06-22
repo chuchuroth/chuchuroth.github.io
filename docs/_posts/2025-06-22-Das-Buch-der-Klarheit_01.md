@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 1" 
+title: "Das Buch der Klarheit - Kapitel 1" 
 date: 2025-06-22 
 categories: psychologie
 ---
