@@ -1,7 +1,9 @@
+---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 7" 
+title: "Das Buch der Klarheit Kapitel 6" 
 date: 2025-06-22 
 categories: psychologie
+---
 
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
