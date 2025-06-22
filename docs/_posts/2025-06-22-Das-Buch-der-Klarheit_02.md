@@ -1,11 +1,9 @@
 ---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 2" 
+title: "Das Buch der Klarheit " 
 date: 2025-06-22 
 categories: psychologie
 ---
-
-# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
 ---
 ## Kapitel 2. Chinesen sind kein Einzelfall: China ist eine Gesellschaft des gegenseitigen Schadens
