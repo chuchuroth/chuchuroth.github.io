@@ -1,12 +1,10 @@
 ---
 layout: post 
-title: "Das Buch der Klarheit Kapitel 4" 
+title: "Das Buch der Klarheit " 
 date: 2025-06-22 
 categories: psychologie
 ---
 
-# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
----
 
 ## Kapitel 04: Ich war leicht zu täuschen, aber ich werde klarer
 
