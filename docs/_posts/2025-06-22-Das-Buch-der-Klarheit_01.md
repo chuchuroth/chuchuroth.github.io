@@ -3,7 +3,7 @@
 
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
-## 01. Die zugrunde liegende Logik zwischenmenschlicher Beziehungen: Eine Katastrophe der Wahrnehmung
+## Kapitel 1. Die zugrunde liegende Logik zwischenmenschlicher Beziehungen: Eine Katastrophe der Wahrnehmung
 
 ### Was ist „zugrunde liegende Logik“?
 Die „zugrunde liegende Logik“ ist nicht das, was an der Oberfläche sichtbar ist, nicht ein Gefühl, sondern die wahrhaftigste und grundlegendste Ursache-Wirkungs-Struktur hinter einer Sache. Wenn du diese Struktur falsch verstehst, sind deine Bemühungen, egal wie groß, zum Scheitern verurteilt.
