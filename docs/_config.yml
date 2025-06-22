@@ -30,7 +30,7 @@ twitter_username: chuchu
 github_username:  chuchu
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme 
