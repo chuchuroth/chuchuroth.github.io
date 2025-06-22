@@ -3,6 +3,8 @@
 
 # Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
+---
+
 ## Kapitel 1. Die zugrunde liegende Logik zwischenmenschlicher Beziehungen: Eine Katastrophe der Wahrnehmung
 
 ### Was ist „zugrunde liegende Logik“?
