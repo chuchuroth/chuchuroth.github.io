@@ -1,4 +1,6 @@
+# Das Buch der Klarheit: Sieben Essays über Menschlichkeit, Verteidigung und Wiederaufbau
 
+---
 
 ## Kapitel 03: Rache ist keine Vergeltung, sondern die Fortsetzung des Selbstschutzes
 
