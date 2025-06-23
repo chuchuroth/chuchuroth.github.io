@@ -30,12 +30,17 @@ twitter_username: chuchu
 github_username:  chuchu
 
 # Build settings
-#theme: minima
-theme: cayman
-#theme: slate
-# theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: pages-themes/cayman@v0.2.0
+#theme: minima
+#theme: cayman
+#theme: slate
+# theme: jekyll-theme-modernist
+ 
+
+
 
 
 # Exclude from processing.
