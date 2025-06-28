@@ -1,5 +1,5 @@
 ---
-layout: post 
+ 
 title: "aktiv kohl Filter" 
 date: 2025-06-22 
 categories: Product Description
