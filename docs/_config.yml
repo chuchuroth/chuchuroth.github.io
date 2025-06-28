@@ -33,8 +33,8 @@ github_username:  chuchu
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-# remote_theme: pages-themes/cayman@v0.2.0
-theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+# theme: minima
 #theme: cayman
 #theme: slate
 #theme: hacker
