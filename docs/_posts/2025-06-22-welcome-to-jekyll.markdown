@@ -1,4 +1,5 @@
 ---
+layout: default
 
 title:  "Welcome to Jekyll!"
 date:   2025-06-22 20:40:06 +0200

@@ -1,4 +1,5 @@
 ---
+layout: default
  
 title: "Das Buch der Klarheit" 
 date: 2025-06-22 

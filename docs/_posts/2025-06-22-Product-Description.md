@@ -1,4 +1,5 @@
 ---
+layout: default
  
 title: "aktiv kohl Filter" 
 date: 2025-06-22 
