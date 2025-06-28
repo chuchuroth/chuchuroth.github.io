@@ -1,0 +1,1 @@
+Move Jekyll source to root and update permalink
