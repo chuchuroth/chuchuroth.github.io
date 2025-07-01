@@ -41,7 +41,7 @@ Must-Know Concepts for Web Development
     - `<body>`: Visible content.
     - `<h1>`: Big heading; `<p>`: Paragraph.
 
-     2. CSS (Cascading Style Sheets)
+2. CSS (Cascading Style Sheets)
 - **What**: The styling layer. It makes your HTML look good (colors, fonts, layouts).
 - **How**: Rules that target HTML elements.
 - **Example**:
@@ -61,7 +61,7 @@ Must-Know Concepts for Web Development
     - `text-align`: Centers the heading.
     - `font-size`: Sets text size.
 
-     3. JavaScript
+3. JavaScript
 - **What**: The interactivity layer. Adds behavior (e.g., buttons that do stuff).
 - **How**: Code that runs in the browser.
 - **Example**:
@@ -77,7 +77,7 @@ Must-Know Concepts for Web Development
     - `onclick`: Triggers when the button is clicked.
     - `alert`: Pops up a message.
 
-     4. How Websites Work
+4. How Websites Work
 - You write HTML/CSS/JavaScript files.
 - A browser (client) requests them from a server (e.g., via a URL like `www.example.com`).
 - The server sends the files, and the browser renders them into a webpage.
@@ -126,7 +126,7 @@ Basic Web Development Concepts
   - `<img src="image.jpg">`: Adds an image.
   - `<a href="https://google.com">Link</a>`: A clickable link.
 
-     2. Styling with CSS
+2. Styling with CSS
 - **Selectors**: Target elements (e.g., `h1` styles all `<h1>` tags).
 - **Properties**: Define looks (e.g., `background-color`, `margin`).
 - **External CSS**: Put styles in a separate file (e.g., `styles.css`) and link it:
@@ -134,12 +134,12 @@ Basic Web Development Concepts
   <link rel="stylesheet" href="styles.css">
   ```
 
-     3. Interactivity with JavaScript
+3. Interactivity with JavaScript
 - **Variables**: Store data (e.g., `let name = "Alice";`).
 - **Functions**: reusable actions (e.g., `function greet() { ... }`).
 - **Events**: Respond to user actions (e.g., `onclick`, `onmouseover`).
 
-     4. Tools You’ll Need
+4. Tools You’ll Need
 - **Text Editor**: VS Code (free, awesome).
 - **Browser**: Chrome or Firefox (use “Inspect” to debug).
 - **Live Server**: VS Code extension to see changes instantly.
