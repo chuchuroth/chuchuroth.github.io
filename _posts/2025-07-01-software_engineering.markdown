@@ -122,23 +122,23 @@ Software engineering is about designing, writing, testing, and maintaining code 
 - **Algorithms**: Step-by-step instructions to solve a problem (e.g., sorting a list).
 - **Logic**: Breaking problems into manageable pieces (e.g., “If this, then that”).
 
-     3. Software Development Process
++ 3. Software Development Process
 - **Planning**: Define what the program should do.
 - **Coding**: Write the solution.
 - **Testing**: Check if it works (debugging = fixing errors).
 - **Maintenance**: Update and improve it over time.
 
-     4. Tools and Practices
++ 4. Tools and Practices
 - **Text Editors/IDEs**: Tools like VS Code, PyCharm, or Visual Studio to write code.
 - **Version Control**: Git (e.g., GitHub) to track changes in code.
 - **Debugging**: Finding and fixing bugs.
 
-5. Key Concepts
++ 5. Key Concepts
 - **Object-Oriented Programming (OOP)**: Organizing code into "objects" (e.g., a "Car" with properties like speed).
 - **Input/Output**: How programs interact with users or files.
 - **Efficiency**: Writing code that runs fast and uses minimal resources.
 
-     6. Domains to Explore
++ 6. Domains to Explore
 - Web development (HTML, JavaScript), mobile apps (Java, Swift), automation (Python), or embedded systems (C/C++).
 
 As a beginner, focus on fundamentals and one language first—then branch out!
@@ -154,7 +154,7 @@ print("Hello, World!")
 ```
 - **Explanation**: `print()` outputs text to the screen. Simple!
 
-     2. Variables and Data Types
+2. Variables and Data Types
 ```python
 x = 10            Integer (whole number)
 name = "Alice"    String (text)
@@ -163,7 +163,7 @@ y = 3.14          Float (decimal)
 ```
 - **Explanation**: No need to declare types—Python figures it out. Assign with `=`.
 
-     3. Control Structures
+3. Control Structures
 - **If-Statement**:
 ```python
 age = 18
@@ -179,7 +179,7 @@ for i in range(3):    Runs 0, 1, 2
 ```
 - **Explanation**: `if` checks conditions; `for` repeats tasks. Indentation (spaces) matters!
 
-     4. Functions
+4. Functions
 ```python
 def greet(name):
     return f"Hello, {name}!"
@@ -217,7 +217,7 @@ int main() {
   - `main()` is where the program starts.
   - `std::cout` prints; `<<` chains output; `std::endl` adds a newline.
 
-     2. Variables and Data Types
+2. Variables and Data Types
 ```cpp
 int x = 10;          // Integer
 float y = 3.14;      // Float
@@ -227,7 +227,7 @@ string name = "Alice"; // String (needs  include <string>)
 ```
 - **Explanation**: You must declare the type before using a variable; `;` ends lines.
 
-     3. Control Structures
+3. Control Structures
 - **If-Statement**:
 ```cpp
 int age = 18;
@@ -245,7 +245,7 @@ for (int i = 0; i < 3; i++) {
 ```
 - **Explanation**: Braces `{}` define blocks; `for` has initialization, condition, and increment.
 
-     4. Functions
+4. Functions
 ```cpp
  include <iostream>
 int add(int a, int b) {

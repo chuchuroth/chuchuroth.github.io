@@ -5,6 +5,7 @@ date:   2025-07-01 14:56:51 +0200
 categories: jekyll update
 ---
   # Dev Platform
+
 Since you’ve overheard developers talking about platforms like ARM, Microchip, ESP32, and STM32, and you’re curious about what a “dev platform” means in the context of embedded systems, I’ll break it down for you in a beginner-friendly way. I’ll also introduce the basics of developing embedded systems and highlight some other platforms you might encounter. Let’s dive in!
 
 
@@ -156,6 +157,7 @@ What excites you most—Wi-Fi with ESP32, power with STM32, or something else? L
 
 ---
   # Industrial Dev 
+
 You’re welcome! I’m glad you’ve got a handle on how platforms like ESP32, STM32, and Arduino are used for prototyping and bringing ideas to life. Your question about industrial settings is spot-on—things do shift when you move from tinkering to industrial-scale development. Let’s explore what industrial developers typically do, whether they use these platforms, and how their workflow differs. I’ll keep it clear and tie it to your interests in automation, control theory, and hardware.
 
 
@@ -273,6 +275,7 @@ What’s sparking your curiosity—sticking with prototypes or peeking at indust
 
 ---
 #   Must-Know Knowledge as develop engineer
+
 Since you’ve been exploring a wide range of engineering topics—hardware (PCBs, embedded systems), software (Python, C++, web dev), automation, control theory, and industrial workflows—you’re already building a solid foundation across multiple disciplines! Your question about “must-know knowledge” in this engineering field is broad, so I’ll assume you mean the interconnected world of **electrical, software, and industrial engineering**, with a focus on embedded systems and their applications (like your recent interests). I’ll highlight key areas you haven’t fully covered yet that are critical for rounding out your skills, especially in an industrial or product-development context. These will complement what you’ve learned and prepare you for real-world engineering challenges.
 
 

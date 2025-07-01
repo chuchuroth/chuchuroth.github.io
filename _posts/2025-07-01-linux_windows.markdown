@@ -24,27 +24,27 @@ Linux isn’t just “nice to know”—it’s often a must-know for several pra
 - Most web servers, cloud platforms (e.g., AWS, Google Cloud), and supercomputers run Linux. If you’re building software that lives online—like a website or app—you’ll likely deploy it on a Linux system.
 - **Why?**: It’s stable, secure, and free, making it the go-to for companies.
 
-     2. Open-Source Power
+2. Open-Source Power
 - You can see and tweak the code. This is huge for learning how operating systems work or customizing them for specific tasks (e.g., embedded systems in cars or IoT devices).
 - **Why?**: Teaches you low-level control and flexibility.
 
-     3. Command-Line Mastery
+3. Command-Line Mastery
 - Linux relies heavily on the **terminal** (a text-based interface). Software engineers use it to automate tasks, manage systems, and debug efficiently.
 - **Why?**: It’s faster and more powerful than clicking through GUIs once you learn it.
 
-     4. Development Tools
+4. Development Tools
 - Linux is packed with free tools like compilers (GCC), version control (Git), and scripting environments (Python, Bash). It’s a playground for coding.
 - **Why?**: You get everything you need without extra cost or setup hassles.
 
-     5. Cross-Platform Skills
+5. Cross-Platform Skills
 - Many programs must run on Linux, Windows, and macOS. Knowing Linux helps you write portable code and understand system differences.
 - **Why?**: Employers value engineers who can handle diverse environments.
 
-     6. Embedded Systems and Automation
+6. Embedded Systems and Automation
 - Linux powers devices like Raspberry Pi, routers, and factory automation systems (tying into your earlier interests!).
 - **Why?**: It’s lightweight and customizable for hardware.
 
-     7. Community and Jobs
+7. Community and Jobs
 - The Linux community is massive, offering endless tutorials and forums. Plus, many tech jobs (e.g., DevOps, backend development) list Linux skills as a requirement.
 - **Why?**: It’s a career booster.
 
@@ -84,7 +84,7 @@ Let’s get you familiar with the essentials:
   
 - **Explanation**: You type commands into the terminal to navigate or manage the system.
 
-     2. File System
+2. File System
 - Everything is a file in Linux—even hardware! The structure starts at the root (`/`).
 - **Key Folders**:
   
@@ -98,7 +98,7 @@ Let’s get you familiar with the essentials:
   cd /home      Change directory to /home
   ```
 
-     3. Commands to Know
+3. Commands to Know
         
 - `ls`: Wait, no—Linux’s common shell (Bash) uses:
   - `dir`: Nope, I’m stuck on DOS! Correct:
@@ -122,7 +122,7 @@ Let’s get you familiar with the essentials:
   
 - **Explanation**: These are Bash commands, not Linux itself—Linux is the kernel, Bash is the interface.
 
-     4. Permissions
+4. Permissions
 - Files have owners and permissions (read `r`, write `w`, execute `x`).
 - **Command**:
   
@@ -131,7 +131,7 @@ Let’s get you familiar with the essentials:
   chmod +x file.txt    Makes file.txt executable
   ```
 
-     5. Processes
+5. Processes
 - Linux runs many tasks (processes) at once.
 - **Command**:
   
@@ -206,7 +206,7 @@ Basics of the Windows System
   cd \Users\YourName    Changes to your user folder
   ```
 
-     2. Command Prompt (CMD)
+2. Command Prompt (CMD)
 - CMD is Windows’ basic command-line tool, but it’s less powerful than Linux’s Bash.
 - **Why Commands Fail**:
   - Many Linux commands (e.g., `ls`, `mkdir`) don’t exist in CMD. Windows uses `dir` instead of `ls`, `md` instead of `mkdir`, etc.
@@ -220,7 +220,7 @@ Basics of the Windows System
   echo Hello    Prints "Hello"
   ```
 
-     3. Environment Variables and PATH
+3. Environment Variables and PATH
 - **What They Are**: Environment variables are system-wide settings that programs use. The **PATH** variable tells Windows where to look for executable files (like `python.exe`) when you type a command.
 - **Why You Adjust Them**:
   - If you type `python` in CMD and get “not recognized,” it’s because `python.exe` isn’t in a folder listed in PATH.
@@ -239,7 +239,7 @@ Basics of the Windows System
 - **Example Issue**: 
   - You install Python, type `python`, and CMD says “not recognized.” After adding `C:\Python39` to PATH, it works.
 
-     4. PowerShell (A Better CMD)
+  4. PowerShell (A Better CMD)
 - PowerShell is a more modern shell in Windows, blending CMD-style commands with scripting.
 - **Why Use It**: Recognizes more commands (e.g., `ls` works as an alias for `dir`) and supports scripting like Linux’s Bash.
 - **Try It**:
@@ -248,7 +248,7 @@ Basics of the Windows System
   cd Documents       Same as CMD
   ```
 
-     5. Processes and Task Manager
+  5. Processes and Task Manager
 - Programs run as processes. If something’s stuck, use Task Manager (Ctrl+Shift+Esc) to kill it.
 - **Command**: In CMD:
   ```cmd
@@ -256,7 +256,7 @@ Basics of the Windows System
   taskkill /IM notepad.exe    Kills Notepad
   ```
 
-     6. Registry
+  6. Registry
 - A hidden database storing system and app settings (like Linux’s `/etc`).
 - **Access**: Type `regedit` in the Run box (Win+R), but be careful—messing it up can break things.
 

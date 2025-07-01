@@ -27,19 +27,19 @@ Automation & Robotics Technologies
 Software & Simulation Tools
 
 **6. Robot Operating System (ROS):**
-   - *Online Course:* "ROS Courses Library" by Robot Ignite Academy. This series offers online ROS tutorials tied to simulations, providing practical experience in ROS-based robotics development. citeturn0search2
+   - *Online Course:* "ROS Courses Library" by Robot Ignite Academy. This series offers online ROS tutorials tied to simulations, providing practical experience in ROS-based robotics development. 
 
 **7. MATLAB & Simulink:**
-   - *Book:* "MATLAB Guide to Finite Elements: An Interactive Approach" by Peter I. Kattan. This book integrates MATLAB with finite element analysis, offering practical applications and examples. citeturn0search4
+   - *Book:* "MATLAB Guide to Finite Elements: An Interactive Approach" by Peter I. Kattan. This book integrates MATLAB with finite element analysis, offering practical applications and examples. 
 
 **8. Unity & Gazebo:**
-   - *Online Course:* "Mastering Gazebo Simulator" by Robot Ignite Academy. This course teaches how to use the Gazebo simulator for robotics applications, which is often used alongside ROS. citeturn0search2
+   - *Online Course:* "Mastering Gazebo Simulator" by Robot Ignite Academy. This course teaches how to use the Gazebo simulator for robotics applications, which is often used alongside ROS. 
 
 **9. CAD Software (e.g., CATIA, SolidWorks, AutoCAD):**
    - *Book:* "Engineering Design with SolidWorks" by David C. Planchard and Marie P. Planchard. This guide provides a comprehensive introduction to SolidWorks, a widely used CAD software.
 
 **10. Finite Element Analysis (FEA) Tools:**
-    - *Book:* "MATLAB Guide to Finite Elements: An Interactive Approach" by Peter I. Kattan. This resource combines MATLAB programming with finite element analysis, offering practical insights. citeturn0search4
+    - *Book:* "MATLAB Guide to Finite Elements: An Interactive Approach" by Peter I. Kattan. This resource combines MATLAB programming with finite element analysis, offering practical insights. 
 
 Process Engineering & Decision Systems
 
@@ -50,7 +50,7 @@ Process Engineering & Decision Systems
     - *Book:* "Planning Algorithms" by Steven M. LaValle. This comprehensive text covers various planning algorithms, including motion planning, applicable to robotics and automation.
 
 **13. Machine Learning & AI:**
-    - *Online Course:* "Machine Learning & Data Science in Python For Beginners" available on Udemy. This course introduces the fundamentals of machine learning using Python. citeturn0search5
+    - *Online Course:* "Machine Learning & Data Science in Python For Beginners" available on Udemy. This course introduces the fundamentals of machine learning using Python. 
 
 **14. PLC & Industrial Automation Systems:**
     - *Book:* "Programmable Logic Controllers" by Frank D. Petruzella. This textbook offers a thorough introduction to PLCs, covering programming, installation, and maintenance.
@@ -61,10 +61,10 @@ Business & Project Management Tools
     - *Book:* "Modern ERP: Select, Implement, and Use Today's Advanced Business Systems" by Marianne Bradford. This book provides insights into selecting and implementing ERP systems effectively.
 
 **16. Product Lifecycle Management (PLM) Software:**
-    - *Book:* "Product Lifecycle Management in the Digital Twin Era" edited by Clement Fortin, Luc Rivest, and Alain Bernard. This resource explores PLM concepts in the context of digital twin technologies. citeturn0search7
+    - *Book:* "Product Lifecycle Management in the Digital Twin Era" edited by Clement Fortin, Luc Rivest, and Alain Bernard. This resource explores PLM concepts in the context of digital twin technologies. 
 
 **17. Data Analytics & Business Intelligence Tools:**
-    - *Online Course:* "Statistics & Data Analytics For Data Science And Business" available on Udemy. This course covers essential statistical and data analysis techniques for business applications. citeturn0search3
+    - *Online Course:* "Statistics & Data Analytics For Data Science And Business" available on Udemy. This course covers essential statistical and data analysis techniques for business applications. 
 
 Industry-Specific Technologies
 
