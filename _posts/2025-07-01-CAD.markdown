@@ -133,46 +133,46 @@ Before we dive in, here’s what you need to know:
 Let’s design a flat rectangular bracket (50 mm x 20 mm x 5 mm) with two holes for screws. This could hold, say, a small motor or your PCB from earlier.
 
 + Step 1: Set Up Fusion 360
-- Open Fusion 360 and start a new design.
-- Select **mm** as your unit (top-right corner, under your profile).
+   - Open Fusion 360 and start a new design.
+   - Select **mm** as your unit (top-right corner, under your profile).
 
 + Step 2: Create a 2D Sketch
-- Click **Sketch** (top toolbar) → Pick the **XY plane** (the flat grid facing you).
-- Choose **Rectangle** (from the Sketch toolbar) → Select **2-Point Rectangle**.
-- Click the origin (0,0), drag to roughly 50 mm wide and 20 mm tall, then click again.
-- Add dimensions:
-  - Click **Sketch Dimension** (or press `D`).
-  - Click the bottom line, type `50`, press Enter (locks width to 50 mm).
-  - Click the left line, type `20`, press Enter (locks height to 20 mm).
-- Hit **Finish Sketch** (top-right of Sketch toolbar).
+   - Click **Sketch** (top toolbar) → Pick the **XY plane** (the flat grid facing you).
+   - Choose **Rectangle** (from the Sketch toolbar) → Select **2-Point Rectangle**.
+   - Click the origin (0,0), drag to roughly 50 mm wide and 20 mm tall, then click again.
+   - Add dimensions:
+     - Click **Sketch Dimension** (or press `D`).
+     - Click the bottom line, type `50`, press Enter (locks width to 50 mm).
+     - Click the left line, type `20`, press Enter (locks height to 20 mm).
+   - Hit **Finish Sketch** (top-right of Sketch toolbar).
 
 + Step 3: Extrude into 3D
-- Click **Extrude** (under Create menu or press `E`).
-- Select your rectangle (it highlights).
-- In the dialog box, set **Distance** to `5 mm` (thickness).
-- Click **OK**. Boom—you’ve got a 3D plate!
+   - Click **Extrude** (under Create menu or press `E`).
+   - Select your rectangle (it highlights).
+   - In the dialog box, set **Distance** to `5 mm` (thickness).
+   - Click **OK**. Boom—you’ve got a 3D plate!
 
 + Step 4: Add Holes
-- Click **Create** → **Hole**.
-- Pick the top face of your plate.
-- Click near one end (e.g., 10 mm from the left edge, centered vertically).
-  - Use **Sketch Dimension** to position it: 10 mm from the left, 10 mm from the bottom.
-- Set **Diameter** to `4 mm` (a common screw size, like M4).
-- Set **Depth** to `Through All` (cuts all the way through).
-- Click **OK**.
-- Repeat for a second hole (e.g., 10 mm from the right edge).
+   - Click **Create** → **Hole**.
+   - Pick the top face of your plate.
+   - Click near one end (e.g., 10 mm from the left edge, centered vertically).
+   - Use **Sketch Dimension** to position it: 10 mm from the left, 10 mm from the bottom.
+   - Set **Diameter** to `4 mm` (a common screw size, like M4).
+   - Set **Depth** to `Through All` (cuts all the way through).
+   - Click **OK**.
+   - Repeat for a second hole (e.g., 10 mm from the right edge).
 
 + Step 5: Refine (Optional)
-- Add **Fillet** (under Modify):
-  - Select the outer edges, set radius to `2 mm`, and click OK. This rounds the corners for a smoother look.
+   - Add **Fillet** (under Modify):
+     - Select the outer edges, set radius to `2 mm`, and click OK. This rounds the corners for a smoother look.
 
 + Step 6: Check Your Work
-- Orbit around (hold middle mouse button, drag) to see it in 3D.
-- Looks like a flat plate with two holes? You’re golden!
+   - Orbit around (hold middle mouse button, drag) to see it in 3D.
+   - Looks like a flat plate with two holes? You’re golden!
 
 + Step 7: Save and Export
-- Save your file (File → Save As).
-- Export for 3D printing: File → 3D Print → Select your part → Output as STL.
+   - Save your file (File → Save As).
+   - Export for 3D printing: File → 3D Print → Select your part → Output as STL.
 
 
 
