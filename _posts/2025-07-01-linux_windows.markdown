@@ -8,7 +8,7 @@ categories: jekyll update
 You’re absolutely right—Linux is a big deal in software engineering, and I’m excited to introduce you to it! I’ll explain what Linux is, why it’s so important for software engineers, and cover some basic concepts to get you started.
 
 
-What is Linux?
+### What is Linux?
     
 Linux is an **open-source operating system**—think of it as the software that runs your computer, like Windows or macOS, but with a twist: its source code is freely available for anyone to use, modify, and distribute. It was created in 1991 by Linus Torvalds and has since grown into a powerhouse thanks to a global community of developers.
 
@@ -17,7 +17,7 @@ Linux is an **open-source operating system**—think of it as the software that 
 
 
 
-Why is Linux So Important for Software Engineers?
+### Why is Linux So Important for Software Engineers?
 Linux isn’t just “nice to know”—it’s often a must-know for several practical reasons:
 
 1. Dominates Servers and the Cloud
@@ -52,7 +52,7 @@ In short, Linux isn’t just an OS—it’s a skillset that unlocks doors in sof
 
 
 
-Basic Concepts of Linux
+### Basic Concepts of Linux
 Let’s get you familiar with the essentials:
 
 1. The Terminal
@@ -141,7 +141,7 @@ Let’s get you familiar with the essentials:
   ```
 
 
-A Simple Linux Exercise
+### A Simple Linux Exercise
 If you want to try Linux:
 1. **Install**: Use Ubuntu (easiest distro) via a virtual machine (e.g., VirtualBox) or dual-boot.
 2. Open a terminal:
@@ -157,7 +157,7 @@ If you want to try Linux:
 4. You just navigated and created something!
 
 
-Why Everyone “Must” Know It?
+#### Why Everyone “Must” Know It?
 It’s not mandatory for every software engineer, but it’s critical for many roles:
 - **Backend/DevOps**: Linux runs the internet.
 - **Embedded**: Linux is in devices you’ll program.
@@ -166,7 +166,7 @@ It’s not mandatory for every software engineer, but it’s critical for many r
 If you’re into automation (like your earlier interest), Linux is perfect—think running Python scripts to control factory sensors.
 
 
-Next Steps
+#### Next Steps
 - **Try**: Install Ubuntu in VirtualBox (free) and play with commands.
 - **Learn**: Search “Linux for beginners” (e.g., Linux Journey or YouTube).
 - **Ask**: Want a specific Linux task (e.g., scripting a file check)?
@@ -180,7 +180,7 @@ I totally get the frustration of getting stuck with Windows, especially when com
 
 
 
-What is Windows?
+### What is Windows?
 Windows is a **proprietary operating system** developed by Microsoft. Unlike Linux, it’s not open-source, meaning you can’t see or tweak its core code. It’s designed to be user-friendly with a graphical interface (GUI), but it also has a command-line interface (like CMD) for more control.
 
 - **Key Parts**:
@@ -191,7 +191,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
 
 
 
-Basics of the Windows System
+### Basics of the Windows System
 
 1. File System
 - Windows uses drives (C:, D:, etc.) instead of a single root (`/`) like Linux.
@@ -261,8 +261,7 @@ Basics of the Windows System
 - **Access**: Type `regedit` in the Run box (Win+R), but be careful—messing it up can break things.
 
 
-
-  +  Common CMD Issues and Fixes
+###  Common CMD Issues and Fixes
 1. **“Command Not Recognized”**:
    - **Cause**: The command isn’t a Windows command, or the program isn’t in PATH.
    - **Fix**: Use the right command (e.g., `dir` not `ls`) or update PATH.
@@ -280,13 +279,13 @@ Basics of the Windows System
 
 
 
- +   Why This Matters for Software Engineering
+###   Why This Matters for Software Engineering
 - **Windows Development**: Many tools (e.g., Visual Studio) are Windows-native, and you’ll need to navigate it.
 - **Cross-Platform**: Understanding Windows quirks helps when coding for multiple OSes.
 - **Prep for Linux**: Windows’ PATH and CMD struggles highlight why Linux’s terminal is so loved—easing your transition later.
 
 
- +   Your First Windows Exercise
+###   Your First Windows Exercise
 Let’s fix a common issue:
 1. Open CMD (Win+R, type `cmd`, Enter).
 2. Type `python`. If it says “not recognized”:
@@ -301,7 +300,7 @@ Let’s fix a common issue:
    ```
 
 
-Next Steps
+#### Next Steps
 - **Upgrade**: Try PowerShell (type `powershell` in CMD) for more power.
 - **Tools**: Install Git for Windows (gives you Bash-like commands).
 - **Linux Prep**: Use WSL (Windows Subsystem for Linux) to run Ubuntu inside Windows—best of both worlds!
