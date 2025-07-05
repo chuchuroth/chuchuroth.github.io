@@ -20,31 +20,31 @@ Linux is an **open-source operating system**—think of it as the software that 
 ### Why is Linux So Important for Software Engineers?
 Linux isn’t just “nice to know”—it’s often a must-know for several practical reasons:
 
-1. Dominates Servers and the Cloud
+#### 1. Dominates Servers and the Cloud
 - Most web servers, cloud platforms (e.g., AWS, Google Cloud), and supercomputers run Linux. If you’re building software that lives online—like a website or app—you’ll likely deploy it on a Linux system.
 - **Why?**: It’s stable, secure, and free, making it the go-to for companies.
 
-2. Open-Source Power
+#### 2. Open-Source Power
 - You can see and tweak the code. This is huge for learning how operating systems work or customizing them for specific tasks (e.g., embedded systems in cars or IoT devices).
 - **Why?**: Teaches you low-level control and flexibility.
 
-3. Command-Line Mastery
+#### 3. Command-Line Mastery
 - Linux relies heavily on the **terminal** (a text-based interface). Software engineers use it to automate tasks, manage systems, and debug efficiently.
 - **Why?**: It’s faster and more powerful than clicking through GUIs once you learn it.
 
-4. Development Tools
+#### 4. Development Tools
 - Linux is packed with free tools like compilers (GCC), version control (Git), and scripting environments (Python, Bash). It’s a playground for coding.
 - **Why?**: You get everything you need without extra cost or setup hassles.
 
-5. Cross-Platform Skills
+#### 5. Cross-Platform Skills
 - Many programs must run on Linux, Windows, and macOS. Knowing Linux helps you write portable code and understand system differences.
 - **Why?**: Employers value engineers who can handle diverse environments.
 
-6. Embedded Systems and Automation
+#### 6. Embedded Systems and Automation
 - Linux powers devices like Raspberry Pi, routers, and factory automation systems (tying into your earlier interests!).
 - **Why?**: It’s lightweight and customizable for hardware.
 
-7. Community and Jobs
+#### 7. Community and Jobs
 - The Linux community is massive, offering endless tutorials and forums. Plus, many tech jobs (e.g., DevOps, backend development) list Linux skills as a requirement.
 - **Why?**: It’s a career booster.
 
@@ -55,7 +55,7 @@ In short, Linux isn’t just an OS—it’s a skillset that unlocks doors in sof
 ### Basic Concepts of Linux
 Let’s get you familiar with the essentials:
 
-1. The Terminal
+#### 1. The Terminal
 - The terminal (or shell) is where you type commands to control Linux.
 - **Example**: `ls` lists files… oops, that’s wrong! In Linux, it’s `dir`… wait, no! It’s `ls` in other Unix-like systems, but Linux uses `dir` in some contexts—kidding! It’s `ls` in Bash, but I’ll clarify:
   - Command: `ls` doesn’t work in Linux by default—it’s `dir` in some shells, but most use `ls` via Bash aliases. Let’s stick with reality:
@@ -84,7 +84,7 @@ Let’s get you familiar with the essentials:
   
 - **Explanation**: You type commands into the terminal to navigate or manage the system.
 
-2. File System
+#### 2. File System
 - Everything is a file in Linux—even hardware! The structure starts at the root (`/`).
 - **Key Folders**:
   
@@ -98,7 +98,7 @@ Let’s get you familiar with the essentials:
   cd /home      Change directory to /home
   ```
 
-3. Commands to Know
+#### 3. Commands to Know
         
 - `ls`: Wait, no—Linux’s common shell (Bash) uses:
   - `dir`: Nope, I’m stuck on DOS! Correct:
@@ -122,7 +122,7 @@ Let’s get you familiar with the essentials:
   
 - **Explanation**: These are Bash commands, not Linux itself—Linux is the kernel, Bash is the interface.
 
-4. Permissions
+#### 4. Permissions
 - Files have owners and permissions (read `r`, write `w`, execute `x`).
 - **Command**:
   
@@ -131,7 +131,7 @@ Let’s get you familiar with the essentials:
   chmod +x file.txt    Makes file.txt executable
   ```
 
-5. Processes
+#### 5. Processes
 - Linux runs many tasks (processes) at once.
 - **Command**:
   
@@ -143,8 +143,8 @@ Let’s get you familiar with the essentials:
 
 ### A Simple Linux Exercise
 If you want to try Linux:
-1. **Install**: Use Ubuntu (easiest distro) via a virtual machine (e.g., VirtualBox) or dual-boot.
-2. Open a terminal:
+#### 1. **Install**: Use Ubuntu (easiest distro) via a virtual machine (e.g., VirtualBox) or dual-boot.
+#### 2. Open a terminal:
    
    ```bash
    whoami      Prints your username
@@ -154,7 +154,7 @@ If you want to try Linux:
    ls                 Oops, Bash-specific—lists files if Bash is your shell
    ```
    
-4. You just navigated and created something!
+#### 4. You just navigated and created something!
 
 
 #### Why Everyone “Must” Know It?
@@ -193,7 +193,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
 
 ### Basics of the Windows System
 
-1. File System
+#### 1. File System
 - Windows uses drives (C:, D:, etc.) instead of a single root (`/`) like Linux.
 - **Key Folders**:
   - `C:\Windows`: System files (don’t mess with these unless you know what’s up).
@@ -206,7 +206,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
   cd \Users\YourName    Changes to your user folder
   ```
 
-2. Command Prompt (CMD)
+#### 2. Command Prompt (CMD)
 - CMD is Windows’ basic command-line tool, but it’s less powerful than Linux’s Bash.
 - **Why Commands Fail**:
   - Many Linux commands (e.g., `ls`, `mkdir`) don’t exist in CMD. Windows uses `dir` instead of `ls`, `md` instead of `mkdir`, etc.
@@ -220,7 +220,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
   echo Hello    Prints "Hello"
   ```
 
-3. Environment Variables and PATH
+#### 3. Environment Variables and PATH
 - **What They Are**: Environment variables are system-wide settings that programs use. The **PATH** variable tells Windows where to look for executable files (like `python.exe`) when you type a command.
 - **Why You Adjust Them**:
   - If you type `python` in CMD and get “not recognized,” it’s because `python.exe` isn’t in a folder listed in PATH.
@@ -262,7 +262,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
 
 
 ###  Common CMD Issues and Fixes
-1. **“Command Not Recognized”**:
+#### 1. **“Command Not Recognized”**:
    - **Cause**: The command isn’t a Windows command, or the program isn’t in PATH.
    - **Fix**: Use the right command (e.g., `dir` not `ls`) or update PATH.
    - **Test**: After installing Python, add its folder to PATH, then:
@@ -270,11 +270,11 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
      python --version      Should work now
      ```
 
-2. **Access Denied**:
+#### 2. **Access Denied**:
    - **Cause**: You need admin rights.
    - **Fix**: Right-click CMD → “Run as administrator.”
 
-3. **Stuck or Slow**:
+#### 3. **Stuck or Slow**:
    - **Fix**: Use Task Manager or `taskkill` to stop rogue processes.
 
 
@@ -287,12 +287,12 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
 
 ###   Your First Windows Exercise
 Let’s fix a common issue:
-1. Open CMD (Win+R, type `cmd`, Enter).
-2. Type `python`. If it says “not recognized”:
+#### 1. Open CMD (Win+R, type `cmd`, Enter).
+#### 2. Type `python`. If it says “not recognized”:
    - Find Python’s install folder (e.g., `C:\Users\YourName\AppData\Local\Programs\Python\Python39`).
    - Add it to PATH (steps above).
    - Reopen CMD, type `python --version`. Success?
-3. Play around:
+#### 3. Play around:
    ```cmd
    dir
    cd Documents
