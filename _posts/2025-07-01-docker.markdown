@@ -10,7 +10,7 @@ Since you’ve heard about Docker and want to know what it is—especially as so
 
 
 
-What is Docker?
+#### What is Docker?
 Docker is a tool that makes it easy to create, run, and share applications by putting them into **containers**. Think of a container as a lightweight, portable box that holds everything an app needs—code, libraries, and settings—so it runs the same way on any computer, whether it’s your Windows machine, a Linux server, or a cloud platform.
 
 - **Why It’s Popular**: 
@@ -27,14 +27,14 @@ Everybody’s using it because it’s huge in software engineering, especially f
 
 
 
-Why It Matters to You (on Windows)
+#### Why It Matters to You (on Windows)
 Since you’re on Windows, Docker can feel tricky at first—CMD might not recognize Docker commands until you install it and tweak your PATH (like we discussed earlier). Once set up, it’s a game-changer:
 - **CMD Fix**: After installing Docker Desktop, add its folder (e.g., `C:\Program Files\Docker\Docker\resources\bin`) to your PATH, and `docker` commands will work in CMD.
 - **Your Interests**: For automation or control theory, Docker can run simulations or control software consistently across machines.
 
 
 
-Basic Docker Example
+#### Basic Docker Example
 Here’s a taste of Docker on Windows:
 1. Install **Docker Desktop** (free for personal use, from docker.com).
 2. Open CMD or PowerShell as admin.
@@ -54,40 +54,40 @@ Yes! Docker’s not the only player in containerization. Here are some alternati
 - **Why**: Runs on Windows (via WSL or Podman Desktop), Linux-native, and mimics Docker commands (e.g., `podman run` instead of `docker run`).
 - **For You**: Easier to try if Docker Desktop feels heavy on your system.
 
-     2. Containerd
+2. Containerd
 - **What**: A slim runtime that Docker itself uses under the hood. It’s for running containers, not building them.
 - **Why**: Popular in big systems (e.g., Kubernetes), but less beginner-friendly—no GUI, command-line only.
 - **For You**: Skip this for now unless you dig into low-level stuff later.
 
-     3. Buildah
+3. Buildah
 - **What**: Focuses on building container images without running them, works with Podman.
 - **Why**: Great for creating images securely, OCI-compliant (works with Docker too).
 - **For You**: Useful if you want to experiment with custom images later.
 
-     4. LXC (Linux Containers)
+4. LXC (Linux Containers)
 - **What**: Older than Docker, runs full mini-OSes rather than just apps.
 - **Why**: More like lightweight VMs, less portable than Docker, Linux-only.
 - **For You**: Skip unless you dive into Linux deeply.
 
-     5. Kubernetes (Sort Of)
+5. Kubernetes (Sort Of)
 - **What**: Not a direct Docker replacement—it manages *lots* of containers across machines (orchestration).
 - **Why**: Uses Docker or alternatives (like Containerd) to run containers. Big in production, not solo dev.
 - **For You**: Overkill now, but good to know for automation dreams.
 
-     6. Windows Containers
+6. Windows Containers
 - **What**: Microsoft’s own container system, built into Windows (Pro/Enterprise).
 - **Why**: Runs Windows apps natively (Docker can too, but it’s trickier on Windows).
 - **For You**: If you stick to Windows dev, this might pop up, but it’s less common than Docker.
 
 
-Docker vs. Alternatives: Quick Take
+#### Docker vs. Alternatives: Quick Take
 - **Docker**: All-in-one, beginner-friendly, widely used, has a GUI (Docker Desktop).
 - **Podman**: Lighter, daemonless, Docker-compatible, growing fast.
 - **Others**: Niche or advanced—stick to Docker/Podman as a newbie.
 
 
 
-Why Docker Stands Out
+#### Why Docker Stands Out
 Docker’s everywhere because:
 - **Ecosystem**: Docker Hub (a giant library of pre-made images) makes it easy to grab stuff like Python or databases.
 - **Community**: Tons of tutorials and support.
@@ -95,7 +95,7 @@ Docker’s everywhere because:
 
 
 
-Try It Out
+#### Try It Out
 Since you’re on Windows:
 1. Grab Docker Desktop.
 2. Fix PATH if `docker` isn’t recognized in CMD (add `C:\Program Files\Docker\Docker\resources\bin`).
