@@ -66,12 +66,12 @@ I hope this helps you on your coding journey!
 # software programming
 Alright, welcome to the exciting world of software programming! Let's start with some fundamental concepts that will lay a solid foundation for your journey.
 
-**1. What is Programming?**
+#### **1. What is Programming?**
 
 * At its core, programming is about giving instructions to a computer. Think of it like writing a recipe for a cake, but instead of ingredients and baking times, you're using code to tell the computer what to do.
 * These instructions are written in programming languages, which are like special languages that computers understand.
 
-**2. Basic Concepts:**
+#### **2. Basic Concepts:**
 
 * **Variables:**
     * Imagine a variable as a container that holds information.
@@ -118,7 +118,7 @@ Alright, welcome to the exciting world of software programming! Let's start with
     * Lists are used to store collections of items.
     * Example: `fruits = ["apple", "banana", "orange"]`
 
-**3. Getting Started:**
+#### **3. Getting Started:**
 
 * **Choose a programming language:**
     * Python is a great choice for beginners because it's easy to learn and has a wide range of applications.
@@ -137,7 +137,7 @@ Alright, welcome to the exciting world of software programming! Let's start with
     * Start with simple projects and gradually increase the complexity.
     * Online resources like Codecademy, freeCodeCamp, and Khan Academy can be very helpful.
 
-**4. Simple operations to try:**
+#### **4. Simple operations to try:**
 
 * **Basic Calculations:**
     ```python
@@ -204,16 +204,16 @@ As a beginner, focus on fundamentals and one language first—then branch out!
 
 
 
-###   Python: Basic Concepts
+####   Python: Basic Concepts
 Python is beginner-friendly, readable, and widely used in automation, data science, and web development.
 
-#### 1. Hello, World!
+### 1. Hello, World!
 ```python
 print("Hello, World!")
 ```
 - **Explanation**: `print()` outputs text to the screen. Simple!
 
-#### 2. Variables and Data Types
+### 2. Variables and Data Types
 ```python
 x = 10            Integer (whole number)
 name = "Alice"    String (text)
@@ -222,7 +222,7 @@ y = 3.14          Float (decimal)
 ```
 - **Explanation**: No need to declare types—Python figures it out. Assign with `=`.
 
-#### 3. Control Structures
+### 3. Control Structures
 - **If-Statement**:
 ```python
 age = 18
@@ -238,7 +238,7 @@ for i in range(3):    Runs 0, 1, 2
 ```
 - **Explanation**: `if` checks conditions; `for` repeats tasks. Indentation (spaces) matters!
 
-#### 4. Functions
+### 4. Functions
 ```python
 def greet(name):
     return f"Hello, {name}!"
@@ -247,7 +247,7 @@ print(greet("Bob"))    Outputs: Hello, Bob!
 ```
 - **Explanation**: `def` defines a function; `return` gives back a result.
 
-#### 5. Lists (Arrays in Other Languages)
+### 5. Lists (Arrays in Other Languages)
 ```python
 fruits = ["apple", "banana", "cherry"]
 print(fruits[0])    Outputs: apple
@@ -260,10 +260,10 @@ fruits.append("orange")    Adds orange
 
 
 
-###   C++: Basic Concepts
+####   C++: Basic Concepts
 C++ is powerful, fast, and common in systems programming, games, and embedded devices (like your Arduino from earlier).
 
-#### 1. Hello, World!
+### 1. Hello, World!
 ```cpp
  include <iostream>
 int main() {
@@ -276,7 +276,7 @@ int main() {
   - `main()` is where the program starts.
   - `std::cout` prints; `<<` chains output; `std::endl` adds a newline.
 
-#### 2. Variables and Data Types
+### 2. Variables and Data Types
 ```cpp
 int x = 10;          // Integer
 float y = 3.14;      // Float
@@ -286,7 +286,7 @@ string name = "Alice"; // String (needs  include <string>)
 ```
 - **Explanation**: You must declare the type before using a variable; `;` ends lines.
 
-#### 3. Control Structures
+### 3. Control Structures
 - **If-Statement**:
 ```cpp
 int age = 18;
@@ -304,7 +304,7 @@ for (int i = 0; i < 3; i++) {
 ```
 - **Explanation**: Braces `{}` define blocks; `for` has initialization, condition, and increment.
 
-#### 4. Functions
+### 4. Functions
 ```cpp
  include <iostream>
 int add(int a, int b) {
@@ -317,7 +317,7 @@ int main() {
 ```
 - **Explanation**: Functions need a return type (e.g., `int`); defined outside `main`.
 
-#### 5. Arrays
+### 5. Arrays
 ```cpp
 int numbers[3] = {1, 2, 3};
 std::cout << numbers[0] << std::endl;  // Outputs: 1
@@ -336,7 +336,7 @@ std::cout << numbers[0] << std::endl;  // Outputs: 1
 
 
 
-####   Your First Software Challenge
+###   Your First Software Challenge
 - **Python**: Write a program to ask the user’s name and print “Hello, [name]!”.
   ```python
   name = input("Enter your name: ")
@@ -489,6 +489,7 @@ Here’s a typical **Software Engineering** curriculum for a **4-year university
 
 
 #### **Summary of Key Topics by Year**
+
 | Year | Focus Areas |
 |------|------------|
 | **1** | Programming, Mathematics, Computer Science Basics |
@@ -632,6 +633,7 @@ Here’s a **Machine Learning Software Engineering** curriculum designed as a **
 
 
 #### **Summary of Key Topics by Year**
+
 | Year | Focus Areas |
 |------|------------|
 | **1** | Software Engineering Foundations, Programming, Mathematics, Probability & Statistics |
