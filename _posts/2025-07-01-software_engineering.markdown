@@ -188,31 +188,31 @@ Software engineering is about designing, writing, testing, and maintaining code 
 - **Control Structures**: Ways to control the flow of a program (e.g., loops, if-statements).
 - **Functions**: Reusable blocks of code that perform tasks.
 
----
+
 ### 2. Problem-Solving and Algorithms
 - **Algorithms**: Step-by-step instructions to solve a problem (e.g., sorting a list).
 - **Logic**: Breaking problems into manageable pieces (e.g., “If this, then that”).
 
----
+
 ### 3. Software Development Process
 - **Planning**: Define what the program should do.
 - **Coding**: Write the solution.
 - **Testing**: Check if it works (debugging = fixing errors).
 - **Maintenance**: Update and improve it over time.
 
----
+
 ### 4. Tools and Practices
 - **Text Editors/IDEs**: Tools like VS Code, PyCharm, or Visual Studio to write code.
 - **Version Control**: Git (e.g., GitHub) to track changes in code.
 - **Debugging**: Finding and fixing bugs.
 
----
+
 ### 5. Key Concepts
 - **Object-Oriented Programming (OOP)**: Organizing code into "objects" (e.g., a "Car" with properties like speed).
 - **Input/Output**: How programs interact with users or files.
 - **Efficiency**: Writing code that runs fast and uses minimal resources.
 
----
+
 ### 6. Domains to Explore
 - Web development (HTML, JavaScript), mobile apps (Java, Swift), automation (Python), or embedded systems (C/C++).
 
