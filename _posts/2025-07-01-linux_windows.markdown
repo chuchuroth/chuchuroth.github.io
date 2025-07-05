@@ -233,11 +233,11 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
 #### **How to Fix “Not Recognized”**:
 ###  1. Find the program’s location (e.g., `C:\Python39` for Python).
 ###  2. Add it to PATH:
-     - Right-click “This PC” → “Properties” → “Advanced system settings” → “Environment Variables.”
-     - Under “System variables,” find “Path,” click “Edit,” add the folder (e.g., `C:\Python39`).
-     - Click OK everywhere, restart CMD, and try again.
-     - **Example Issue**: 
-          - You install Python, type `python`, and CMD says “not recognized.” After adding `C:\Python39` to PATH, it works.
+- Right-click “This PC” → “Properties” → “Advanced system settings” → “Environment Variables.”
+- Under “System variables,” find “Path,” click “Edit,” add the folder (e.g., `C:\Python39`).
+- Click OK everywhere, restart CMD, and try again.
+- **Example Issue**: 
+  - You install Python, type `python`, and CMD says “not recognized.” After adding `C:\Python39` to PATH, it works.
 
 ###  4. PowerShell (A Better CMD)
 - PowerShell is a more modern shell in Windows, blending CMD-style commands with scripting.
