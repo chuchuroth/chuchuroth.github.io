@@ -591,45 +591,45 @@ It's fantastic that you're starting your programming journey! Here's a curated l
 #### 1 **Online Courses:**
 
 ### **CS50's Introduction to Computer Science (Harvard, edX):**
-    * This is a legendary course. It provides a solid foundation in computer science principles, not just coding.
-    * It covers a range of languages (C, Python, JavaScript, SQL) and concepts.
-    * It's challenging but incredibly rewarding.
-    * Link: edX
+* This is a legendary course. It provides a solid foundation in computer science principles, not just coding.
+* It covers a range of languages (C, Python, JavaScript, SQL) and concepts.
+* It's challenging but incredibly rewarding.
+* Link: edX
 ### **Python for Everybody (University of Michigan, Coursera):**
-    * Perfect for those who want to start with Python.
-    * It's very beginner-friendly and focuses on practical skills.
-    * It's a great way to learn Python's fundamentals and how to apply them.
-    * Link: Coursera
+* Perfect for those who want to start with Python.
+* It's very beginner-friendly and focuses on practical skills.
+* It's a great way to learn Python's fundamentals and how to apply them.
+* Link: Coursera
 ### **Codecademy:**
-    * Offers interactive, hands-on coding lessons in various languages.
-    * It's excellent for learning by doing.
-    * They have both free and paid options.
-    * Link: Codecademy
+* Offers interactive, hands-on coding lessons in various languages.
+* It's excellent for learning by doing.
+* They have both free and paid options.
+* Link: Codecademy
 ### **freeCodeCamp:**
-    * A completely free resource with comprehensive coding curricula.
-    * It emphasizes project-based learning, which is crucial for building a portfolio.
-    * It has a supportive community.
-    * Link: freeCodeCamp
+* A completely free resource with comprehensive coding curricula.
+* It emphasizes project-based learning, which is crucial for building a portfolio.
+* It has a supportive community.
+* Link: freeCodeCamp
 
 #### 2 **Websites:**
 
 ### **W3Schools:**
-    * A fantastic resource for learning web development technologies (HTML, CSS, JavaScript).
-    * It provides clear explanations and interactive examples.
-    * Link: W3Schools
+* A fantastic resource for learning web development technologies (HTML, CSS, JavaScript).
+* It provides clear explanations and interactive examples.
+* Link: W3Schools
 ### **GitHub:**
-    * While not strictly a learning website, GitHub is essential for any programmer.
-    * You can explore open-source projects, collaborate with others, and store your own code.
-    * Link: GitHub
+* While not strictly a learning website, GitHub is essential for any programmer.
+* You can explore open-source projects, collaborate with others, and store your own code.
+* Link: GitHub
 
 #### 3 **Books:**
 
 ### **"Automate the Boring Stuff with Python" by Al Sweigart:**
-    * A very practical book that teaches Python by showing you how to automate everyday tasks.
-    * It's great for beginners who want to see immediate results.
+* A very practical book that teaches Python by showing you how to automate everyday tasks.
+* It's great for beginners who want to see immediate results.
 ### **"Head First Programming" by Paul Barry and David Griffiths:**
-    * Uses a visually engaging and brain-friendly approach to teaching programming concepts.
-    * It's a good choice for those who prefer a more visual learning style.
+* Uses a visually engaging and brain-friendly approach to teaching programming concepts.
+* It's a good choice for those who prefer a more visual learning style.
 
 #### 4 **Tips for Beginners:**
 
