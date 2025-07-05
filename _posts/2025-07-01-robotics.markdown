@@ -7,7 +7,7 @@ categories: jekyll update
 # robotic engineer job skills
 Here are some recommended learning resources for each of the relevant technologies:
 
-Automation & Robotics Technologies
+#### Automation & Robotics Technologies
 
 **1. Autonomous Mobile Robots (AMR):**
    - *Book:* "Introduction to Autonomous Mobile Robots" by Roland Siegwart, Illah R. Nourbakhsh, and Davide Scaramuzza. This comprehensive guide covers the principles of mobile robotics, including navigation, localization, and motion planning.
@@ -24,7 +24,7 @@ Automation & Robotics Technologies
 **5. Fleet Management Systems:**
    - *Book:* "Fleet Management: Operations of Transportation Networks" by Adolfo Crespo Márquez and Saúl González-Prida Díaz. This book offers insights into the management and optimization of transportation fleets.
 
-Software & Simulation Tools
+#### Software & Simulation Tools
 
 **6. Robot Operating System (ROS):**
    - *Online Course:* "ROS Courses Library" by Robot Ignite Academy. This series offers online ROS tutorials tied to simulations, providing practical experience in ROS-based robotics development. 
@@ -41,7 +41,7 @@ Software & Simulation Tools
 **10. Finite Element Analysis (FEA) Tools:**
     - *Book:* "MATLAB Guide to Finite Elements: An Interactive Approach" by Peter I. Kattan. This resource combines MATLAB programming with finite element analysis, offering practical insights. 
 
-Process Engineering & Decision Systems
+#### Process Engineering & Decision Systems
 
 **11. Finite State Machines (FSM):**
     - *Book:* "Modeling and Analysis of Real-Time and Embedded Systems with UML and MARTE: Developing Cyber-Physical Systems" by Bran Selic, Sebastien Gerard, and Jean-Pierre Babau. This book covers modeling techniques, including FSMs, for real-time systems.
@@ -55,7 +55,7 @@ Process Engineering & Decision Systems
 **14. PLC & Industrial Automation Systems:**
     - *Book:* "Programmable Logic Controllers" by Frank D. Petruzella. This textbook offers a thorough introduction to PLCs, covering programming, installation, and maintenance.
 
-Business & Project Management Tools
+#### Business & Project Management Tools
 
 **15. ERP Systems (e.g., SAP, Oracle):**
     - *Book:* "Modern ERP: Select, Implement, and Use Today's Advanced Business Systems" by Marianne Bradford. This book provides insights into selecting and implementing ERP systems effectively.
@@ -66,13 +66,13 @@ Business & Project Management Tools
 **17. Data Analytics & Business Intelligence Tools:**
     - *Online Course:* "Statistics & Data Analytics For Data Science And Business" available on Udemy. This course covers essential statistical and data analysis techniques for business applications. 
 
-Industry-Specific Technologies
+#### Industry-Specific Technologies
 
 **18. IoT & Smart Sensors:**
     - *Book:* "Internet of Things: Principles and Applications" by Rajkumar Buyya and Amir Vahid Dastjerdi. This book discusses IoT architectures, technologies, and applications across various industries.
 
 **19. Barcode & RFID Technologies:**
-    - *Book:* "RFID Handbook: Fundamentals and Applications in Contactless Smart Cards, Radio Frequency Identification and Near-Field Communication" by Klaus Finkenzeller. This handbook provides a comprehensive overview of RFID technology and its applications.
+    - *Book:* "RFID Handbook: Fundamentals and Applications in Contactless Smart Cards, Radio Frequency Identification and Near-Field Communication" by Klaus Finkenzeller. This handbook provides a comprehensive overview of #### RFID technology and its applications.
 
 **20. Logistics & Supply Chain Optimization Software:**
     - *Book:* "Supply Chain Management: Strategy, Planning, and Operation" by Sunil Chopra and Peter Meindl. This text offers insights into supply chain strategies and the role of optimization tools in enhancing efficiency.
