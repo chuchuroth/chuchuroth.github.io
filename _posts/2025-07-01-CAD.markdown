@@ -101,7 +101,7 @@ let’s shift gears to mechanical engineering and get you started on designing a
 
 
 
-+ 1. What is CAD and Why Use It?
+### 1. What is CAD and Why Use It?
 CAD software lets you create 2D or 3D models of mechanical parts on your computer. It’s like digital sketching but with precision and tools to test or manufacture the design later.
 
 - **Purpose**: Design parts (e.g., brackets, gears) for machines, robots, or enclosures.
@@ -109,7 +109,7 @@ CAD software lets you create 2D or 3D models of mechanical parts on your compute
 
 
 
-+ 2. Choosing a Beginner-Friendly CAD Tool
+### 2. Choosing a Beginner-Friendly CAD Tool
 For a beginner, I recommend:
 - **Fusion 360**: Free for students/hobbyists, powerful, and widely used. It’s cloud-based and has tons of tutorials.
 - **Tinkercad**: Super simple, browser-based, great for absolute beginners (also free).
@@ -119,7 +119,7 @@ Since you’re starting out, let’s go with **Fusion 360**—it’s beginner-fr
 
 
 
-+ 3. Basic Concepts in Mechanical Design
+### 3. Basic Concepts in Mechanical Design
 Before we dive in, here’s what you need to know:
 - **Sketching**: Draw 2D shapes (like a rectangle) as the base of your design.
 - **Extrusion**: Turn a 2D sketch into a 3D object by giving it thickness.
@@ -129,7 +129,7 @@ Before we dive in, here’s what you need to know:
 
 
 
-+ 4. Designing a Simple Mounting Bracket
+### 4. Designing a Simple Mounting Bracket
 Let’s design a flat rectangular bracket (50 mm x 20 mm x 5 mm) with two holes for screws. This could hold, say, a small motor or your PCB from earlier.
 
 + Step 1: Set Up Fusion 360
@@ -176,7 +176,7 @@ Let’s design a flat rectangular bracket (50 mm x 20 mm x 5 mm) with two holes 
 
 
 
-+ 5. Key Tips for Beginners
+### 5. Key Tips for Beginners
 - **Start Simple**: Master basic shapes before tackling gears or curves.
 - **Use Dimensions**: Guessing sizes leads to sloppy designs—always specify.
 - **Watch Tutorials**: Search “Fusion 360 beginner bracket” on YouTube (e.g., Autodesk’s channel).
@@ -185,13 +185,13 @@ Let’s design a flat rectangular bracket (50 mm x 20 mm x 5 mm) with two holes 
 
 
 
-+ 6. Your First Challenge
+### 6. Your First Challenge
 - Open Fusion 360 (or Tinkercad if you prefer simpler).
 - Make the bracket: 50 mm x 20 mm x 5 mm, two 4 mm holes (10 mm from each end).
 - Spin it around in 3D and feel proud!
 
 
-+ Where to Go Next?
+#### Where to Go Next?
 - Try adding a third hole or making the bracket L-shaped (extrude a second rectangle upward).
 - 3D print it if you have access to a printer (local libraries or makerspaces often have them).
 - Ask me to walk you through a specific step or try a different part (e.g., a gear or enclosure).
