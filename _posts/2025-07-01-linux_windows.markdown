@@ -230,16 +230,16 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
   echo %PATH%      Shows the current PATH
   ```
   
-- **How to Fix “Not Recognized”**:
-  1. Find the program’s location (e.g., `C:\Python39` for Python).
-  2. Add it to PATH:
+#### **How to Fix “Not Recognized”**:
+###  1. Find the program’s location (e.g., `C:\Python39` for Python).
+###  2. Add it to PATH:
      - Right-click “This PC” → “Properties” → “Advanced system settings” → “Environment Variables.”
      - Under “System variables,” find “Path,” click “Edit,” add the folder (e.g., `C:\Python39`).
      - Click OK everywhere, restart CMD, and try again.
-- **Example Issue**: 
-  - You install Python, type `python`, and CMD says “not recognized.” After adding `C:\Python39` to PATH, it works.
+     - **Example Issue**: 
+          - You install Python, type `python`, and CMD says “not recognized.” After adding `C:\Python39` to PATH, it works.
 
-  4. PowerShell (A Better CMD)
+###  4. PowerShell (A Better CMD)
 - PowerShell is a more modern shell in Windows, blending CMD-style commands with scripting.
 - **Why Use It**: Recognizes more commands (e.g., `ls` works as an alias for `dir`) and supports scripting like Linux’s Bash.
 - **Try It**:
@@ -248,7 +248,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
   cd Documents       Same as CMD
   ```
 
-  5. Processes and Task Manager
+###  5. Processes and Task Manager
 - Programs run as processes. If something’s stuck, use Task Manager (Ctrl+Shift+Esc) to kill it.
 - **Command**: In CMD:
   ```cmd
@@ -256,7 +256,7 @@ Windows is a **proprietary operating system** developed by Microsoft. Unlike Lin
   taskkill /IM notepad.exe    Kills Notepad
   ```
 
-  6. Registry
+###  6. Registry
 - A hidden database storing system and app settings (like Linux’s `/etc`).
 - **Access**: Type `regedit` in the Run box (Win+R), but be careful—messing it up can break things.
 
