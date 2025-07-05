@@ -24,7 +24,7 @@ For example, when someone says “ESP32 is my dev platform,” they mean they’
 Basic Concepts in Developing Embedded Systems
 Embedded systems are small computers built into devices to perform specific tasks (e.g., controlling a microwave or a car’s engine). Here’s what you need to know as a beginner:
 
-1. What is an Embedded System?
+    1. What is an Embedded System?
 - A mini-computer with a microcontroller (MCU) or microprocessor (MPU) at its heart, designed for one job.
 - **Example**: A smart light bulb—its embedded system turns it on/off and connects to Wi-Fi.
 
@@ -56,7 +56,7 @@ Embedded systems are small computers built into devices to perform specific task
 Platforms You Mentioned
 Let’s clarify what ARM, Microchip, ESP32, and STM32 are as dev platforms:
 
-1. ARM
+    1. ARM
 - **What**: Not a single chip but a family of CPU designs by ARM Holdings. Companies license these designs (e.g., Cortex-M series) to make MCUs.
 - **Role**: The “brain” inside many platforms like STM32 or ESP32.
 - **Why**: Efficient, widely supported—your control theory sims could run on ARM-based chips.
@@ -81,7 +81,7 @@ Let’s clarify what ARM, Microchip, ESP32, and STM32 are as dev platforms:
 Other Platforms for Embedded Systems
 Beyond what you heard, here are more dev platforms you might encounter:
 
-1. Raspberry Pi Pico
+    1. Raspberry Pi Pico
 - **What**: A cheap MCU board (RP2040 chip) from the Raspberry Pi folks.
 - **Why**: Simple, supports MicroPython—great for beginners.
 - **Example**: Blinking LEDs or reading sensors.
@@ -156,7 +156,7 @@ Next Steps
 What excites you most—Wi-Fi with ESP32, power with STM32, or something else? Let’s dig in!
 
 ---
-  # Industrial Dev 
+# Industrial Dev 
 
 You’re welcome! I’m glad you’ve got a handle on how platforms like ESP32, STM32, and Arduino are used for prototyping and bringing ideas to life. Your question about industrial settings is spot-on—things do shift when you move from tinkering to industrial-scale development. Let’s explore what industrial developers typically do, whether they use these platforms, and how their workflow differs. I’ll keep it clear and tie it to your interests in automation, control theory, and hardware.
 
