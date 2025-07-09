@@ -637,3 +637,178 @@ Let’s design a flat rectangular bracket (50 mm x 20 mm x 5 mm) with two holes 
 
 What do you think—ready to fire up Fusion 360, or want me to simplify something further?
 
+---
+
+If you're looking for CAD **data**, there are several excellent sources depending on your needs—whether you're seeking CAD files for product design or large datasets for research and machine learning:
+
+---
+
+### 🛠️ Free CAD File Libraries (for download and use)
+
+* **GrabCAD Library** – One of the most popular repositories with **4.4 million+ CAD models** (STEP, STL, etc.) contributed by a vibrant engineer community ([analyticsindiamag.com][1], [grabcad.com][2]).
+* **TraceParts** – A massive library of manufacturer-supplied 2D/3D CAD models, free in dozens of formats .
+* **CADdetails / CADDetailed** – BAIM and BIM-ready architectural CAD files and product models from real manufacturers .
+* **3D ContentCentral** (by Dassault Systèmes) – Free 2D/3D CAD parts and assemblies from certified suppliers ([3dcontentcentral.com][3]).
+
+---
+
+### 🎓 Research & Machine‑Learning CAD Datasets
+
+* **SketchGraphs** – A massive dataset of **15 million** CAD sketches with detailed constraint graphs, ideal for ML, program synthesis, and constraint-based geometry research ([github.com][4]).
+* **ABC‑Dataset** – **1 million** STEP/Parasolid CAD models with exact geometric representations, designed for geometric deep‑learning ([deep-geometry.github.io][5]).
+* **Fusion 360 Gallery Dataset** – Around 20K parametric CAD models with full operation histories (extrude, fillet, assembly structures) from Autodesk users ([github.com][6]).
+* **CADSketchNet** – Annotated set of \~59K computer-generated and \~800 hand-drawn CAD-model sketches, tailored for sketch-to-model research ([paperswithcode.com][7]).
+* **DeCoDe Lab (MIT)** – Curated collection of specific-engineering CAD datasets (bikes, linkages, airfoils, topology) ([decode.mit.edu][8]).
+
+---
+
+### 🌍 Specialized Data
+
+* **CADMapper** – Exports real-world map data (roads, buildings, terrain) into CAD-ready formats via OpenStreetMap, NASA, USGS ([cadmapper.com][9]).
+* **ShapeNet** – 3 million+ 3D object models (not strictly CAD, but useful for vision/geometry tasks) .
+
+---
+
+### ✅ What to Choose?
+
+| Use case                                                           | Best Sources                                                    |
+| ------------------------------------------------------------------ | --------------------------------------------------------------- |
+| **Downloadable CAD models** (engineering, prototyping)             | GrabCAD, TraceParts, CADdetails, 3D ContentCentral              |
+| **ML / algorithm research** (constraint graphs, parametric design) | SketchGraphs, ABC‑Dataset, Fusion 360, CADSketchNet, DeCoDe Lab |
+| **Real-world map/CAD data**                                        | CADMapper                                                       |
+| **Vision/geometry datasets**                                       | ShapeNet                                                        |
+
+---
+
+### Getting Started
+
+* For **product parts or models**, start with **GrabCAD** or **TraceParts**—great breadth and formats.
+* For **machine‑learning or academic research**, download one of the big datasets like SketchGraphs or ABC‑Dataset via their GitHub or project websites.
+* If you need **city/terrain data**, give **CADMapper** a try—it lets you select areas and instantly download CAD exports.
+
+---
+
+### Want help with downloads or usage?
+
+I can walk you through how to:
+
+* Access/download from GrabCAD, TraceParts, SketchGraphs, etc.
+* Convert STEP/STL files or inspect constraint graphs.
+* Integrate CAD datasets into your existing tools or compute pipelines.
+
+Just let me know what you're aiming for!
+
+[1]: https://analyticsindiamag.com/ai-features/the-largest-cad-dataset-released-with-15m-designs/?utm_source=chatgpt.com "The Largest CAD Dataset Released With 15M Designs"
+[2]: https://grabcad.com/library?utm_source=chatgpt.com "Recent models | 3D CAD Model Collection | GrabCAD Community Library"
+[3]: https://www.3dcontentcentral.com/?utm_source=chatgpt.com "3D ContentCentral - Free 3D CAD Models, 2D Drawings, and Supplier Catalogs"
+[4]: https://github.com/PrincetonLIPS/SketchGraphs?utm_source=chatgpt.com "GitHub - PrincetonLIPS/SketchGraphs: A dataset of 15 million CAD ..."
+[5]: https://deep-geometry.github.io/abc-dataset/?utm_source=chatgpt.com "News | ABC Dataset"
+[6]: https://github.com/AutodeskAILab/Fusion360GalleryDataset?utm_source=chatgpt.com "Fusion 360 Gallery Dataset - GitHub"
+[7]: https://paperswithcode.com/dataset/cadsketchnet?utm_source=chatgpt.com "Papers with Code - CADSketchNet Dataset"
+[8]: https://decode.mit.edu/projects/eng-datasets/?utm_source=chatgpt.com "DeCoDe Lab - Massachusetts Institute of Technology"
+[9]: https://cadmapper.com/?utm_source=chatgpt.com "CADMAPPER - Worldwide map files for any design program"
+
+
+---
+
+Here are several high-quality sources of **parametric CAD models** with **full operation histories**—perfect for research into design processes, reconstruction, or ML applications:
+
+---
+
+### 🔧 1. Fusion 360 Gallery Dataset
+
+* **GitHub: AutodeskAILab/Fusion360GalleryDataset**
+* Contains 20K+ parametric Fusion 360 models with full *sequential* operation logs, including **sketch**, **extrude**, **assembly**, **joints**, and **segmentation** into individual modeling features. Structured for reconstruction tasks with JSON timelines and B‑Rep/mesh exports ([github.com][1], [github.com][2]).
+* Includes sub-datasets: *Assembly*, *Reconstruction (sketch + extrude)*, and *Segmentation*. Great if you want ready-to-play operation sequences.
+
+---
+
+### 📝 2. HPSketch
+
+* **GitHub: fazhihe/HPSketch** (and rbfan926/HPSketch)
+* A **history-based parametric CAD sketch dataset** featuring full command logs and constraints—supports complex engineering operations ([github.com][3]).
+* Based on a 2025 CAD research paper; perfect for sketch operation history.
+
+---
+
+### 🏗️ 3. WHUCAD
+
+* **GitHub: fazhihe/WHUCAD**
+* A **full parametric, feature-based 3D CAD dataset** for advanced engineering, containing vector command sequences.
+* Built from DeepCAD and CATIA-made models (\~4,244 manually created) ([github.com][4], [github.com][5]).
+
+---
+
+### 🧰 4. CAD-Translator (Fusion + DeepCAD)
+
+* **GitHub: Sunny‑Hack/CAD‑Translator**
+* Contains CAD **parametric sequences** for both *DeepCAD* and *Fusion 360*, with textual descriptions ([github.com][6]). Good for multimodal text→CAD workflows.
+
+---
+
+### 📊 5. SketchGraphs & CPTSketchGraphs
+
+* **GitHub: PrincetonLIPS/SketchGraphs** – 15 M sketches with constraint graphs and construction sequences ([github.com][7]).
+* **CPTSketchGraphs** – 80 M augmented sketches preserving constraint consistency, all with operation transformations ([github.com][8]).
+
+---
+
+### 🚲 6. PFCAD-dataset
+
+* **GitHub: PFCAD‑dataset**
+* A **parametric, feature-based CAD dataset** for learning complex 3D shapes; intended to grow over time ([github.com][9]).
+
+---
+
+### 🧠 Additional Resources Worth Exploring:
+
+* **Fusion360GalleryDataset's Arxiv paper**: details dataset design and programmatic CAD reconstruction ([arxiv.org][10]).
+* **ABC-Dataset**: 1M CAD models (though without operation histories) ([arxiv.org][11]).
+* **DeepCAD**: includes \~178K models with operation sequences for ML generation tasks ([arxiv.org][12]).
+* **BIKED++**: 1.4 M parametric bicycle designs (JSON + images) ([arxiv.org][13]).
+
+---
+
+### ✅ Recommendation Summary
+
+| Dataset                      | Operation History | Sketch/Extrude Logs          | Full 3D Feature Sequences | Use Case                                      |
+| ---------------------------- | ----------------- | ---------------------------- | ------------------------- | --------------------------------------------- |
+| **Fusion360GalleryDataset**  | ✅                 | ✅                            | ✅ (limited)               | Best for reconstruction and sequence modeling |
+| **HPSketch**                 | ✅                 | ✅                            | ❌                         | Ideal for sketched command logs & constraints |
+| **WHUCAD**                   | ✅                 | ✅                            | ✅ (advanced)              | Rich 3D features and parametric history       |
+| **CAD‑Translator**           | ✅                 | ✅                            | ✅                         | Useful for multimodal CAD tasks               |
+| **SketchGraphs** / **CPTSG** | ✅                 | Constraint graphs + sequence | ❌                         | Research-focused sketch geometry modeling     |
+
+---
+
+### 📥 Getting Started
+
+* Clone the GitHub repos and check their READMEs for download instructions.
+* Fusion360 dataset provides JSON + STEP/B‑Rep; HPSketch/WHUCAD offer vector formats.
+* Some repos host heavy files (tens of GB); ensure you have space and possibly use torrent/drive links.
+* You can **combine datasets**—e.g., use Fusion360 for full operations and HPSketch for detailed sketch logs.
+
+---
+
+Would you like help with:
+
+* Download scripts or selective subset extraction?
+* Converting these into formats like STEP/STL or probing JSON timelines?
+* Integrating them into ML pipelines (e.g., PyTorch, Blender, Fusion API)?
+
+Let me know—happy to walk through any one!
+
+[1]: https://github.com/AutodeskAILab/Fusion360GalleryDataset?utm_source=chatgpt.com "Fusion 360 Gallery Dataset - GitHub"
+[2]: https://github.com/AutodeskAILab/Fusion360GalleryDataset/blob/master/docs/reconstruction.md?utm_source=chatgpt.com "Reconstruction Dataset - GitHub"
+[3]: https://github.com/fazhihe/HPSketch?utm_source=chatgpt.com "GitHub - fazhihe/HPSketch"
+[4]: https://github.com/BunnySoCrazy/Awesome-Neural-CAD?utm_source=chatgpt.com "BunnySoCrazy/Awesome-Neural-CAD - GitHub"
+[5]: https://github.com/fazhihe/WHUCAD?utm_source=chatgpt.com "GitHub - fazhihe/WHUCAD"
+[6]: https://github.com/Sunny-Hack/CAD-Translator?utm_source=chatgpt.com "GitHub - Sunny-Hack/CAD-Translator: Dataset for CAD Translator: An ..."
+[7]: https://github.com/PrincetonLIPS/SketchGraphs?utm_source=chatgpt.com "GitHub - PrincetonLIPS/SketchGraphs: A dataset of 15 million CAD ..."
+[8]: https://github.com/cvi2snt/CPTSketchGraphs?utm_source=chatgpt.com "GitHub - cvi2snt/CPTSketchGraphs: A dataset of 80 millon constraint ..."
+[9]: https://github.com/PFCAD-dataset/PFCAD-dataset?utm_source=chatgpt.com "PFCAD-dataset - GitHub"
+[10]: https://arxiv.org/abs/2010.02392?utm_source=chatgpt.com "Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction from Human Design Sequences"
+[11]: https://arxiv.org/abs/1812.06216?utm_source=chatgpt.com "ABC: A Big CAD Model Dataset For Geometric Deep Learning"
+[12]: https://arxiv.org/abs/2105.09492?utm_source=chatgpt.com "DeepCAD: A Deep Generative Network for Computer-Aided Design Models"
+[13]: https://arxiv.org/abs/2402.05301?utm_source=chatgpt.com "BIKED++: A Multimodal Dataset of 1.4 Million Bicycle Image and Parametric CAD Designs"
+
