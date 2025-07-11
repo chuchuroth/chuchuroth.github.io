@@ -11,6 +11,7 @@
 
 ---
 + robotics & industrial automation
++ microcontroller and industrial applications
 
 ---
 + Siemens NX / Solidworks / Catia v5
