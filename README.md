@@ -6,6 +6,7 @@
 ---
 
 + Circuits and Electronics
++ book - fundementals of electric circuits 
 + Fundementals of Transistors
 + PCB design -  altium upverter courses
 
