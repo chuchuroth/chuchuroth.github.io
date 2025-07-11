@@ -1,14 +1,16 @@
 # chuchuroth.github.io
 
-#### IoT
++ IoT
++ Embedded Systems
+ 
+---
 
-##### Circuits and Electronics
-#### Fundementals of Transistors
++ Circuits and Electronics
++ Fundementals of Transistors
++ PCB design -  altium upverter courses
 
-##### Embedded Systems
+---
++ robotics & industrial automation
 
-#### PCB design -  altium upverter courses
-
-## robotics & industrial automation
-
-### Siemens NX / Solidworks / Catia v5
+---
++ Siemens NX / Solidworks / Catia v5
