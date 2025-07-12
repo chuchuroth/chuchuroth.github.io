@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Microcontroller and Industrial Applications module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 
 The 8051 microcontroller system has specific architectures, capabilities, and instruction sets for memory management, serial communication, and interrupt handling.
 
