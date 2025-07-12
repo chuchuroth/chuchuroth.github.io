@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Modern Robotics 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is the knowledgical information extracted from the provided sources, with colloquial language removed:
 
 The **Modern Robotics (MR) code library** accompanies the book "Modern Robotics" and is available for download at https://github.com/NxRLab/ModernRobotics. A PDF manual describing each function is included, and examples of usage are provided in the code comments. The library supports **Python, Mathematica, and MATLAB**.
