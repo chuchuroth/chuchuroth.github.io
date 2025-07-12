@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Microcontroller and Industrial Applications module 5"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
+
 Here is a comprehensive summary of the "knowledgical information" from the provided sources, with colloquial language removed and key concepts highlighted:
 
 ### Role of Engineers and Microcontrollers in Industry
