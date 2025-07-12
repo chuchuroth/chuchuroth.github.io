@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Microcontroller and Industrial Applications module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 Here is an extraction of the technical knowledge from the provided sources, presented without colloquial language and with important information bolded for clarity:
 
