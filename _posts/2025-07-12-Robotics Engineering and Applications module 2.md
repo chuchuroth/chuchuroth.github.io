@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Robotics Engineering and Applications module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is a comprehensive response to your query, drawing on the provided sources and omitting colloquial language:
 
 **Robot Programming and Control**
