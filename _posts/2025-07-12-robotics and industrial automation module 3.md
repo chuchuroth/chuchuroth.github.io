@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "robotics and industrial automation module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The provided sources contain extensive information on various aspects of robotics, automation, and related engineering fields. Here is a compilation of the knowledgeable information, cleared of colloquial language:
 
 ### Industrial Robots and Their Organization
