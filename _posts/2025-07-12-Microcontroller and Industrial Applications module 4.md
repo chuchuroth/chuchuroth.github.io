@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Microcontroller and Industrial Applications module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
+
+
 The following provides comprehensive information from the sources regarding microcontroller interfaces and data transfer techniques, presented without colloquial language:
 
 ### Keyboard Interface
