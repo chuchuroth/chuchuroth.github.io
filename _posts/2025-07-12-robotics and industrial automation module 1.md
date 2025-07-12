@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "robotics and industrial automation module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The provided sources contain extensive information regarding mechatronics, sensors, and their applications, characteristics, and standards. The following points summarize this knowledge, omitting colloquial language:
 
 ### Mechatronics: Definition, Evolution, and Components
