@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Microcontroller and Industrial Applications module 6"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The provided sources contain comprehensive information on the development and principles of several robotic systems using ESP32 microcontrollers. The knowledge can be extracted as follows:
 
 ### I. Line Follower Robot (LFR)
