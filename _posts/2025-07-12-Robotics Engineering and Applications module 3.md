@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Robotics Engineering and Applications module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is the extracted knowledge, cleared of colloquial language, from the provided sources:
 
 ## Robotics: Subsystems, Design, Applications, and Technologies
