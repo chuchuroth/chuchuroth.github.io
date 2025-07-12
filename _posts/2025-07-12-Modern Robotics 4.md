@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Modern Robotics 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following outlines key concepts, definitions, algorithms, and properties related to robot motion planning and control, drawing directly from the provided sources.
 
