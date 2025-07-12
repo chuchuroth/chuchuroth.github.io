@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Modern Robotics 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The sources provide comprehensive knowledge regarding the kinematics and statics of open-chain and closed-chain robots. This includes forward kinematics, velocity kinematics (Jacobian), inverse kinematics, and the relationship between end-effector wrenches and joint forces/torques.
 
