@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Modern Robotics 5"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The provided sources contain extensive knowledge on robot manipulation, contact mechanics, and wheeled mobile robots. Here is a summary of the key information, with colloquial language removed:
 
