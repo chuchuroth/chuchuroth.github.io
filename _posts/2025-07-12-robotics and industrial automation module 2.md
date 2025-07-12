@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "robotics and industrial automation module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The sources provide comprehensive "knowledgical information" regarding robotics, industrial automation, sensors, machine tools, and motor systems. This information covers working principles, classifications, applications, benefits, drawbacks, and maintenance aspects.
 
 Here is a structured overview of the key concepts and details:
