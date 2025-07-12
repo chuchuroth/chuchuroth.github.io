@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Modern Robotics 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The sources provide extensive knowledge regarding robot dynamics, trajectory generation, and motion planning. The key concepts and formulations are detailed below:
 
