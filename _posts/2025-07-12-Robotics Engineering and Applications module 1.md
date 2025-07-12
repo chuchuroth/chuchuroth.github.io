@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Robotics Engineering and Applications module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is a comprehensive summary of the knowledge-based information from the sources, presented without colloquial language and with key concepts bolded for clarity:
 
 ### Fundamentals of Robotics
