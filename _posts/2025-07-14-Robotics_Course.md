@@ -1,4 +1,11 @@
-Here is an outline of the document, drawing on the provided sources:
+---
+layout: post
+title:  "Robotics Course Udacity"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 
 **I. Preparation and Tools**
 *   **A. Prep Material**
