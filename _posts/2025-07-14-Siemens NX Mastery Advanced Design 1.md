@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Siemens NX Mastery Advanced Design 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is a comprehensive summary of the knowledge-based information from the provided sources, presented without colloquial language and with key concepts bolded for clarity:
 
 **Siemens NX Overview and Capabilities**
