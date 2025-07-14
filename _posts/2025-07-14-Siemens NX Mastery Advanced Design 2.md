@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Siemens NX Mastery Advanced Design 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Siemens NX is a comprehensive software solution that offers powerful tools across various engineering disciplines, including Freeform Feature Modeling, Mass Properties Finite Element Analysis (FEA), Convergent Modeling, Measurement, and Sheet Metal design.
 
 ### Freeform Feature Modeling
