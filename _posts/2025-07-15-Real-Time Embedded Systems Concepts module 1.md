@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Real-Time Embedded Systems Concepts module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The sources provide extensive information on real-time embedded systems, their concepts, challenges, and implementation strategies. Below is a comprehensive extraction of this knowledge, with colloquial language removed, important parts bolded, and bullet points used for clarity.
 
 ### Real-Time Embedded Systems: Core Concepts and Definitions
