@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Real-Time Embedded Systems Theory and Analysis module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following outlines knowledge-based information, with colloquial language removed, important parts bolded, and bullet points used for clarity.
 
