@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Real-Time Embedded Systems Concepts module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is a comprehensive summary of the provided information, with colloquial language removed and key concepts highlighted:
 
 **Instruction Set Architectures (ISAs) and ARM Architectures**
