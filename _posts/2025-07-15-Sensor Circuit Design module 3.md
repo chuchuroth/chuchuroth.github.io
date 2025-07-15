@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Sensor Circuit Design module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is the knowledge-based information extracted from the sources, with colloquial language removed and key concepts highlighted:
 
 ### Rotary Sensors
