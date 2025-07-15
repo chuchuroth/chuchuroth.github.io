@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Sensor Circuit Design module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here's an extraction of the knowledge-based information from the sources, with colloquial language removed and important points bolded for clarity:
 
 ### General Sensor and Actuator Concepts
