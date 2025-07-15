@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Real-Time Embedded Systems Theory and Analysis module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following information has been extracted from the sources, with colloquial language removed:
 
