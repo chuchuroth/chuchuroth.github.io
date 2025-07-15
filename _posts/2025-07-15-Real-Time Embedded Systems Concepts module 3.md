@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Real-Time Embedded Systems Concepts module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is the extracted knowledge from the provided sources, with colloquial language removed and important concepts bolded for clarity:
 
 **1. Multiprocessing Architectures for Real-Time Systems**
