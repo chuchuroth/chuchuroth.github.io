@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Sensor Circuit Design module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The Cypress PSoC is a **mixed-signal development kit** that combines analog and digital components within a single chip, such as operational amplifiers (op amps), comparators, sample and hold circuits, timers, and counters. A key differentiator of the Cypress chip is its **flexibility, allowing arbitrary wiring of components** in any circuit topology, unlike microcontrollers with fixed configurations. The Cypress software, PSoC Creator, integrates schematic design and code development into one environment, facilitating tightly coupled design.
 
 **PSoC Creator Environment and Project Management**
