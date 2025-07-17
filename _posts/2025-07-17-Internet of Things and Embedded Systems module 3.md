@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Internet of Things and Embedded Systems module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following outlines knowledgical information regarding Internet of Things (IoT) devices and embedded systems, extracted from the provided sources.
 
