@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Arduino Platform and C Programming module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The Arduino programs are primarily written in **C, with elements of C++**. This module provides an introduction to the fundamental constructs of the C programming language that are frequently utilized in Arduino programming. While the concepts apply broadly, the immediate environment for learning C in this module may not be Arduino-specific, often utilizing a desktop or laptop environment.
 
 ### Setting Up the C Programming Environment
