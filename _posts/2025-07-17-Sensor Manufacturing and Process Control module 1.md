@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Sensor Manufacturing and Process Control module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The sources provide detailed technical information on second-order differential equations, PID control, plant control systems, predictive machine maintenance, and industrial communication protocols. The key concepts are presented as follows:
 
 ### Second-Order Differential Equations and System Behavior
