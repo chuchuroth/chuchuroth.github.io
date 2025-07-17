@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Pressure Force Motion Humidity Sensors module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is the knowledge-based information extracted from the sources, with colloquial language removed:
 
 **Module 2: Sensors and Motors Specialization**
