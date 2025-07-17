@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Arduino Platform and C Programming module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The provided sources extensively detail the principles and methods of **debugging** in the context of embedded systems, specifically focusing on the **Arduino platform**. The primary emphasis is on **software debugging**, particularly through the **serial interface**.
 
 Here is a breakdown of the knowledgical information:
