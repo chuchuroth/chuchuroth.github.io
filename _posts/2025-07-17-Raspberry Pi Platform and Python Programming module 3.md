@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Raspberry Pi Platform and Python Programming module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following outlines the knowledgical information regarding Python programming on the Raspberry Pi, extracted from the provided sources and cleared of colloquial language:
 
