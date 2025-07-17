@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Applied Industrial Internet of Things module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The provided sources contain comprehensive information regarding edge computing and IoT gateways, their definitions, drivers, functionalities, architectural components, configuration steps, selection criteria, and various industrial applications.
 
