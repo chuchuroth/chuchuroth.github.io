@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Arduino Platform and C Programming module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 Here is a comprehensive summary of the information regarding Arduino programming and its build process, presented without colloquial language and with key concepts bolded for clarity:
 
