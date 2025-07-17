@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Sensor Manufacturing and Process Control module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
+
 Here is the extracted knowledgeable information from the sources, presented in a formal tone without colloquial language:
 
 Manufacturers utilize three primary techniques to ensure the accuracy of sensors: **linearization**, **temperature compensation**, and **calibration**. These techniques are fundamental in the design and processing of sensors.
