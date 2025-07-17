@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Applied Industrial Internet of Things module 5"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is the knowledge-based information extracted from the sources, with colloquial language removed and key concepts bolded:
 
 **1. IoT Connectivity Fundamentals**
