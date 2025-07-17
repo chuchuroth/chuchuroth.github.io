@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Arduino Platform and C Programming module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The Arduino environment comprises three primary components: the **Arduino development board**, the **Integrated Development Environment (IDE)**, and **Arduino shields**.
 
