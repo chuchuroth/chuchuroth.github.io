@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Sensor Manufacturing and Process Control module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is a comprehensive overview of sensor construction, manufacturing, and process control, drawing on the knowledge-based information from the sources and removing colloquial language:
 
 ### Sensor Construction and Manufacturing
