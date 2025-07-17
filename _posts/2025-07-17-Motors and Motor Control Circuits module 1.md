@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Motors and Motor Control Circuits module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is a comprehensive overview of the knowledge contained in the provided sources, with colloquial language removed and key concepts highlighted:
 
 ### AC Induction Motors: Architecture and Principles
