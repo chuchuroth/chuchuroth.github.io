@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Raspberry Pi Platform and Python Programming module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The Raspberry Pi is a development board that offers enhanced features compared to the Arduino, including a faster processor, more memory, and the capability to run an operating system. It is utilized for Internet of Things (IoT) devices and other applications.
 
