@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Applied Industrial Internet of Things module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
 
 Below is the knowledgeable information extracted from the sources, presented in a clear and formal manner:
 
