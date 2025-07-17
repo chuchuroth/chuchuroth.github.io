@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Sensor Manufacturing and Process Control module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 This response extracts the knowledge-based information from the provided sources, removing colloquial language, and presenting it clearly with appropriate citations and formatting.
 
 ### Sensor Technology Overview
