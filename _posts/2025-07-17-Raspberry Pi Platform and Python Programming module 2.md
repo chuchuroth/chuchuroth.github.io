@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Raspberry Pi Platform and Python Programming module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The Raspberry Pi necessitates the execution of an operating system, distinguishing it from platforms like the Arduino. The default operating system for Raspberry Pi is **Raspbian**, a Linux distribution. Proficiency in Linux is essential for effective use of the Raspberry Pi, including navigation, file management, and code execution.
 
