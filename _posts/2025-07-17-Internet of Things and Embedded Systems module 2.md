@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Internet of Things and Embedded Systems module 2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The following outlines the knowledgical information extracted from the provided sources, presented without colloquial language.
 
