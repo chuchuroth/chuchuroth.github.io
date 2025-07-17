@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Motors and Motor Control Circuits module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Here is a comprehensive summary of the knowledgeable information from the provided sources, with colloquial language removed:
 
 The course focuses on **motors and motor control circuits**, including **DC motors**, **stepper motors**, and **rotary sensors**. It covers electromagnetic principles, electronic drive information, and concludes with a **general comparison of DC and AC motors** to aid in motor selection for machine design. Practical lab exercises are included for DC motors and rotary sensors.
