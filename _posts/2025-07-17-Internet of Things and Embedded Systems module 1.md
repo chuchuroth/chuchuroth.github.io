@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Internet of Things and Embedded Systems module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The Internet of Things (IoT) refers to devices that integrate a "thing" with computational intelligence and Internet connectivity.
 
