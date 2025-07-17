@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Pressure Force Motion Humidity Sensors module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The third module of the specialization on embedding sensors and motors covers **position and acceleration sensors, as well as gyroscopes**.
 
 ### Position Sensors
