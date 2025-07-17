@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Interfacing with Raspberry Pi module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 Here is a comprehensive summary of the technical information from the sources, with colloquial language removed:
 
