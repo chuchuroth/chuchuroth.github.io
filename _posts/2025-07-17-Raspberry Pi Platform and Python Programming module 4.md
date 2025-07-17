@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Raspberry Pi Platform and Python Programming module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The following outlines knowledgical information regarding Python programming for hardware control and graphical user interfaces on the Raspberry Pi, extracted from the provided sources and cleared of colloquial language:
 
 ### Python on Raspberry Pi for Hardware Control
