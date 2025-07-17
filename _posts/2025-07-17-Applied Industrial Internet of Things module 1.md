@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Applied Industrial Internet of Things module 1"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 The provided sources offer comprehensive information regarding the Industrial Internet of Things (IIoT), its foundations, components, benefits, challenges, and real-world applications.
 
