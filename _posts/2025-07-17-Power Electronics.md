@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Power Electronics"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The provided sources offer a comprehensive introduction to power electronics, covering foundational concepts, analytical techniques, specific converter types, and methods for modeling losses.
 
 ### **Introduction to Power Electronics Course Overview**
