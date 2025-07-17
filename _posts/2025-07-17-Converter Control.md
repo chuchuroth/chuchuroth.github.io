@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Converter Control"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 The following provides a comprehensive overview of converter control systems, drawing on the provided sources and excluding colloquial language:
 
 ### Converter Control Systems Overview
