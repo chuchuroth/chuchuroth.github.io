@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Motors and Motor Control Circuits module 3"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Drawing on the provided sources, here is a comprehensive breakdown of information regarding DC motors, excluding colloquial language:
 
 ### Introduction to DC Motors and Principles
