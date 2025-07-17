@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Internet of Things and Embedded Systems module 4"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Networking is a fundamental aspect of the Internet of Things (IoT), with the "Internet" explicitly in its name. It is essential because it **enhances device capabilities** by providing access to computational complexity and large databases located outside the local device. For example, cars as IoT devices could communicate on a network to improve traffic flow by planning routes collaboratively.
 
 Here's a breakdown of networking concepts and components:
