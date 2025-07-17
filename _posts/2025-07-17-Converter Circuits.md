@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Converter Circuits"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Here is the knowledgeable information extracted from the provided sources, with colloquial language removed:
 
 ## Power Converter Switches and Operation
