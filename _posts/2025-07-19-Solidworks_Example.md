@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "solidworks example"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The process of designing a simple mouse in SolidWorks using advanced surfacing tools involves numerous steps, broadly categorized into initial sketching and surface extrusion, surface trimming, creating and defining new planes and sketches, forming complex geometries with boundary surfaces, adding features like grooves and cutouts, thickening the model, and final detailing.
 
 Here is a comprehensive breakdown of the steps:
