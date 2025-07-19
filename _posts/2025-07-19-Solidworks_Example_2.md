@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Solidworks_Example_2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Designing and assembling a bicycle in SolidWorks involves creating multiple individual parts and then bringing them together in an assembly. Below are the steps to create this specific bicycle design and assembly, as described in the sources:
 
 ### **Part 1: Bicycle Steering Handle**
