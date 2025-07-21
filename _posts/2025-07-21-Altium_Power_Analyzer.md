@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Altium_Power_Analyzer"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 这是一份关于Altium Power analyzer的笔记：
 
 **电源在 PCB 上 (1.0 Power on the PCB)**
