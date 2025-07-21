@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "PCB_fundamental"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 I'd be happy to guide you through some fundamental concepts to get you started with designing a Printed Circuit Board (PCB) as a beginner hardware engineer. Let’s break this down into simple, digestible pieces so you can build your understanding step by step.
 
 ### 1. What is a PCB?
