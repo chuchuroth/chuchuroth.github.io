@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Best Practices in Printed Circuit Board Design"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
 
 # A Survey of Best Practices in Printed Circuit Board Design
 
