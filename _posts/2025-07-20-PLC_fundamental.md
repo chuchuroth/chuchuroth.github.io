@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "PLC_fundamental"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 
 Let’s dive into the fundamentals of PLC programming, focusing on key topics like wiring diagrams and ladder logic. Whether you’re new to industrial automation or just curious about how machines are controlled, this guide will give you a solid starting point. I’ll explain everything step-by-step, keeping it clear and practical.
 
