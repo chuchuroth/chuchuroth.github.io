@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "第二本工作计划"
+title:  "KNOW WHAT YOU ARE DOING 2"
 date:   2025-08-05
 categories: 
 ---
