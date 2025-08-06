@@ -297,6 +297,91 @@ If you'd like, I can also create a **proper schematic diagram** (PDF or image) o
 Would you like to see a drawn version of this control panel wiring?
 
 
+---
+
+Certainly! Here's a **short introduction** to each of the listed electrical documents commonly used in industrial settings, followed by **additional documents** that are also standard in professional practice.
+
+---
+
+## 📘 **Introduction to Common Electrical Documents in Industrial Settings**
+
+1. ### **Single Line Diagrams (SLDs)**
+
+   * **Purpose:** Provide a simplified overview of the power distribution system using **single lines to represent all three phases**.
+   * **Usage:** Used by engineers and electricians to understand the **flow of power** from incoming supply through switchgear, transformers, panels, and major loads.
+
+2. ### **Wiring Diagrams**
+
+   * **Purpose:** Show **physical connections** and wire routes between components.
+   * **Usage:** Helpful for **installation and troubleshooting**, showing terminal numbers, wire colors, and actual wiring paths.
+
+3. ### **Schematic Diagrams**
+
+   * **Purpose:** Represent the **logical function** and interaction of electrical components.
+   * **Usage:** Focused on **function rather than layout**, used for designing and understanding control systems.
+
+4. ### **Ladder Diagrams**
+
+   * **Purpose:** Show control logic using **relay-ladder logic**, commonly used in PLC programming.
+   * **Usage:** Widely used by control engineers to design **sequential control logic** and debug systems in automation.
+
+5. ### **Floor Plans**
+
+   * **Purpose:** Show the **physical location** of electrical equipment (e.g., panels, machines) within the building.
+   * **Usage:** Useful for electricians, planners, and maintenance staff for installation planning and space allocation.
+
+6. ### **Site Plans**
+
+   * **Purpose:** Present a **broad overview** of the facility, including outdoor infrastructure, cable trenches, substations, and utility access.
+   * **Usage:** Used during construction and utility planning for **site-wide coordination** of services.
+
+---
+
+## 🧾 **Other Common Industry-Used Documents**
+
+1. ### **Panel Layout Drawings**
+
+   * Show internal layout of control cabinets, including DIN rail components, terminal blocks, wiring ducts, and spacing.
+
+2. ### **Cable Schedules**
+
+   * Lists all cables with details such as type, size, route, and terminations.
+
+3. ### **Loop Diagrams**
+
+   * Used primarily in process industries, show the signal path from instrument to control system and back.
+
+4. ### **Bill of Materials (BOM)**
+
+   * Lists all electrical components used in a project with quantities, part numbers, and specs.
+
+5. ### **Load Schedules / Load Lists**
+
+   * Provide detailed information on connected electrical loads, used for sizing breakers, panels, and transformers.
+
+6. ### **I/O Lists**
+
+   * Show PLC input/output channel assignments and signal sources/destinations.
+
+7. ### **Functional Design Specifications (FDS)**
+
+   * Describe the control philosophy, sequence of operations, and functional behavior of automated systems.
+
+8. ### **Test & Commissioning Protocols**
+
+   * Procedures and checklists used during electrical system startup and verification.
+
+9. ### **Risk Assessments & Safety Compliance Reports**
+
+   * Especially for high-risk systems or when safety standards (e.g. IEC 60204, ISO 13849) are applied.
+
+---
+
+## ✅ Summary
+
+While your list covers the **core electrical drawing types**, industrial projects often require additional documents for **installation**, **commissioning**, **compliance**, and **maintenance**. These collectively ensure that systems are **safe, functional, and maintainable** across the entire equipment lifecycle.
+
+Let me know if you want templates or examples of any specific document!
 
 
 
