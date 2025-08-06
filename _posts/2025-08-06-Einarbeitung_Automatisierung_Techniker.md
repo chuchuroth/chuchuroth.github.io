@@ -895,23 +895,27 @@ Hier sind **100 wichtige deutsche Fachbegriffe** aus der **Automatisierung, Steu
 61. Schaltplan
 62. Stromlaufplan
 63. Verdrahtung
-64. Klemmenbelegung
-65. Steuerleitung
-66. Leistungsteil
-67. Relais
-68. Schütz
-69. Sicherung
-70. Potenzialausgleich
-71. Spannungsversorgung
-72. Erdung
-73. Schaltschrank
-74. Klemmleiste
-75. Leitungsquerschnitt
-76. Anschlussbelegung
-77. Netzspannung
-78. Isolationsprüfung
-79. Durchgangsprüfung
-80. Spannungsabfall
+64. Verkabelung 综合布线
+65. Leitungen
+66. Stromversorgung
+67. Steckverbinder 连接器
+68. Klemmenbelegung
+69. Steuerleitung
+70. Leistungsteil
+71. Relais
+72. Schütz
+73. Sicherung
+74. Potenzialausgleich
+75. Spannungsversorgung
+76. Erdung
+77. Schaltschrank
+78. Klemmleiste
+79. Leitungsquerschnitt
+80. Anschlussbelegung
+81. Netzspannung
+82. Isolationsprüfung
+83. Durchgangsprüfung
+84. Spannungsabfall
 
 ---
 
