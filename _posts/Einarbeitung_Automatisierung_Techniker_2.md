@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Einarbeitung_Automatisierung_Techniker_2"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
 
 Gerne! Die **Servotechnik** ist ein zentraler Bestandteil moderner Automatisierung – besonders bei **komplexen Anlagen**, in denen präzise Bewegungen und hohe Dynamik gefragt sind (z. B. Montageanlagen, CNC-Maschinen, Verpackungsmaschinen, Robotik, Halbleiterfertigung).
 
