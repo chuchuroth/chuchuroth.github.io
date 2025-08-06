@@ -45,6 +45,16 @@ Mein Name ist [Dein Name]. Ich habe einen **Masterabschluss in Mechatronik**. Ic
 *   Ich habe **große Datensätze analysiert**, mit Python, MATLAB und Excel. Ich präsentierte Ergebnisse mit klaren Visualisierungen wie Trenddiagrammen, Heatmaps und SPC-Charts. Das half, gute technische Entscheidungen zu treffen.
 
 **Meine Erfahrung bei HELLA:**
+Bei HELLA war ich in der technischen Planung und Entwicklung von Produktionsabläufen für die Scheinwerfermontage tätig.
+Ich habe mich vor allem um die Steuerungstechnik gekümmert – also zum Beispiel Abläufe entwickelt, Sensoren und Aktoren logisch verknüpft, Fehlerbehandlung und Notlaufprogramme erstellt und die Bedienoberflächen (HMIs) eingerichtet.
+
+Ein typischer Ablauf sah so aus: Erst den Gesamtprozess planen, dann die Sensorik und Mechanik abstimmen, die SPS programmieren, das HMI gestalten, die Kommunikation konfigurieren – und am Ende alles in Betrieb nehmen, testen und dokumentieren.
+
+Gearbeitet habe ich hauptsächlich mit Siemens TIA Portal, sowohl für neue Anlagen als auch zur Optimierung bestehender Linien.
+Mit EPLAN habe ich außerdem die Verdrahtungspläne gelesen und erstellt.
+
+Ich war auch oft direkt an der Linie, um Sensoren und Aktoren zu testen und die Taktzeiten im laufenden Betrieb zu verbessern.
+Dabei hatte ich engen Kontakt zur Fertigungsplanung, zur Instandhaltung und zu den Automatisierungspartnern vor Ort – also viel Abstimmung und Zusammenarbeit im Team.
 *   Meine erste Erfahrung in **SPS und Steuerungstechnik** sammelte ich bei HELLA in China.
 *   Ich **half bei der Planung von Scheinwerfer-Produktionslinien**.
 *   Ich **erstellte Stromlaufpläne**.
