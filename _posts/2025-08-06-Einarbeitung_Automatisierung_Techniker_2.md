@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Einarbeitung_Automatisierung_Techniker_2"
-date:   2025-07-01 14:56:51 +0200
+date:   2025-08-06
 categories: jekyll update
 ---
 
