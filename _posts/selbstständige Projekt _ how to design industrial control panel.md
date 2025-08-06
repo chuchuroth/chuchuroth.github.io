@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "selbstständige Projekt -  how to design industrial control panel"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 The document, based on the video "How Electrical Control Panel Works | PLC Control Panel Basics | Electrical Panel Components" from the Upmation YouTube channel, provides an overview of industrial electrical control panels, their components, and their functions. Below is a concise extraction of the key knowledgeable information:
 
 ### Design Phase
