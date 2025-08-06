@@ -131,10 +131,12 @@ Dabei hatte ich engen Kontakt zur Fertigungsplanung, zur Instandhaltung und zu d
 ```
 
 + **Schaltschrank Design**
+
+  
 ```
 In meinen beiden jüngsten Projekten ging es jeweils um das Design und den Aufbau von **Industrial Control Panels** – kurz Steuerungsschränken –, wie man sie in modernen Fertigungslinien oder in verteilten Anlagenräumen findet. Dabei habe ich den kompletten Prozess begleitet, von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie. Ich fasse hier mal zusammen, wie ich dabei vorgegangen bin – ganz locker und in freier Rede.
 
----
+
 
 **1. Projektstart & Konzeption**
 Zuerst haben wir geklärt, **welche Funktionen der Schaltschrank übernehmen muss**: Brauchen wir nur eine einfache PLC-Steuerung oder eine verteilte DCS-Architektur mit mehreren Panels? Daraus ergibt sich schon die Frage nach der **Anzahl der Türen** (Single- oder Double-Door) und der passenden Größe. Dann habe ich in einem **Blockdiagramm** skizziert, wie Stromversorgungen, Sicherungen, Sensoren, Aktoren und Kommunikationsmodule (z. B. Ethernet-Switches oder Profibus-Koppler) logisch zusammenhängen.
@@ -147,7 +149,7 @@ Parallel dazu wurden in einer **Materialstückliste (BOM)** alle Geräte definie
 * **Sicherungs- und Lasttrennklemmen**, ggf. mit eingebauten Sicherungen
 * **Kommunikationsgeräte** für Feldbus und Ethernet
 
----
+
 
 **2. Layout & Aufbau**
 Anhand der ersten Schemen habe ich das **Schaltschrank-Layout** in der Tür skizziert:
@@ -162,7 +164,7 @@ Dann ging’s ans **Anzeichnen und Bohren**: Mit T-Lineal die DIN-Schienen-Posit
 
 Beim **Aufbau** wurden DIN-Schienen und Komponenten exakt montiert, Erdungsbrücken gesetzt und alle Geräte gemäß Layout verschraubt. Terminal-Brücken halfen, überall einheitliche 24 V-Verteilungen zu realisieren. Zum Schluss kamen noch die Klemmstellen-Bezeichnungen und Leitungsbündel-Labels.
 
----
+
 
 **3. Verdrahtung & Test**
 Beim **Verkabeln** bin ich Seite für Seite nach den Schaltplänen vorgegangen:
@@ -175,7 +177,7 @@ Nach der Verkabelung kam der **Erstcheck**: Multimeter ans Netz, Schritt für Sc
 
 Zum Schluss habe ich das **finale SPS-Programm** aufgespielt und einen kompletten Funktionstest durchgeführt – je nach Anlage vor Ort oder direkt im Schaltschrank als Trocken-Durchlauf. Alle Messergebnisse und Abnahmeprotokolle habe ich dokumentiert und dem Kunden zur Verfügung gestellt.
 
----
+
 
 Durch diese beiden Projekte habe ich gelernt, wie man Schaltschränke nicht nur technisch einwandfrei, sondern auch praxisgerecht und prüfbar plant, verdrahtet und abnimmt. So macht’s am meisten Spaß – und die Fertigung profitiert von zuverlässigen, übersichtlichen Control Panels.
 
