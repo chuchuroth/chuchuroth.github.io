@@ -1,4 +1,11 @@
-Glückwunsch zur neuen Position! Eine gute Vorbereitung für deine Einarbeitung als **Techniker im Bereich Steuerungs- und Servotechnik komplexer Anlagen** kann entscheidend dafür sein, wie schnell du Fuß fasst und wie sicher du dich in deiner neuen Rolle fühlst. Hier ist ein Leitfaden mit praktischen Schritten:
+---
+layout: post
+title:  "Einarbeitung_Automatisierung_Techniker"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+Eine gute Vorbereitung für deine Einarbeitung als **Techniker im Bereich Steuerungs- und Servotechnik komplexer Anlagen** kann entscheidend dafür sein, wie schnell du Fuß fasst und wie sicher du dich in deiner neuen Rolle fühlst. Hier ist ein Leitfaden mit praktischen Schritten:
 
 ---
 
