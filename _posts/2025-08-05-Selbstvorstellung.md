@@ -6,7 +6,7 @@ Hier ist eine kombinierte **Selbstvorstellung** aus allen deinen Texten – klar
 
 Hallo, mein Name ist \[Dein Name]. Ich habe einen Masterabschluss in Mechatronik. Ich arbeite gerne mit Technik – besonders mit Automatisierung, Robotik und Steuerungssystemen.
 
-Ich habe praktische Erfahrung in vielen Projekten gesammelt. Bei **FLEX Elektrowerkzeuge** habe ich Power Tools mitentwickelt und ein eigenes **Tool zur Auswertung von Temperatur- und Zyklusdaten** gebaut. Das Tool hat die Daten automatisch gesammelt, ausgewertet und grafisch dargestellt. Damit konnten wir früh Probleme erkennen und die Produktion verbessern.
+Ich habe praktische Erfahrung in vielen Projekten gesammelt. Bei **FLEX Elektrowerkzeuge** habe ich Power Tools mitentwickelt und ein eigenes **Tool zur Auswertung von Temperatur- und Zyklusdaten** gebaut. Das Tool hat die Daten automatisch gesammelt, ausgewertet und grafisch dargestellt. Damit konnten wir früh Probleme erkennen und die Produktion verbessern. (preventive maintenance)
 
 Ich habe **FANUC-Roboter programmiert und in Betrieb genommen**. Ich habe die Roboterachsen kalibriert, Bewegungen geplant und Fehler an der Linie gelöst. Ich habe auch **Sensoren für Temperatur, Druck und Position integriert**. Ich habe die Datenaufnahme programmiert und mit Prüfprozessen verbunden.
 
