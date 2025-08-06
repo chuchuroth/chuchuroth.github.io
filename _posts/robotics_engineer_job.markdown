@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "robotics"
-date:   2025-07-01 14:56:51 +0200
+date:   2025-08-06
 categories: jekyll update
 ---
 # robotic engineer job skills
