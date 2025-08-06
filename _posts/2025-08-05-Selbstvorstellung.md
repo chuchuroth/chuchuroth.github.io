@@ -59,6 +59,19 @@ Das Projekt hat mir sehr geholfen, sowohl in technischer Hinsicht als auch im Pr
 Ich kenne mich mittlerweile gut mit ROS aus, habe dazu auch einige Zertifikate gemacht – und habe jetzt auch Erfahrung, wie man ein Produkt von der Idee bis zur Produktion begleitet.
 ```
 
+```
+Was die Kundenkommunikation angeht, kann ich auch ein konkretes Beispiel nennen:
+Flex hatte einen großen Kunden – das Rathaus von Rodgau. Die haben eine komplette Serie unserer Rasenmäher bestellt, und ich war damals für den After-Sales-Service zuständig.
+
+Ich bin also selbst hingefahren und habe vor Ort mit dem Verantwortlichen gesprochen. Ich habe eine kleine Umfrage gemacht, um herauszufinden, was gut läuft, was vielleicht verbessert werden kann, ob es technische Probleme gibt – und allgemein, wie zufrieden sie mit unseren Produkten und dem Service sind.
+
+Da Deutsch nicht meine Muttersprache ist, habe ich mich natürlich gut vorbereitet. Ich habe mir vorher die wichtigsten Gesprächspunkte notiert und überlegt, wie ich bestimmte Themen am besten anspreche.
+Technisch kenne ich mich mit unseren Produkten sehr gut aus – und ich finde, meine strukturierte Vorbereitung hat mir dabei sehr geholfen.
+
+In der Praxis hat das wirklich gut funktioniert, und ich konnte so auch persönlich viel über den Umgang mit Kunden lernen.
+
+```
+
 Ich habe auch **automatisierte Testskripte geschrieben**, Fehler simuliert und Grenzwerte geprüft. Ich habe große Datenmengen mit **Python, MATLAB und Excel** analysiert. Ich habe **Heatmaps, Trendkurven und SPC-Diagramme** erstellt, damit das Team die Prozesse besser versteht.
 
 Früher habe ich bei **HELLA in China** gearbeitet. Dort habe ich **Scheinwerfer-Produktionslinien geplant**, **Stromlaufpläne erstellt** und bei **SPS-Programmierung und Fehlersuche** geholfen. Ich habe dort erste Erfahrungen mit **TIA Portal** gesammelt.
