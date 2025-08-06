@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Stromlaufplan"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
+
 Natürlich! Hier ist eine **Schritt-für-Schritt-Anleitung zur Analyse eines Stromlaufplans (Schaltplans)** sowie ein **Beispiel** eines typischen Stromlaufplans aus dem Bereich Automatisierung/Steuerungstechnik.
 
 ---
