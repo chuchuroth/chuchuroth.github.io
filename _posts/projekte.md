@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "projekte"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Hier ist eine **inhaltlich verdichtete Zusammenfassung** der drei Ingenieur-Gespräche, bei der überflüssige Sprache gestrichen und **alle relevanten Aussagen zur Automatisierungstechnik** beibehalten wurden:
 
 ---
