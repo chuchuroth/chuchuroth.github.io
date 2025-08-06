@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "field engineer skills"
-date:   2025-07-01 14:56:51 +0200
+date:   2025-08-06
 categories: jekyll update
 ---
 Based on the job description, the most valued skills for the **Field Robotics Engineer (Field Services Technician)** role at Carbon Robotics are:
