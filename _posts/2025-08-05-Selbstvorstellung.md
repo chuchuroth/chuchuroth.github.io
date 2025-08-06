@@ -122,6 +122,57 @@ Mit EPLAN habe ich außerdem die Verdrahtungspläne gelesen und erstellt.
 Ich war auch oft direkt an der Linie, um Sensoren und Aktoren zu testen und die Taktzeiten im laufenden Betrieb zu verbessern.
 Dabei hatte ich engen Kontakt zur Fertigungsplanung, zur Instandhaltung und zu den Automatisierungspartnern vor Ort – also viel Abstimmung und Zusammenarbeit im Team.
 ```
+
++ **Schaltschrank Design**
+```
+In meinen beiden jüngsten Projekten ging es jeweils um das Design und den Aufbau von **Industrial Control Panels** – kurz Steuerungsschränken –, wie man sie in modernen Fertigungslinien oder in verteilten Anlagenräumen findet. Dabei habe ich den kompletten Prozess begleitet, von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie. Ich fasse hier mal zusammen, wie ich dabei vorgegangen bin – ganz locker und in freier Rede.
+
+---
+
+**1. Projektstart & Konzeption**
+Zuerst haben wir geklärt, **welche Funktionen der Schaltschrank übernehmen muss**: Brauchen wir nur eine einfache PLC-Steuerung oder eine verteilte DCS-Architektur mit mehreren Panels? Daraus ergibt sich schon die Frage nach der **Anzahl der Türen** (Single- oder Double-Door) und der passenden Größe. Dann habe ich in einem **Blockdiagramm** skizziert, wie Stromversorgungen, Sicherungen, Sensoren, Aktoren und Kommunikationsmodule (z. B. Ethernet-Switches oder Profibus-Koppler) logisch zusammenhängen.
+
+Parallel dazu wurden in einer **Materialstückliste (BOM)** alle Geräte definiert:
+
+* **Dreiphasen-Eingang** über Haupttrenner und AC-Leistungsschalter
+* **24 V-DC-Versorgung** mit RhinoPro-Netzteilen
+* **SPS-Module** und I/O-Reihenklemmen (digitale und analoge Ein-/Ausgänge)
+* **Sicherungs- und Lasttrennklemmen**, ggf. mit eingebauten Sicherungen
+* **Kommunikationsgeräte** für Feldbus und Ethernet
+
+---
+
+**2. Layout & Aufbau**
+Anhand der ersten Schemen habe ich das **Schaltschrank-Layout** in der Tür skizziert:
+
+* Oben die Netzanschlüsse und Hauptschutz
+* Unten die SPS und I/O-Reihenklemmen für den Kabelausgang
+* Links die 24 V-Versorgung, rechts die Leistungsschütze und Frequenzumrichter
+* Servo-Drives nach unten, um Wärmeprobleme zu minimieren
+  Wire-Duct-Trennungen sorgen für saubere Trennung von Hoch- und Niederspannung.
+
+Dann ging’s ans **Anzeichnen und Bohren**: Mit T-Lineal die DIN-Schienen-Positionen markieren, die Hülsenlöcher vorstanzen, bohren und Gewinde schneiden – immer mit Schutzbrille und Cutter-Öl. Nach dem Entgraten habe ich Lackflecken entfernt und den Schrank sauber ausgeblasen.
+
+Beim **Aufbau** wurden DIN-Schienen und Komponenten exakt montiert, Erdungsbrücken gesetzt und alle Geräte gemäß Layout verschraubt. Terminal-Brücken halfen, überall einheitliche 24 V-Verteilungen zu realisieren. Zum Schluss kamen noch die Klemmstellen-Bezeichnungen und Leitungsbündel-Labels.
+
+---
+
+**3. Verdrahtung & Test**
+Beim **Verkabeln** bin ich Seite für Seite nach den Schaltplänen vorgegangen:
+
+* Adern abisoliert, Aderendhülsen gecrimpt
+* Hoch- und Niederspannung getrennt geführt, bei Bedarf quer darüber, um Kopplung zu minimieren
+* Klare Beschriftung an jedem Kabel, vor allem bei mehradrigen Schläuchen
+
+Nach der Verkabelung kam der **Erstcheck**: Multimeter ans Netz, Schritt für Schritt die MCBs anlegen, 24 V-Netz prüfen, alle Sicherungen. Dann im **SPS-Programm** die I/Os einzeln durchschalten: Digitale Eingänge per Jumper, Ausgänge über Software-Test, Analog-Signale mit Simulatoren. Sicherheitskreise (Not-Aus, Lichtvorhänge) wurden separat geprüft und verifiziert.
+
+Zum Schluss habe ich das **finale SPS-Programm** aufgespielt und einen kompletten Funktionstest durchgeführt – je nach Anlage vor Ort oder direkt im Schaltschrank als Trocken-Durchlauf. Alle Messergebnisse und Abnahmeprotokolle habe ich dokumentiert und dem Kunden zur Verfügung gestellt.
+
+---
+
+Durch diese beiden Projekte habe ich gelernt, wie man Schaltschränke nicht nur technisch einwandfrei, sondern auch praxisgerecht und prüfbar plant, verdrahtet und abnimmt. So macht’s am meisten Spaß – und die Fertigung profitiert von zuverlässigen, übersichtlichen Control Panels.
+
+```
 **Meine Fähigkeiten und Leidenschaft:**
 *   Ich habe ein **ganzheitliches Verständnis für mechatronische Systeme**. Das umfasst Verdrahtung, SPS- und Roboterprogrammierung und Datenanalyse.
 *   Ich bin **praxisorientiert** und arbeite gerne direkt an Geräten. Ich löse gerne Probleme, wie einen Verdrahtungsfehler finden oder eine Oszilloskopkurve anpassen.
