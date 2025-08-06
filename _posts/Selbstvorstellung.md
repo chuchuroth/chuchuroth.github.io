@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Selbstvorstellung"
+date:   2025-07-01 14:56:51 +0200
+categories: jekyll update
+---
+
 Hier ist eine kombinierte **Selbstvorstellung** aus allen deinen Texten – klar, kurz und in einfachem Deutsch, wie du es gewünscht hast. Die Sätze sind bewusst einfach gehalten und verwenden eine direkte Struktur wie „Ich habe… gemacht“, damit es für dich als Nicht-Muttersprachler angenehm zu sprechen oder schreiben ist:
 
 ---
