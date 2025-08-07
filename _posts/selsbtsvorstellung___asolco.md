@@ -41,3 +41,19 @@ außerdem bei hella bin ich auch an andere sache beteiligt, zb das Design und de
 also, zusammenfassung, Ich habe schon Verständnis für mechatronische Systeme und arbeite gern an geräte, mit Technik, bzw mit Automatisierung, Robotik und Steuerungssystemen, auch mit  Verdrahtung, SPS- und Roboterprogrammierung und Datenanalyse usw. 
 
 soll ich weiter erzählen oder mehr über technik details gehen.
+
+---
+
+```
+Steuerungstechnik:
+SPS-Programmierung (z. B. Siemens S7, TIA Portal, Beckhoff TwinCAT)
+Grundlagen der Automatisierungstechnik (Signale, Sensoren, Aktoren)
+Verdrahtungspläne lesen und erstellen (EPLAN, WSCAD o. Ä.)
+```
+
+```
+Servotechnik:
+Funktionsweise von Servoantrieben, Frequenzumrichtern
+PID-Regelung, Parameterabgleich, Inbetriebnahme
+Sicherheitsfunktionen (z. B. STO, SS1 etc.)
+```
