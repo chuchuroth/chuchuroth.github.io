@@ -86,6 +86,98 @@ Wenn du möchtest, kann ich dir auch:
 
 Sag einfach, was dir beim Lernen oder Anwenden hilft!
 
+---
+Natürlich – hier ist eine **praxisnahe Checkliste für die Inbetriebnahme von Servoantrieben**, wie sie typischerweise bei Herstellern wie **Siemens, Beckhoff, Yaskawa, SEW, Bosch Rexroth** usw. verwendet wird. Die Schritte gelten unabhängig davon, ob du mit **rotatorischen oder linearen Servoantrieben** arbeitest.
+
+---
+
+# ✅ **Checkliste – Inbetriebnahme von Servoantrieben**
+
+---
+
+## 🔧 1. **Mechanische Vorprüfung**
+
+* [ ] Motor fest montiert, spielfrei verschraubt
+* [ ] Kupplung/Mechanik korrekt verbunden
+* [ ] Drehrichtung mechanisch freigängig
+* [ ] Positionierungsstrecke ohne Blockade
+* [ ] Geber (Encoder) korrekt montiert
+
+---
+
+## ⚡ 2. **Elektrische Anschlüsse prüfen**
+
+* [ ] Leistungsanschluss korrekt verdrahtet (U/V/W bzw. L1/L2/L3)
+* [ ] Steuer- & Geberleitung sauber getrennt (EMV-gerecht)
+* [ ] PE/Schutzleiter korrekt angeschlossen
+* [ ] Externe Versorgung / DC-Bus-Verbindung vorhanden
+* [ ] Sicherheitsfunktionen verdrahtet (z. B. STO, SS1)
+
+---
+
+## 💻 3. **Softwareverbindung & Kommunikation**
+
+* [ ] Verbindung zur Parametriersoftware aufgebaut (USB, Ethernet, etc.)
+* [ ] Firmwareversion & Hardware erkannt
+* [ ] Feldbus-Kommunikation aktiv (Profinet, EtherCAT, CANopen...)
+* [ ] Adressierung und Geräte-ID korrekt vergeben
+* [ ] Gerät im Netzwerk sichtbar und steuerbar
+
+---
+
+## ⚙️ 4. **Parameter & Motordaten eingeben**
+
+* [ ] Motortyp & Nennwerte eingegeben (Spannung, Strom, Polpaarzahl)
+* [ ] Gebertyp & Impulszahl / Auflösung konfiguriert
+* [ ] Bremsensteuerung (falls vorhanden) parametriert
+* [ ] Strom- & Drehzahlbegrenzung gesetzt
+* [ ] Sollwertart definiert (Position, Geschwindigkeit, Moment)
+* [ ] Rampenzeit (Beschleunigung/Verzögerung) eingestellt
+
+---
+
+## 🔁 5. **Reglerabgleich & Tuning**
+
+* [ ] Auto-Tuning gestartet oder manuelle PID-Parameter gesetzt
+* [ ] Oszilloskop/Live-Kurve zur Regleranalyse verwendet
+* [ ] Lastmoment, Reibung, Trägheit angepasst
+* [ ] Regelung stabil & ohne Überschwingen
+* [ ] Rückmeldung über Encoder plausibel
+
+---
+
+## 🧪 6. **Referenzfahrt & Testlauf**
+
+* [ ] Referenzpunkt definiert (Sensor, Hardstop, Encoder-Null)
+* [ ] Referenzfahrt erfolgreich abgeschlossen
+* [ ] Positionsgenauigkeit geprüft
+* [ ] Sicherheitseinrichtungen funktionieren korrekt
+* [ ] Testbewegung in Langsamfahrt durchgeführt
+
+---
+
+## 🟢 7. **Freigabe & Produktionsbetrieb**
+
+* [ ] Fehler-/Warnmeldungen geprüft (keine aktiven Fehler)
+* [ ] Bewegungsprofile validiert
+* [ ] Speicherung der Einstellungen (z. B. in Projekt / Backup)
+* [ ] ggf. Bedienpersonal eingewiesen
+* [ ] Anlage offiziell freigegeben für Produktionslauf
+
+---
+
+## 📄 **Tipp:**
+
+Dokumentiere jede Inbetriebnahme (z. B. Motor-Typ, Seriennummer, Reglerparameter, Kommunikationsadresse) als PDF oder im Instandhaltungs-Tool.
+
+---
+
+Wenn du möchtest, kann ich dir diese Checkliste auch als:
+
+* **PDF zum Ausdrucken / Mitnehmen**
+* **interaktives Excel-Dokument mit Abhakfeldern**
+* **Laminierfähige Kurzversion für Werkstatt oder Schaltschrank**
+  bereitstellen. Sag einfach Bescheid!
 
 
 ---
