@@ -14,6 +14,7 @@ Hier ist eine kombinierte **Selbstvorstellung** aus allen deinen Texten – klar
 Hallo, mein Name ist \[Dein Name]. Ich habe einen Masterabschluss in Mechatronik. Ich arbeite gerne mit Technik – besonders mit Automatisierung, Robotik und Steuerungssystemen.
 
 Ich habe praktische Erfahrung in vielen Projekten gesammelt. Bei **FLEX Elektrowerkzeuge** habe ich Power Tools mitentwickelt und ein eigenes **Tool zur Auswertung von Temperatur- und Zyklusdaten** gebaut. Das Tool hat die Daten automatisch gesammelt, ausgewertet und grafisch dargestellt. Damit konnten wir früh Probleme erkennen und die Produktion verbessern. (preventive maintenance)
+
 ```
 Bei FLEX habe ich ein internes Tool zur Auswertung von Temperatur- und Zyklusdaten entwickelt.
 FLEX stellt elektrische Handwerksgeräte für den professionellen Einsatz her – also zum Beispiel Akkuschrauber oder Winkelschleifer.
@@ -34,6 +35,7 @@ Außerdem habe ich auch automatisierte Testabläufe erstellt und statistische Au
 ```
 
 Ich habe **FANUC-Roboter programmiert und in Betrieb genommen**. Ich habe die Roboterachsen kalibriert, Bewegungen geplant und Fehler an der Linie gelöst. Ich habe auch **Sensoren für Temperatur, Druck und Position integriert**. Ich habe die Datenaufnahme programmiert und mit Prüfprozessen verbunden.
+
 ```
 Bei FLEX habe ich mit FANUC-Industrierobotern gearbeitet – vor allem in der Bedienung, Kalibrierung und bei kleineren Anpassungen im Programmablauf.
 Ich war für die Überwachung und Steuerung der Roboterzellen zuständig und konnte Störungen eigenständig analysieren und beheben.
@@ -117,6 +119,7 @@ Mein Name ist [Dein Name]. Ich habe einen **Masterabschluss in Mechatronik**. Ic
 *   Ich **half bei der Planung von Scheinwerfer-Produktionslinien**.
 *   Ich **erstellte Stromlaufpläne**.
 *   Ich **unterstützte bei der Fehlersuche und Inbetriebnahme**. Ich arbeitete hauptsächlich im Siemens TIA Portal Umfeld.
+*   
 ```
 Bei HELLA war ich in der technischen Planung und Entwicklung von Produktionsabläufen für die Scheinwerfermontage tätig.
 Ich habe mich vor allem um die Steuerungstechnik gekümmert – also zum Beispiel Abläufe entwickelt, Sensoren und Aktoren logisch verknüpft, Fehlerbehandlung und Notlaufprogramme erstellt und die Bedienoberflächen (HMIs) eingerichtet.
