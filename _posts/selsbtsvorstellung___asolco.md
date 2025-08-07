@@ -61,11 +61,7 @@ Beim   Verkabeln   bin ich Seite für Seite nach den Schaltplänen vorgegangen:
   Hoch- und Niederspannung getrennt geführt, bei Bedarf quer darüber, um Kopplung zu minimieren
   Klare Beschriftung an jedem Kabel, vor allem bei mehradrigen Schläuchen
 Nach der Verkabelung kam der   Erstcheck  : Multimeter ans Netz, Schritt für Schritt die MCBs anlegen, 24 V-Netz prüfen, alle Sicherungen. Dann im   SPS-Programm   die I/Os einzeln durchschalten: Digitale Eingänge per Jumper, Ausgänge über Software-Test, Analog-Signale mit Simulatoren. Sicherheitskreise (Not-Aus, Lichtvorhänge) wurden separat geprüft und verifiziert.
-
 Zum Schluss habe ich das **finale SPS-Programm** aufgespielt und einen kompletten Funktionstest durchgeführt – je nach Anlage vor Ort oder direkt im Schaltschrank als Trocken-Durchlauf. Alle Messergebnisse und Abnahmeprotokolle habe ich dokumentiert und dem Kunden zur Verfügung gestellt.
-
-Durch diese beiden Projekte habe ich gelernt, wie man Schaltschränke nicht nur technisch einwandfrei, sondern auch praxisgerecht und prüfbar plant, verdrahtet und abnimmt. So macht’s am meisten Spaß – und die Fertigung profitiert von zuverlässigen, übersichtlichen Control Panels.
-
 ```
 
 ---
