@@ -36,19 +36,92 @@ also ich wurde sagen selbst wenn deutsch ein Fremdsprache für mich ist, ich kan
 
 außerdem bei hella bin ich auch an andere sache beteiligt, zb das Design und den Aufbau von **Steuerungsschränken**. Dabei muss ich den kompletten Prozess begleiten, also von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie und finale Funktionstest durchzuführen. dabei habe ich engen Kontakt zur Fertigungsplanung, zur Instandhaltung und zu den Automatisierungspartnern vor Ort – also viel Abstimmung und Zusammenarbeit. außerdem muss man alle Messergebnisse und Abnahmeprotokolle dokumentieren und abgeben.
 
+```
+Design und den Aufbau von Steuerungsschränken, wie man sie in modernen Fertigungslinien oder in verteilten Anlagenräumen findet. Dabei habe ich den kompletten Prozess begleitet, von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie. Ich fasse hier mal zusammen, wie ich dabei vorgegangen bin – ganz locker und in freier Rede.
+  1. Projektstart & Konzeption  
+Zuerst haben wir geklärt,   welche Funktionen der Schaltschrank übernehmen muss  : Brauchen wir nur eine einfache PLC-Steuerung oder eine verteilte DCS-Architektur mit mehreren Panels? Daraus ergibt sich schon die Frage nach der   Anzahl der Türen   (Single- oder Double-Door) und der passenden Größe. Dann habe ich in einem   Blockdiagramm   skizziert, wie Stromversorgungen, Sicherungen, Sensoren, Aktoren und Kommunikationsmodule (z. B. Ethernet-Switches oder Profibus-Koppler) logisch zusammenhängen.
+Parallel dazu wurden in einer   Materialstückliste (BOM)   alle Geräte definiert:
+    Dreiphasen-Eingang   über Haupttrenner und AC-Leistungsschalter
+    24 V-DC-Versorgung   mit RhinoPro-Netzteilen
+    SPS-Module   und I/O-Reihenklemmen (digitale und analoge Ein-/Ausgänge)
+    Sicherungs- und Lasttrennklemmen  , ggf. mit eingebauten Sicherungen
+    Kommunikationsgeräte   für Feldbus und Ethernet
+  2. Layout & Aufbau  
+Anhand der ersten Schemen habe ich das   Schaltschrank-Layout   in der Tür skizziert:
+  Oben die Netzanschlüsse und Hauptschutz
+  Unten die SPS und I/O-Reihenklemmen für den Kabelausgang
+  Links die 24 V-Versorgung, rechts die Leistungsschütze und Frequenzumrichter
+  Servo-Drives nach unten, um Wärmeprobleme zu minimieren
+  Wire-Duct-Trennungen sorgen für saubere Trennung von Hoch- und Niederspannung.
+Dann ging’s ans   Anzeichnen und Bohren  : Mit T-Lineal die DIN-Schienen-Positionen markieren, die Hülsenlöcher vorstanzen, bohren und Gewinde schneiden – immer mit Schutzbrille und Cutter-Öl. Nach dem Entgraten habe ich Lackflecken entfernt und den Schrank sauber ausgeblasen.
+Beim   Aufbau   wurden DIN-Schienen und Komponenten exakt montiert, Erdungsbrücken gesetzt und alle Geräte gemäß Layout verschraubt. Terminal-Brücken halfen, überall einheitliche 24 V-Verteilungen zu realisieren. Zum Schluss kamen noch die Klemmstellen-Bezeichnungen und Leitungsbündel-Labels.
+  3. Verdrahtung & Test  
+Beim   Verkabeln   bin ich Seite für Seite nach den Schaltplänen vorgegangen:
+  Adern abisoliert, Aderendhülsen gecrimpt
+  Hoch- und Niederspannung getrennt geführt, bei Bedarf quer darüber, um Kopplung zu minimieren
+  Klare Beschriftung an jedem Kabel, vor allem bei mehradrigen Schläuchen
+Nach der Verkabelung kam der   Erstcheck  : Multimeter ans Netz, Schritt für Schritt die MCBs anlegen, 24 V-Netz prüfen, alle Sicherungen. Dann im   SPS-Programm   die I/Os einzeln durchschalten: Digitale Eingänge per Jumper, Ausgänge über Software-Test, Analog-Signale mit Simulatoren. Sicherheitskreise (Not-Aus, Lichtvorhänge) wurden separat geprüft und verifiziert.
+
+Zum Schluss habe ich das **finale SPS-Programm** aufgespielt und einen kompletten Funktionstest durchgeführt – je nach Anlage vor Ort oder direkt im Schaltschrank als Trocken-Durchlauf. Alle Messergebnisse und Abnahmeprotokolle habe ich dokumentiert und dem Kunden zur Verfügung gestellt.
+
+Durch diese beiden Projekte habe ich gelernt, wie man Schaltschränke nicht nur technisch einwandfrei, sondern auch praxisgerecht und prüfbar plant, verdrahtet und abnimmt. So macht’s am meisten Spaß – und die Fertigung profitiert von zuverlässigen, übersichtlichen Control Panels.
+
+```
+
 ---
 
 also, zusammenfassung, Ich habe schon Verständnis für mechatronische Systeme und arbeite gern an geräte, mit Technik, bzw mit Automatisierung, Robotik und Steuerungssystemen, auch mit  Verdrahtung, SPS- und Roboterprogrammierung und Datenanalyse usw. 
 
 soll ich weiter erzählen oder mehr über technik details gehen.
 
+```
+SPS- & HMI-Programmierung:
+Versiert in mehreren SPS-Plattformen wie Siemens (S7, TIA Portal), Allen-Bradley (RSLogix, Studio 5000) und Mitsubishi. Ich entwickle robuste, skalierbare und effiziente Logiken, um einen nahtlosen Maschinen- und Prozessbetrieb zu gewährleisten.
+
+Industrierobotik:
+Erfahren in der Programmierung, Kalibrierung und Wartung von Industrierobotern, darunter ABB, KUKA, FANUC und Yaskawa. Ich habe robotische Systeme für Anwendungen wie Palettierung, Pick-and-Place, Schweißen und Montage integriert.
+
+Inbetriebnahme & Systemintegration:
+Ich leite den gesamten Inbetriebnahmeprozess – von der Ein-/ Ausgangsüberprüfung und Schleifentests bis hin zu Inbetriebnahme, Feinabstimmung und vollständiger Übergabe im Betrieb – und stelle sicher, dass die Systeme funktionale und sicherheitsrelevante Anforderungen erfüllen.
+
+Elektrisches Design & Fehlersuche:
+Erfahren im Erstellen elektrischer Schaltpläne mit Tools wie EPLAN und AutoCAD Electrical. Ich überwache den Schaltschrankbau, die Verdrahtungsnormen und führe fortgeschrittene Fehlersuchen durch, um Stillstandszeiten zu minimieren.
+
+Industrielle Kommunikation & SCADA:
+Kenntnisse im Einrichten und Beheben von Störungen in industriellen Netzwerken (Profibus, Profinet, EtherNet/IP, Modbus) sowie SCADA-Systemen zur Echtzeit-Prozessüberwachung und -steuerung.
+
+Wartung & Optimierung:
+Ich setze präventive und predictive Wartungsstrategien um, führe Ursachenanalysen durch und nutze kontinuierliche Verbesserungsmethoden zur Steigerung von Produktivität und Zuverlässigkeit.
+```
+
 ---
+
+```
+Automatisierungspyramide von unten nach oben:
+Mechanik → Aktoren/Sensoren → Steuerung (SPS) → HMI → IT-Ebene
+```
 
 ```
 Steuerungstechnik:
 SPS-Programmierung (z. B. Siemens S7, TIA Portal, Beckhoff TwinCAT)
+Entwicklung und Anpassung von Programmen (z. B. in TIA Portal, TwinCAT)
 Grundlagen der Automatisierungstechnik (Signale, Sensoren, Aktoren)
 Verdrahtungspläne lesen und erstellen (EPLAN, WSCAD o. Ä.)
+Verwendung von KOP, FUP, ST, SCL
+Simulation & Test (z. B. mit PLCSIM)
+Programmierstand dokumentieren
+```
+
+```
+SPS-Grundlagen & Logikverständnis:
+Funktionsweise und Zyklus einer SPS (E/A-Verarbeitung, Zykluszeit)
+Unterschied zwischen bitorientierter und wortorientierter Verarbeitung
+Bedeutung und Struktur von OBs, FCs, FBs, DBs (z. B. in Siemens TIA)
+Unterschied zwischen zyklischer und ereignisgesteuerter Verarbeitung
+Erstellung von Ablaufsteuerungen, Schrittkettendiagrammen (z. B. mit SFC)
+Logische Verknüpfung von Sensoren, Aktoren, Meldern
+Fehlerbehandlung und Notlauffunktionen programmieren
+Verständnis für Signalfluss & Timing
 ```
 
 ```
@@ -57,3 +130,88 @@ Funktionsweise von Servoantrieben, Frequenzumrichtern
 PID-Regelung, Parameterabgleich, Inbetriebnahme
 Sicherheitsfunktionen (z. B. STO, SS1 etc.)
 ```
+
+```
+Servoantriebe & Motion Control:
+Grundprinzip: Regelkreis (Soll/Ist-Werte, Encoder, PWM-Steuerung)
+Typische Parameter: Drehzahl, Stromgrenzen, Bremsverhalten, Rampen
+Fehlermeldungen interpretieren und sicher beheben
+Unterschied zwischen Positions-, Drehzahl- und Momentenregelung
+```
+
+```
+Fehlersuche und Instandsetzung:
+Systematisch mit Messgerät, Software und Erfahrung vorgehen
+Logik prüfen (z. B. warum Ausgang A0.1 nicht schaltet)
+Unterschiede bei Hardwarefehlern vs. Softwarelogikfehlern
+Programmanpassungen im laufenden Betrieb
+Analyse von Log-Daten und Alarmen
+Zykluszeitoptimierung, Speicherverbrauch prüfen
+Wiederverwendbarkeit von Bausteinen fördern
+```
+
+```
+Servotechnik in komplexen Anlagen -
+Praxisbeispiel: Siemens SINAMICS S120 :
+Motor: 1FT7-Servo
+Regler: CU320-2
+Software: Startdrive im TIA Portal
+Kommunikation: PROFINET oder DRIVE-CLiQ
+Parameter: P- und I-Werte, Encoder-Typ, Motordaten, STO aktiviert
+Anwendung: CNC-Achse mit präziser Positionierung und hoher Dynamik
+```
+
+```
+elektrischer Schaltplan:
+1. Zeichne den Stromlaufplan für den Steuerkreis
+2. Zeichne den Laststromkreis
+3. Beschrifte alle Komponenten
+verschiedene:
+Stromlaufplan	Verbindet alle elektrischen Bauteile logisch – wie ein Schaltkreis
+Klemmenplan	Zeigt, wie Leitungen an Klemmleisten verdrahtet sind
+Aufbauplan	Zeigt, wo Bauteile im Schaltschrank montiert sind
+Verbindungsplan	Zeigt Kabelverbindungen zwischen Baugruppen oder Schaltschränken
+```
+
+```
+in der Praxis mit Schaltplänen machen musst:
+Fehlersuche: → „Warum läuft der Motor nicht?“ → Schaltplan prüfen → Taster, Relais, Sicherung nachverfolgen
+Signalverfolgung: → „Welches SPS-Eingangssignal kommt von welchem Sensor?“
+Verdrahtung prüfen / planen: → „Wie muss ich den Sensor am Klemmblock anschließen?“
+Bauteil verstehen: → „Was macht dieses Relais hier?“ → Schaltplan + Funktionsbeschreibung lesen
+```
+
+```
+Typische elektrische & steuerungstechnische Fehler (aus der Praxis):
+Schützspule zieht nicht an
+Motor startet nicht / löst aus
+SPS fährt nicht hoch
+Sensor erkennt nicht / gibt Fehlersignale
+SPS-Ein-/Ausgänge defekt
+```
+
+```
+Schritt-für-Schritt Anleitung zur Analyse eines Stromlaufplans:
+Legende & Symbolverständnis
+Hauptspannung & Steuerstromkreis identifizieren
+Energiezuführung & Schutzgeräte finden
+Verbraucher lokalisieren
+Steuergeräte & Logik analysieren
+Sicherheitseinrichtungen erkennen
+SPS-Einbindung prüfen
+Drahtnummern & Querverweise lesen
+Klemmleisten und externe Anschlüsse
+```
+
+
+## 🧰 Typische Fehlerquellen & Diagnosetipps
+
+| Fehler                    | Ursache                             | Testmethode                 | Lösung                    |
+| ------------------------- | ----------------------------------- | --------------------------- | ------------------------- |
+| Schütz zieht nicht an     | Keine Spannung an Spule             | Spannung messen an K1-A1/A2 | Taster defekt, Drahtbruch |
+| Motor läuft nicht         | Schütz schaltet nicht durch         | Schützkontakte prüfen       | Schütz ersetzen           |
+| SPS reagiert nicht        | Falsche Verdrahtung, Adresse falsch | SPS-Monitor prüfen          | Verdrahtung korrigieren   |
+| NOT-AUS deaktiviert alles | Öffner geöffnet                     | Durchgang messen            | Schalter überprüfen       |
+
+
+
