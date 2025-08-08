@@ -4,6 +4,19 @@ title:  "ROS_lessons_learned"
 date:   2025-08-08
 categories: jekyll update
 ---
+```
+ubuntu2204.exe   # run ubuntu
+lsb_release -a  #  check Ubuntu Version
+uname -a # check linux version
+printenv ROS_DISTRO  # check ROS version
+rospack profile  # force ROS to do a refresh of its package list 
+
+source /opt/ros/jazzy/setup.bash   # Source environment ros2
+source install/local_setup.bash  # in the root of your workspace, source your overlay
+source install/setup.bash    # source workspace ros2
+source devel/setup.bash     # source workspace ros1
+```
+---
 
 Great question! Let’s break it down step by step so you can fully understand **ROS (Robot Operating System) file organization** and what happens if projects are nested.
 
