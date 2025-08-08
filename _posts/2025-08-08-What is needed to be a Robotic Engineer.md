@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "What is needed to be a Robotic Engineer"
+date:   2025-08-08
+categories: jekyll update
+---
+
 That's a fantastic goal! Robotics is a challenging but incredibly rewarding field. Here's a breakdown of online resources to help you on your journey, focusing on a well-rounded approach:
 
 **Foundational Knowledge (Essential for Robotics):**
