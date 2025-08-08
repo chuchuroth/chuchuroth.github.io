@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "ROS_Industrial"
+date:   2025-08-08
+categories: jekyll update
+---
+
 
 ROS has moved from primarily a research tool, to one with very real world applications. Here are a few key areas where ROS is being used:
 
