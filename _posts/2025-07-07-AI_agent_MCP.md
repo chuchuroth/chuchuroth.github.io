@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "AI_agent_MCP"
+date:   2025-07-07
+categories: jekyll update
+---
 
 ### AI与工具集成：核心概念与MCP的重要性
 
