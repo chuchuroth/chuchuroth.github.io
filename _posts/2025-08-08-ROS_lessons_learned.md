@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "ROS_lessons_learned"
+date:   2025-08-08
+categories: jekyll update
+---
 
 Great question! Let’s break it down step by step so you can fully understand **ROS (Robot Operating System) file organization** and what happens if projects are nested.
 
