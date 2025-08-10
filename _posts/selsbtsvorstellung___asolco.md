@@ -218,4 +218,8 @@ SPS-Ein-/Ausgänge defekt
 | NOT-AUS deaktiviert alles | Öffner geöffnet                     | Durchgang messen            | Schalter überprüfen       |
 
 
+---
+# hast Du Frage für mich
+# Was würdest du mir für einen Job empfehlen, oder welche Berufsvorschlag haben Sie für mich, so wie du mich kennst?“ / Wenn du mich so einschätzt, was für einen Beruf würdest du mir raten?
+
 
