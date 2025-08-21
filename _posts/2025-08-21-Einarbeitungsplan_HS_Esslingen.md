@@ -1,4 +1,11 @@
-Glückwunsch zum neuen Job 🎉!
+---
+layout: post
+title:  "Einarbeitungsplan HS Esslingen"
+date:   2025-08-21
+categories: jekyll update
+---
+
+
 Das klingt nach einer sehr spannenden und praxisnahen Aufgabe – und eine gute Chance, dein Wissen in **Regelungstechnik, Automatisierung und Labordidaktik** einzubringen.
 
 Hier ist ein **strukturiertes Einarbeitungs- und Umsetzungsplan** für deine ersten Wochen und Monate, angepasst an deine Aufgaben im Institut:
