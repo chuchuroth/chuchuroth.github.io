@@ -263,3 +263,77 @@ Alles, was du brauchst, um im Labor souverän aufzutreten – ohne ins Detailwis
 
 Soll ich dir den Spickzettel auch als **visuelles Poster (A4)** zum Ausdrucken machen, das du z. B. im Laborordner aufhängen kannst?
 
+---
+
+Sehr gut 👍, ich habe deinen Lebenslauf angesehen und kann dir daraus ein **Probo-Vorstellungsgespräch** aufbauen. Ziel: Du lernst, wie du deine Punkte im Lebenslauf nicht nur „auflistest“, sondern mit **konkreten Beispielen** und **praxisnaher Sprache** so darstellst, dass ein Professor dich als kompetenten technischen Kollegen wahrnimmt.
+
+---
+
+# 🎤 **Probo-Vorstellungsgespräch – Simulation**
+
+---
+
+### ❓ **Professor:**
+
+Herr Xu, erzählen Sie doch bitte ein bisschen über sich und Ihren Hintergrund.
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Sehr gerne. Ich habe meinen Master in Mechatronik am KIT abgeschlossen, Schwerpunkt Regelungstechnik, Messtechnik und Robotik. Schon während des Studiums habe ich gemerkt, dass ich mich nicht nur für die Theorie interessiere, sondern auch für die praktische Umsetzung im Labor.
+Beruflich habe ich zuerst bei HELLA an der Planung und Umsetzung von Scheinwerfer-Produktionslinien mitgearbeitet – dort habe ich Schaltpläne erstellt und SPS-Programme getestet. Später bei FLEX habe ich vor allem an Automatisierungs- und Prüfprojekten gearbeitet, z. B. an der Programmierung von FANUC-Robotern und an der Entwicklung eines Prüfdatenauswertungstools. Aktuell bin ich Mitgründer von Poppe Mechatronik, wo ich Laboraufbauten entwickle und neue Testmethoden konzipiere.“
+
+---
+
+### ❓ **Professor:**
+
+Sie haben bei FLEX gearbeitet – was genau haben Sie dort gemacht, das für unsere Laborarbeit interessant sein könnte?
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Bei FLEX war ich für die Entwicklung und Betreuung von Test- und Prüfständen verantwortlich. Ein Projekt, auf das ich besonders stolz bin, war ein Tool zur automatischen Analyse von Temperatur- und Zyklusdaten bei Power Tools. Damit konnten wir Abweichungen im Produktionsprozess frühzeitig erkennen und Optimierungen ableiten.
+Außerdem habe ich FANUC-Roboter programmiert und kalibriert – das war für mich ein gutes Beispiel, wie theoretische Kinematik und praktische Inbetriebnahme zusammenkommen. Diese Erfahrung ist übertragbar auf unser Labor: ich weiß, wie man Versuchsstände nicht nur konzipiert, sondern auch so aufbaut und dokumentiert, dass sie zuverlässig funktionieren und für Studierende nachvollziehbar sind.“
+
+---
+
+### ❓ **Professor:**
+
+Und was haben Sie damals bei HELLA gemacht?
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Bei HELLA habe ich an der Prozessplanung für Scheinwerfer-Produktionslinien gearbeitet. Das hieß konkret: Schaltpläne mit Siemens TIA Portal erstellt, SPS-Programme überprüft und in Betrieb genommen, und Fehler in der Verdrahtung gesucht und behoben.
+Da habe ich gelernt, systematisch vorzugehen: erst Versorgung prüfen, dann Signale, dann Programm – diese Vorgehensweise nutze ich bis heute, wenn es um Fehlersuche oder Inbetriebnahme geht.“
+
+---
+
+### ❓ **Professor:**
+
+Wie würden Sie sich hier in den Aufbau des neuen Labors einbringen?
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Ich sehe mich als Brücke zwischen Theorie und Praxis. Ich kann zum Beispiel Ihre Konzepte und Ideen für die Lehre nehmen und daraus handfeste Laborversuchsstände bauen – inklusive Verdrahtung, Steuerung und Dokumentation.
+Ein typisches Vorgehen wäre: erst die Lernziele klären, dann einen Versuchsaufbau entwickeln, testen, Fehlerquellen eliminieren, und schließlich eine klare Laboranleitung schreiben. Meine Erfahrung mit Studierendenbetreuung bei FLEX hilft mir dabei, Inhalte so zu gestalten, dass sie technisch korrekt, aber auch verständlich sind.“
+
+---
+
+### ❓ **Professor:**
+
+Was würden Sie sagen, ist Ihre größte Stärke in diesem Bereich?
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Ich kann komplexe technische Systeme schnell erfassen und in die Praxis umsetzen. Das heißt: ich sehe nicht nur das theoretische Blockdiagramm eines Reglers, sondern kann es auch als funktionierenden Versuchsstand aufbauen – mit Sensorik, Aktorik, Steuerung und Visualisierung. Und ich arbeite sehr strukturiert: vom Konzept über die Umsetzung bis hin zur Fehlersuche.“
+
+---
+
+### ❓ **Professor:**
+
+Wo möchten Sie sich bei uns weiterentwickeln?
+
+👉 **Deine Antwort (Praxisbeispiel):**
+„Ich möchte mein Wissen in der Regelungstechnik noch weiter vertiefen – gerade im Hinblick auf moderne digitale Ansätze wie Zustandsregelungen oder modellbasierte Verfahren. Gleichzeitig möchte ich lernen, wie man didaktisch noch besser mit Studierenden arbeitet, damit sie die Theorie praktisch erleben können. Ich sehe das Labor als einen Ort, an dem wir Brücken schlagen zwischen Simulation, Theorie und realem System.“
+
+---
+
+👉 Damit hast du für jede Station deines Lebenslaufs **konkrete Geschichten** und **Beispiele** parat. Das macht deine Kommunikation mit Professor\:innen viel stärker – weil du nicht nur sagst *„ich habe XY gemacht“*, sondern auch: *„das bedeutet praktisch, dass ich …“*.
+
+---
+
+Soll ich dir daraus einen **PDF-Interview-Spickzettel** bauen (Frage → Beispielantwort), den du direkt vor deinem ersten Gespräch üben kannst?
+
