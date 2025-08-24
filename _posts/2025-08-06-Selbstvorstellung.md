@@ -11,7 +11,7 @@ Hier ist eine kombinierte **Selbstvorstellung** aus allen deinen Texten – klar
 
 **Selbstvorstellung – Techniker Steuerungs- und Servotechnik**
 
-Hallo, mein Name ist \[Dein Name]. Ich habe einen Masterabschluss in Mechatronik. Ich arbeite gerne mit Technik – besonders mit Automatisierung, Robotik und Steuerungssystemen.
+Hallo, mein Name ist chuchu. Ich habe einen Masterabschluss in Mechatronik. Ich arbeite gerne mit Technik – besonders mit Automatisierung, Robotik und Steuerungssystemen.
 
 Ich habe praktische Erfahrung in vielen Projekten gesammelt. Bei **FLEX Elektrowerkzeuge** habe ich Power Tools mitentwickelt und ein eigenes **Tool zur Auswertung von Temperatur- und Zyklusdaten** gebaut. Das Tool hat die Daten automatisch gesammelt, ausgewertet und grafisch dargestellt. Damit konnten wir früh Probleme erkennen und die Produktion verbessern. (preventive maintenance)
 
@@ -91,15 +91,7 @@ Ich arbeite gern im Team, löse technische Probleme und lerne schnell. Ich bin k
 
 Ich freue mich darauf, meine Erfahrung bei Ihnen einzusetzen und an neuen Lösungen zu arbeiten.
 
-Viele Grüße
-\[Dein Name]
-
 ---
-
-
----
-
-Gerne, hier ist die übersetzte Selbstvorstellung auf Deutsch, mit kurzen und einfachen Sätzen:
 
 Mein Name ist [Dein Name]. Ich habe einen **Masterabschluss in Mechatronik**. Ich habe in **Automatisierung, Steuerungstechnik und Robotik** gearbeitet. Es ist meine Leidenschaft, komplexe Systeme gut zum Laufen zu bringen.
 
