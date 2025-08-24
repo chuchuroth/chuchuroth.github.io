@@ -1,4 +1,7 @@
 
+
+# Praktikum Rechnergestützte Verfahren der Mess- und  Regelungstechnik
+
 # chatgpt
 Sehr gut – deine 9 Themen decken die ganze Kette von Grundlagen bis zu High-Level-Anwendungen ab. Für die **Gestaltung des Praktikums "Rechnergestützte Verfahren der Mess- und Regelungstechnik"** solltest du pro Versuch jeweils drei Aspekte ausarbeiten:
 
