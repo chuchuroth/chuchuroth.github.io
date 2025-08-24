@@ -573,18 +573,30 @@ Perfekt, danke für die Vorlage 🙌. Ich habe deine Selbstvorstellung gelesen u
 ---
 
 # ✨ **Selbstvorstellung (angepasst für Hochschule – Labor Regelungstechnik)**
+**Überarbeitete Selbstvorstellung – Techniker Steuerungs- und Servotechnik**
+
 
 Hallo, mein Name ist Chuchu Xu. Ich habe einen Masterabschluss in Mechatronik und bringe sowohl industrielle Erfahrung als auch Laborerfahrung aus Hochschule und Praxisprojekten mit.
+Hallo, mein Name ist Chuchu Xu. Ich habe einen Masterabschluss in Mechatronik und arbeite leidenschaftlich gern im Bereich Automatisierung, Robotik und Steuerungssysteme. Besonders reizt mich die Verbindung von Theorie und Praxis – komplexe Systeme so aufzubauen, dass sie zuverlässig funktionieren und für andere verständlich werden.
 
-Während meiner Zeit bei **HELLA** in China habe ich an der Planung von Scheinwerfer-Produktionslinien gearbeitet, Stromlaufpläne erstellt und bei SPS-Programmierung sowie Fehlersuche unterstützt. Dort habe ich auch erste praktische Erfahrungen mit **Siemens TIA Portal** gesammelt.
+Bei **Poppe Mechatronik** habe ich ein elektrisches Labor aufgebaut, die notwendige Ausstattung beschafft und Versuchsstände entwickelt. Dazu gehören auch PCB-Entwicklung, EMI-Tests sowie der Aufbau von 3D-Druckern – sowohl kommerziell als auch Eigenkonstruktionen mit großem Bauraum. Außerdem habe ich kleine Roboterarme gebaut und arbeite aktuell an einem Projekt für die Hochschule Heilbronn: einem Teststand zur hochpräzisen Vermessung von Nockenwellen im Millisekundenbereich. Parallel bilde ich mich im Bereich **ROS** weiter und absolviere Zertifikate beim Institut Construct.
 
+Bei **FLEX Elektrowerkzeuge** war ich für die Entwicklung und Betreuung von Prüf- und Automatisierungssystemen verantwortlich. Ein wichtiges Projekt war die Entwicklung eines **Tools zur automatisierten Auswertung von Temperatur- und Zyklusdaten**, das direkt in der Serienfertigung eingesetzt wurde. Damit konnten Produktionsabweichungen früh erkannt und Optimierungen eingeleitet werden. Das Tool habe ich in Python entwickelt, mit Funktionen wie Grenzwertüberwachung, Fehlerfrüherkennung, Trendanalyse und grafischer Visualisierung.
+Darüber hinaus habe ich **FANUC-Roboter programmiert, kalibriert und in Betrieb genommen**. Dabei lag mein Fokus auf Bewegungsplanung, Achsjustierung und Fehlerbehebung direkt an der Linie. Ich habe Sensorik in Prüfprozesse integriert, automatisierte Testabläufe programmiert und große Messdatensätze mit Python, MATLAB und Excel analysiert. Durch Heatmaps, Trendkurven und SPC-Diagramme habe ich komplexe Zusammenhänge für das Team verständlich dargestellt.
 Bei **FLEX Elektrowerkzeuge** war ich für Prüf- und Automatisierungstechnik zuständig. Ich habe ein internes Tool zur automatischen Auswertung von Mess- und Zyklusdaten entwickelt, das direkt für die Prozessüberwachung und Qualitätssicherung eingesetzt wurde. Außerdem habe ich **FANUC-Roboter programmiert und kalibriert**, Sensorik integriert und Prüfabläufe automatisiert. Ein wichtiger Teil meiner Arbeit war es, **Versuchsstände von der Planung über den Aufbau bis zur Inbetriebnahme zu begleiten** und die Bediener zu schulen.
 
 Parallel habe ich mich intensiv mit **Embedded Systems, Python, MATLAB und ROS** beschäftigt, um Daten auszuwerten und Steuerungen aufzubauen. Dabei ging es mir immer darum, Theorie in **praxisgerechte Laboraufbauten** zu übersetzen.
+Neben meiner Berufserfahrung beschäftige ich mich intensiv mit **Embedded Systems** (ARM, ESP32). Ich entwickle Schnittstellen, integriere Sensoren und kümmere mich um die Kommunikation zwischen Steuerungen und Peripherie.
+
+Während meiner Zeit bei **HELLA** in China habe ich an der Planung von Scheinwerfer-Produktionslinien gearbeitet, Stromlaufpläne erstellt und bei SPS-Programmierung sowie Fehlersuche unterstützt. Dort habe ich auch erste praktische Erfahrungen mit **Siemens TIA Portal** gesammelt.
+Früher bei **HELLA in China** habe ich an der Planung von Produktionslinien für Scheinwerfer gearbeitet. Ich habe Stromlaufpläne erstellt, SPS-Programme getestet und Fehler in der Verdrahtung gesucht und behoben. Dabei habe ich erste praktische Erfahrung mit **Siemens TIA Portal** gesammelt und gelernt, Probleme strukturiert und systematisch anzugehen.
+
+
 
 Was mir besonders liegt, ist das **Konzipieren und Umsetzen von Versuchsständen**: also von der Idee über die technische Ausarbeitung, den Aufbau, die Parametrierung bis hin zur Inbetriebnahme und Dokumentation. Das sehe ich auch als meine zentrale Rolle hier an der Hochschule – die Erneuerung und Vereinheitlichung des Labors so umzusetzen, dass die Studierenden mit klaren, verständlichen und praxisnahen Versuchen arbeiten können.
 
 Ich arbeite sehr gern im Team, bin zuverlässig und lösungsorientiert – und sehe meine Stärke darin, die **Brücke zwischen theoretischer Regelungstechnik und praktischen Laboraufbauten** zu schlagen.
+Ich arbeite gerne im Team, bin lösungsorientiert und lerne schnell. Meine Stärke ist es, die Brücke zwischen Theorie und Praxis zu schlagen: also aus einem Konzept einen funktionierenden Versuchsstand zu entwickeln – von der Planung über den Aufbau bis hin zur Inbetriebnahme und Dokumentation.
 
 ---
 
