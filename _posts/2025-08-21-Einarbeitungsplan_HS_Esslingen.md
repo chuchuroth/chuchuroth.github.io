@@ -5,6 +5,10 @@ date:   2025-08-21
 categories: jekyll update
 ---
 
+## auswendig lernen!
+* ich hab xxx gemacht.
+* details...
+
 
 Das klingt nach einer sehr spannenden und praxisnahen Aufgabe – und eine gute Chance, dein Wissen in **Regelungstechnik, Automatisierung und Labordidaktik** einzubringen.
 
