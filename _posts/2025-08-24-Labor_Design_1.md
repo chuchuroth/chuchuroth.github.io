@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "Labor_Design_1"
+date:   2025-08-24
+categories: jekyll update
+---
 
 # Praktikum Rechnergestützte Verfahren der Mess- und  Regelungstechnik
 
