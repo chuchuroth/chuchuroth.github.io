@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Labor_Design_2"
+date:   2025-08-24
+categories: jekyll update
+---
 
 # chatgpt
 Sehr spannend! Ein **Regelungslabor mit Fokus auf einen Verladekran und einen Fahrsimulator** ist sehr praxisnah und erlaubt die Verknüpfung von *klassischer Regelungstechnik*, *digitaler Signalverarbeitung* und *automatisierungstechnischem Systemdenken*.
