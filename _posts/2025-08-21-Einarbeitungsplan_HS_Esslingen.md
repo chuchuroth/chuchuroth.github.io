@@ -10,6 +10,7 @@ categories: jekyll update
 + 所以当你在说话的时候，你要想想，你为什么要说这句话，你说这句话的目的是什么。 
 + 顺便把头三个月的工作给汇报了，你就说“我觉得我们可以这么做。。。”
 + 举个例子，比如你被问到，为什么要来这里工作，你就说“ich habe gewüncht in hochschule zu arbeiten, ich habe super gefreut...”
++ 最后一点，不要走极端，把七杀的能量给它压下去，不愉快的事情你就干脆忽略，把注意力集中在让你觉得“有点意思”的事上
 
 ## auswendig lernen!
 * ich hab xxx gemacht.
