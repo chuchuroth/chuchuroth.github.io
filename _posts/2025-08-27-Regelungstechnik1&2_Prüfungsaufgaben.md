@@ -57,7 +57,8 @@ Zeitbereichs- und Frequenzbereichsmodellen linearer Systeme? Ordnen Sie diese Ei
 diese Eigenschaften das Übergangsverhalten bzw. das stationäre Verhalten?
 
 ---
-* Für das Systemverhalten linearer Systeme spielen verschiedene mathematische Größen eine entscheidende Rolle. Im Folgenden werden ihre Bedeutung, Berechnung und ihr Einfluss auf das Systemverhalten erläutert und den Systemkategorien zugeordnet.
+
+Für das Systemverhalten linearer Systeme spielen verschiedene mathematische Größen eine entscheidende Rolle. Im Folgenden werden ihre Bedeutung, Berechnung und ihr Einfluss auf das Systemverhalten erläutert und den Systemkategorien zugeordnet.
 
 ***
 
@@ -646,7 +647,7 @@ Ein Regelkreis, der aus einer stabilen Regelstrecke und einem PID-Regler besteht
 
 ---
  
-    * Das Schwingen eines Regelkreises mit einem PID-Regler deutet auf **Instabilität** oder **zu geringe Dämpfung** hin. Um dieses Schwingen zu beseitigen, müssen die Reglerparameter so verändert werden, dass das System stabiler wird.
+Das Schwingen eines Regelkreises mit einem PID-Regler deutet auf **Instabilität** oder **zu geringe Dämpfung** hin. Um dieses Schwingen zu beseitigen, müssen die Reglerparameter so verändert werden, dass das System stabiler wird.
 
 ### Vorgehensweise zur Beseitigung des Schwingens
 
