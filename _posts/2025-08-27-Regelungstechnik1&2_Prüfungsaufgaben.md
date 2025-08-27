@@ -12,7 +12,7 @@ Gleichgewichtszustand, kanonische Zustandsvariablen, Knickpunktabstand, Kreisver
 stationäres Verhalten, Stabilitätsgrenze, Übergangsmatrix.
 
 ---
-Gerne, hier sind die Begriffe den jeweiligen Phasen der Regelungstechnik zugeordnet und ihre Bedeutung erläutert.
+hier sind die Begriffe den jeweiligen Phasen der Regelungstechnik zugeordnet und ihre Bedeutung erläutert.
 
 ### 1. Modellierungsverfahren
 
@@ -321,7 +321,7 @@ Das Verhalten vieler Regelstrecken lässt sich in guter Näherung durch PT2- bzw
 
 ---
      
-* ### 1. Nachweis der Stabilitätsaussagen
+### 1. Nachweis der Stabilitätsaussagen
 
 Hier wird die Stabilität von Regelkreisen mit PT2- bzw. PTtT1-Strecken unter Verwendung eines P-Reglers (Verstärkung $K_p$) nachgewiesen.
 
@@ -395,7 +395,7 @@ Die Verwendung eines I-Reglers (Übertragungsfunktion $G_R(s) = \frac{K_i}{s}$) 
 
 
 
-  ### 1. Steuerungen: Offene Wirkungskette vs. Geschlossener Wirkungskreis
+### 1. Steuerungen: Offene Wirkungskette vs. Geschlossener Wirkungskreis
 
 Steuerungen können grob in zwei Hauptkategorien eingeteilt werden: solche in einer **offenen Wirkungskette (Steuerung)** und solche in einem **geschlossenen Wirkungskreis (Regelung)**. Der entscheidende Unterschied liegt im Vorhandensein einer **Rückkopplung (Feedback)**.
 
@@ -460,7 +460,7 @@ Der Entwurf einer Vorsteuerung basiert auf einem **Modell der Regelstrecke**. Da
 
   
 
-    ### 1. Berechnung von Kenngrößen im Regelkreis
+### 1. Berechnung von Kenngrößen im Regelkreis
 
 Die Berechnung der Kenngrößen eines Regelkreises hängt von seiner Struktur ab. Hier werden die wichtigsten Kenngrößen basierend auf der offenen Kette $G_o(s) = G_R(s) \cdot G_S(s)$ berechnet, wobei $G_R(s)$ die Übertragungsfunktion des Reglers und $G_S(s)$ die der Regelstrecke ist.
 
@@ -502,8 +502,8 @@ Das **Innere-Modell-Prinzip** besagt, dass ein stabiler Regelkreis eine station�
     $G_R(s) = K_p + \frac{K_i}{s} + K_d s$
     Das Hinzufügen des I-Anteils sorgt dafür, dass $G_o(s)$ einen Pol bei $s=0$ hat, wodurch die bleibende Regelabweichung für eine sprungförmige Eingabe oder eine sprungförmige Störung zu null wird.
 
-  ---
-  Die Reglerstruktur wird anhand struktureller Eigenschaften der Regelstrecke festgelegt.
+---
+Die Reglerstruktur wird anhand struktureller Eigenschaften der Regelstrecke festgelegt.
 Stellen Sie die Regeln für die Wahl der Reglerstruktur zusammen, wenn folgende Forderungen erfüllt werden sollen:
 • Der Regelkreis soll stabil bzw. I-stabil sein.
 • Der Regelkreis soll die Eigenschaft der Sollwertfolge besitzen.
@@ -514,7 +514,7 @@ Klassifizieren Sie die Regelungsaufgaben in Abhängigkeit davon, welche dieser F
 
 ---
 
-  Um die Reglerstruktur festzulegen, müssen die geforderten Eigenschaften des Regelkreises berücksichtigt werden. Die Wahl des Reglers ist ein Kompromiss zwischen Stabilität, Nachführgenauigkeit, Rauschunterdrückung und Robustheit.
+Um die Reglerstruktur festzulegen, müssen die geforderten Eigenschaften des Regelkreises berücksichtigt werden. Die Wahl des Reglers ist ein Kompromiss zwischen Stabilität, Nachführgenauigkeit, Rauschunterdrückung und Robustheit.
 
 ***
 
@@ -578,15 +578,15 @@ Daraus ergeben sich folgende Beschränkungen:
 * **Erhaltung der Masse:** Eine hohe Verstärkung in einem Frequenzbereich führt zu einer geringen Verstärkung in einem anderen.
     * Um die **Stabilität zu gewährleisten**, darf die Empfindlichkeitsfunktion nicht zu stark ansteigen. Eine hohe Verstärkung bei einer Frequenz (z.B. durch einen I-Anteil) kann zu einer Resonanzüberhöhung bei einer anderen Frequenz führen, die die Robustheit gefährdet. Das bedeutet, dass der Regler **kompromittiert** werden muss, um sowohl Robustheit als auch Leistung zu gewährleisten.
  
-  ---
+---
 
-  1. Welche Entwurfsverfahren für einschleifige Regelkreise kennen Sie?
+1. Welche Entwurfsverfahren für einschleifige Regelkreise kennen Sie?
 2. Vergleichen Sie die Annahmen, von denen die einzelnen Verfahren ausgehen, und geben Sie an, für welche Anwendungsfälle sich diese Verfahren deshalb besonders gut eignen.
 3. Schreiben Sie das Vorgehen beim Entwurf für die einzelnen Verfahren in Form eines Programmablaufplanes auf. Wo treten Iterationsschleifen auf? Wann werden diese Schleifen durchlaufen und welche Veränderungen gegenüber vorhergehenden Entwurfsschritten finden in ihnen statt?
    
 ---
  
-    * ### 1. Entwurfsverfahren für einschleifige Regelkreise
+### 1. Entwurfsverfahren für einschleifige Regelkreise
 
 Die wichtigsten Entwurfsverfahren für einschleifige Regelkreise lassen sich in zwei Hauptkategorien unterteilen: **analytische Verfahren** und **grafische Verfahren**.
 
@@ -640,11 +640,11 @@ Die wichtigsten Entwurfsverfahren für einschleifige Regelkreise lassen sich in 
     * **Wann?** Wenn der Phasen- oder Amplitudenrand zu klein ist oder wenn die Bandbreite nicht ausreicht.
     * **Veränderungen:** Die Reglerparameter werden angepasst. Zum Beispiel wird der I-Anteil verschoben, um die Phase bei niedrigen Frequenzen anzuheben, oder der D-Anteil hinzugefügt, um die Phase bei höheren Frequenzen zu erhöhen und die Stabilität zu verbessern. Die Schritte 1-3 werden mit den neuen Parametern wiederholt.
  
-  ---
+---
 
 Ein Regelkreis, der aus einer stabilen Regelstrecke und einem PID-Regler besteht, schwingt. Wie müssen Sie die Reglerparameter kP, TI und TD verändern, um dieses Schwingen zu beseitigen? Erläutern Sie Ihr Vorgehen anhand der Wurzelortskurve, am Bodediagramm der offenen Kette und an der Ortskurve der offenen Kette. Wie verändern sich diese Diagramme, wenn Sie den D-Anteil abschalten (TD = 0)?
 
-  ---
+---
  
     * Das Schwingen eines Regelkreises mit einem PID-Regler deutet auf **Instabilität** oder **zu geringe Dämpfung** hin. Um dieses Schwingen zu beseitigen, müssen die Reglerparameter so verändert werden, dass das System stabiler wird.
 
@@ -728,7 +728,7 @@ Strukturelle Systemeigenschaften sind unabhängig von den genauen Werten der Sys
 
 ---
 
-* ### 1. Vergleich von kontinuierlichen und zeitdiskreten Systemmodellen
+### 1. Vergleich von kontinuierlichen und zeitdiskreten Systemmodellen
 
 | Beschreibungsform | Kontinuierliche Systeme | Zeitdiskrete Systeme |
 | :--- | :--- | :--- |
@@ -925,7 +925,7 @@ Die Stabilität eines Regelkreises ist robust gegenüber Modellunsicherheiten, w
 
 ---
  
- ### 1. Warum Zustandsrückführungen so wichtig sind
+### 1. Warum Zustandsrückführungen so wichtig sind
 
 Zustandsrückführungen haben eine große Bedeutung in der Regelungstechnik, obwohl sie technisch selten direkt umsetzbar sind, weil sie ein **ideales theoretisches Konzept** darstellen. Sie ermöglichen es, die **Pole des geschlossenen Regelkreises an jede beliebige Position** in der stabilen linken Halbebene zu verschieben (sogenannte "Polplatzierung"), vorausgesetzt, das System ist **vollständig steuerbar**. Dies ist der Hauptgrund für ihre theoretische Relevanz: Sie zeigen, was unter idealen Bedingungen möglich ist, und dienen als Grundlage für den Entwurf von praktischen Reglern.
 
@@ -979,7 +979,7 @@ Ein Regelkreis mit reiner Zustandsrückführung hat im Allgemeinen **nicht** die
 
 ---
 
-* ### 1. Entwurfsprinzipien für Ein- und Mehrgrößenregler
+### 1. Entwurfsprinzipien für Ein- und Mehrgrößenregler
 
 | Entwurfsprinzip | Anwendbarkeit | Geeignet für | Entwurfsforderungen | Reglergesetze |
 | :--- | :--- | :--- | :--- | :--- |
@@ -1045,16 +1045,16 @@ Ein Mehrgrößenregler kann auf den Entwurf mehrerer Eingrößenregler zurückge
     2.  **Einzelregler-Entwurf:** Entwerfen Sie für jedes gekoppelte Paar einen separaten SISO-Regler (z.B. einen PID-Regler) unter der Annahme, dass die anderen Kanäle geschlossen sind.
     3.  **Stabilitätsprüfung:** Überprüfen Sie die Stabilität des gesamten dezentral geregelten Systems. Oft wird dafür das **Relativ-Gain-Array (RGA)** als Hilfsmittel verwendet.
  
-  ---
+ ---
 
-  1. Welche prinzipiellen Unterschiede bestehen zwischen einer kontinuierlichen und einer zeitdiskreten Regelung?
+1. Welche prinzipiellen Unterschiede bestehen zwischen einer kontinuierlichen und einer zeitdiskreten Regelung?
 2. Bringt die Abtastung Vereinfachungen oder zusätzliche Schwierigkeiten für den Entwurf und die Realisierung einer Regelung?
 3. Welche Gesichtspunkte sind für die Wahl der Abtastzeit maßgebend?
 4. Wann kann eine kontinuierliche Regelung ohne Probleme als zeitdiskrete Regelung eingesetzt werden?
 
 ---
 
-  ### 1. Prinzipielle Unterschiede zwischen kontinuierlicher und zeitdiskreter Regelung
+### 1. Prinzipielle Unterschiede zwischen kontinuierlicher und zeitdiskreter Regelung
 
 Der grundlegende Unterschied zwischen kontinuierlicher und zeitdiskreter Regelung liegt in der Art und Weise, wie die Signale verarbeitet werden.
 
