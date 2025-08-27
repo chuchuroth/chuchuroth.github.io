@@ -15,14 +15,15 @@ categories: jekyll update
 ## auswendig lernen!
 * 现代控制理论经典的概念本就值得背诵
 * 经典的数学公式本就值得牢记
-```
+  
+---
 Das wissenschaftliche Fundament der klassischen und modernen Regelungstheorie besteht darin, durch geeignete Rückkopplungsstrategien Systeme stabil und leistungsfähig zu machen. Die klassische Regelungstheorie basiert auf Übertragungsfunktionen und analysiert überwiegend Ein-zu-Ein-Ausgangssysteme (SISO) im Zeit- und Frequenzbereich. Ihre zentralen Werkzeuge sind Bode-Diagramme, Nyquist-Kurven und Wurzelortskurven, mit denen Stabilität und Dynamik auf anschauliche Weise untersucht werden können. Sie repräsentiert damit einen frequenzbasierten, input-output-orientierten Ansatz.
 
 Die moderne Regelungstheorie hingegen verwendet die Zustandsraumdarstellung, um Mehrgrößensysteme (MIMO) auf einer höheren Abstraktionsebene zu modellieren. Sie legt den Schwerpunkt auf Konzepte wie Steuerbarkeit und Beobachtbarkeit und nutzt fortgeschrittene Methoden wie Optimale und Robuste Regelung, um komplexen Leistungsanforderungen gerecht zu werden.
 
 Zusammenfassend lässt sich sagen: Während die klassische Regelungstheorie eher eine präzise Feinabstimmung einzelner Systeme erlaubt, zielt die moderne Regelung auf eine umfassende, systemübergreifende und modellbasierte Steuerung komplexer dynamischer Prozesse.
 
-
+---
 
 
 Diese drei Darstellungsformen sind wichtige grafische Werkzeuge der klassischen Regelungstheorie zur Analyse und zum Entwurf von Regelsystemen. Sie gehören alle in den Bereich der Frequenzganganalyse. Sie werden benutzt um das Verhalten eines Systems bei unterschiedlichen Eingangssignalen anschaulich zu verstehen und seine Stabilität zu beurteilen.
@@ -48,7 +49,9 @@ Die Wurzelortskurve zeigt die Bewegung der geschlossenen Pole, wenn ein Systempa
 Funktion:
 Stabilitätsanalyse: Lässt sich erkennen, ob Pole in die rechte s-Halbebene wandern.
 Optimierung: Durch die Wahl eines geeigneten Verstärkungsfaktors K können die geschlossenen Pole gezielt positioniert werden, um gewünschte Dämpfung und Dynamik des Systems einzustellen.
-```
+
+---
+---
 
 
 Das klingt nach einer sehr spannenden und praxisnahen Aufgabe – und eine gute Chance, dein Wissen in **Regelungstechnik, Automatisierung und Labordidaktik** einzubringen.
