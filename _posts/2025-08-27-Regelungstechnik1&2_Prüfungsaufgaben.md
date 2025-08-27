@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Regelungstechnik1&2_Prüfungsaufgaben"
+date:   2025-08-27
+categories: jekyll update
+---
+
 Gerne, hier sind die Begriffe den jeweiligen Phasen der Regelungstechnik zugeordnet und ihre Bedeutung erläutert.
 
 ### 1. Modellierungsverfahren
