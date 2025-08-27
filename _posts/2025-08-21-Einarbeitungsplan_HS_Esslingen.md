@@ -13,9 +13,8 @@ categories: jekyll update
 
 
 ## auswendig lernen!
-* ich hab xxx gemacht.
-* details...
-
+* 现代控制理论经典的概念本就值得背诵
+* 经典的数学公式本就值得牢记
 
 Das klingt nach einer sehr spannenden und praxisnahen Aufgabe – und eine gute Chance, dein Wissen in **Regelungstechnik, Automatisierung und Labordidaktik** einzubringen.
 
