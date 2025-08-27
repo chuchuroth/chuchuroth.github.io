@@ -860,7 +860,7 @@ Gegeben ist eine instabile Regelstrecke. Beantworten Sie die folgenden Fragen zu
 
 ---
  
-    * Eine instabile Regelstrecke kann durch einen geeigneten linearen Regler stabilisiert werden, wenn bestimmte Bedingungen erfüllt sind.
+Eine instabile Regelstrecke kann durch einen geeigneten linearen Regler stabilisiert werden, wenn bestimmte Bedingungen erfüllt sind.
 
 ***
 
