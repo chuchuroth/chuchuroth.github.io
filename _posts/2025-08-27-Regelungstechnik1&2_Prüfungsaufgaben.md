@@ -5,6 +5,13 @@ date:   2025-08-27
 categories: jekyll update
 ---
 
+
+Ordnen Sie folgende Begriffe den Modellierungs-, Analyse- und Entwurfsverfahren der Regelungstechnik zu und erläutern Sie ihre Bedeutung:
+Anstiegszeit, Bandbreite, Eigenvorgang, Empfindlichkeitsfunktion, Folgeregelung,
+Gleichgewichtszustand, kanonische Zustandsvariablen, Knickpunktabstand, Kreisverstärkung, Linearität, Nulldynamik, Resonanzfrequenz, statisches Verhalten,
+stationäres Verhalten, Stabilitätsgrenze, Übergangsmatrix.
+
+---
 Gerne, hier sind die Begriffe den jeweiligen Phasen der Regelungstechnik zugeordnet und ihre Bedeutung erläutert.
 
 ### 1. Modellierungsverfahren
@@ -42,8 +49,14 @@ Diese Phase befasst sich mit der Entwicklung von Regelstrategien und der Auslegu
 * **Kreisverstärkung:** Das Produkt aus den Verstärkungen der einzelnen Komponenten im offenen Regelkreis. Sie ist entscheidend für die **Stabilität** des geschlossenen Regelkreises und wird oft im Bode-Diagramm oder Nyquist-Diagramm analysiert.
 * **Knickpunktabstand:** Im Bode-Diagramm sind dies die Frequenzen, an denen sich die Steigung der asymptotischen Approximationen ändert. Sie sind direkt mit den Pol- und Nullstellen des Systems verknüpft und wichtig für die grafische Analyse.
 
-* ---
+---
 
+Welche Bedeutung haben Nullstellen, Pole, Eigenwerte, relativer Grad, Zeitkonstanten
+und Grenzfrequenz für das Systemverhalten? Wie berechnet man diese Größen aus den
+Zeitbereichs- und Frequenzbereichsmodellen linearer Systeme? Ordnen Sie diese Eigenschaften dem E/A-Verhalten bzw. der Eigenbewegung des Systems zu. Wie beeinflussen
+diese Eigenschaften das Übergangsverhalten bzw. das stationäre Verhalten?
+
+---
 * Für das Systemverhalten linearer Systeme spielen verschiedene mathematische Größen eine entscheidende Rolle. Im Folgenden werden ihre Bedeutung, Berechnung und ihr Einfluss auf das Systemverhalten erläutert und den Systemkategorien zugeordnet.
 
 ***
@@ -85,6 +98,12 @@ Diese Phase befasst sich mit der Entwicklung von Regelstrategien und der Auslegu
     * Das stationäre Verhalten wird primär durch die Anzahl der Pole im Ursprung ($s=0$) der Übertragungsfunktion bestimmt. Ein Pol bei $s=0$ bedeutet einen Systemtyp 1, der einen stationären Fehler bei einer Rampenfunktion korrigieren kann. Pole bei $s=0$ beeinflussen die Art des stationären Fehlers.
     * **Grenzfrequenz** ist ein Maß für die Frequenzbereichsleistung. Eine höhere Grenzfrequenz bedeutet, dass das System auf schnellere Eingangssignale reagieren kann, was sich auch auf das stationäre Verhalten bei periodischen Signalen auswirkt.
  
+
+---
+
+In der Regelungstechnik werden sowohl Modelle für das Zeitverhalten dynamischer Systeme als auch Frequenzbereichsbeschreibungen eingesetzt. Einige von ihnen erfassen nur das E/A-Verhalten.
+1. Stellen Sie diese Modelle einschließlich der Voraussetzungen zusammen, unter denen diese Modelle verwendet werden können.
+2. Kennzeichnen Sie, durch welche Transformationen bzw. unter welchen zusätzlichen Annahmen Sie von einer Modellform zu einer anderen kommen können.
 
 ---
 
@@ -142,6 +161,14 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 * **Lineare und zeitinvariante (LTI) Annahme:** Fast alle Frequenzbereichsmodelle (Übertragungsfunktion, Frequenzgang) sind auf LTI-Systeme beschränkt. Nichtlineare und zeitinvariante Systeme können oft lokal um einen Arbeitspunkt linearisiert werden, um diese Methoden anwenden zu können.
 * **Stationäre Annahme:** Der Frequenzgang $G(j\omega)$ beschreibt das Verhalten des Systems im stationären Zustand, nachdem alle transienten Effekte abgeklungen sind.
+
+---
+
+1. Wie können Übertragungsglieder klassifiziert werden? Geben Sie für alle Klassen technische Beispiele an.
+2. Wie lauten Zustandsraummodell und Übertragungsfunktion dieser Übertragungsglieder in ihrer einfachsten Form?
+3. Welche Eigenschaften besitzen diese Übertragungsglieder? Zeichnen Sie qualitativ die Übergangsfunktion, die Gewichtsfunktion, das PN-Bild, die Ortskurve und das Bodediagramm der wichtigsten Übertragungsglieder auf.
+4. Kennzeichnen Sie in den Diagrammen, wo Sie wichtige Kenngrößen wie statische Verstärkung, Summenzeitkonstante, Dämpfung usw. ablesen können bzw. wie Sie Aussagen über die Sprungfähigkeit, Minimalphasigkeit und Stabilität erhalten.
+5. Welches Übergangsverhalten und welches stationäre Verhalten haben diese Übertragungsglieder?
 
 ---
 
@@ -240,6 +267,12 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 ---
 
+1. Welche Stabilitätsdefinitionen kennen Sie? Welcher Zusammenhang besteht zwischen diesen Eigenschaften?
+2. Mit welchen Modellen können Sie diese Eigenschaften untersuchen?
+3. Mit welchen Kriterien können Sie diese Stabilitätseigenschaften für die Regelstrecke bzw. für den Regelkreis überprüfen?
+
+---
+
 ### 1. Stabilitätsdefinitionen und ihr Zusammenhang
 
 In der Regelungstechnik gibt es verschiedene Stabilitätsdefinitionen, die das Verhalten eines Systems nach einer Störung beschreiben. Die wichtigsten sind:
@@ -279,9 +312,16 @@ Die Stabilität kann für die Regelstrecke (offener Kreis) und den Regelkreis (g
         * **Nyquist-Kriterium:** Dieses Kriterium überprüft die Stabilität anhand des Frequenzgangs des **offenen Regelkreises**. Das System ist stabil, wenn die Nyquist-Kurve den kritischen Punkt $(-1, j0)$ nicht umschließt. Es ist eine sehr leistungsfähige Methode, da es auch Aussagen über die relative Stabilität (Phasen- und Amplitudenrand) ermöglicht.
         * **Bode-Kriterium:** Dieses Kriterium basiert auf dem **Bode-Diagramm** des offenen Regelkreises. Ein System ist stabil, wenn der Amplitudengang bei der Phasenverschiebung von $-180^\circ$ kleiner als 1 ist und die Phase bei dem Amplitudengang 1 über $-180^\circ$ liegt.
      
-        * ---
+---
+
+Das Verhalten vieler Regelstrecken lässt sich in guter Näherung durch PT2- bzw. PTtT1-Glieder beschreiben. Diese Näherungen haben nicht nur den Vorteil, dass die Modelle eine kleine dynamische Ordnung und wenige festzulegende Parameter besitzen. Die Stabilitätseigenschaften der mit diesen Regelstreckenmodellen entstehenden Regelkreise sind überschaubar.
+1. Wird ein P-Regler verwendet, so ist der Regelkreis mit PT2-Strecke für beliebige (positive) Reglerverstärkungen stabil. Für die PTtT1-Strecke gibt es eine obere Schranke kkrit, so dass die Stabilität für k<kkrit gesichert ist. Wie können Sie diese Aussagen anhand des charakteristischen Polynoms des geschlossenen Kreises, anhand des Bodediagramms und der Ortskurve der offenen Kette bzw. mit Hilfe der Wurzelortskurve beweisen?
+2. Die angegebenen Aussagen gelten nur, solange man die Regelstrecke tatsächlich als PT2- bzw. PTtT1-Glied auffassen kann. Zeigen Sie, dass die entstehenden Regelkreise robust gegenüber Approximationsfehlern sind, d. h., dass man trotz kleiner Approximationsfehler von der Stabilität des vereinfachten Modells des Regelkreises auf die Stabilität des realen Regelkreises schließen kann. Woran erkennen Sie Grenzen für die Robustheit? Begründen Sie, warum es eine obere Schranke k¯krit für die Reglerverstärkung gibt, so dass der reale Regelkreis für k > k¯krit instabil sein kann.
+3. Wie verändern sich alle vorherigen Betrachtungen, wenn an Stelle eines P- ein I-Regler verwendet wird?
+
+---
      
-        * ### 1. Nachweis der Stabilitätsaussagen
+* ### 1. Nachweis der Stabilitätsaussagen
 
 Hier wird die Stabilität von Regelkreisen mit PT2- bzw. PTtT1-Strecken unter Verwendung eines P-Reglers (Verstärkung $K_p$) nachgewiesen.
 
@@ -346,7 +386,14 @@ Die Verwendung eines I-Reglers (Übertragungsfunktion $G_R(s) = \frac{K_i}{s}$) 
 * **Stationäres Verhalten:**
     Ein entscheidender Vorteil des I-Reglers ist, dass er den **stationären Fehler eliminiert**. Der Regler integriert den Fehler über die Zeit, was dazu führt, dass der Ausgang dem Sollwert folgt, auch wenn eine konstante Störung vorliegt. Dies ist der Hauptgrund für die Verwendung eines I-Reglers in vielen Anwendungen. Im Gegensatz dazu hat ein P-Regler einen konstanten stationären Fehler bei einer sprungförmigen Eingabe.
 
-  ---
+---
+
+1. Vergleichen Sie die Eigenschaften von Steuerungen in der offenen Wirkungskette und Steuerungen im geschlossenen Wirkungskreis. Wo werden diese Arten der Steuerung in technischen Anwendungen eingesetzt?
+2. Wie entwirft man Vorsteuerungen?
+
+---
+
+
 
   ### 1. Steuerungen: Offene Wirkungskette vs. Geschlossener Wirkungskreis
 
@@ -403,7 +450,15 @@ Der Entwurf einer Vorsteuerung basiert auf einem **Modell der Regelstrecke**. Da
 3.  **Praktische Realisierung:** Aufgrund dieser Probleme wird oft eine **näherungsweise** Vorsteuerung entworfen. Dabei werden nur die **relevanten dynamischen Terme** der Regelstrecke invertiert. Bei einem PT1-Glied $G(s) = \frac{K}{1+sT}$ wäre die ideale Vorsteuerung $G_{FF}(s) = \frac{1+sT}{K}$. Da dieser Regler eine Ableitung enthält (D-Anteil), kann er Rauschen verstärken und wird daher oft durch eine reale, weniger ideale Umsetzung ersetzt, z.B. durch Hinzufügen eines Filters.
     Die Vorsteuerung wird dann **parallel zum Hauptregelkreis** implementiert. Sie dient dazu, die Dynamik des Systems bereits vorab zu korrigieren, sodass der eigentliche Regler nur noch kleine Restabweichungen ausgleichen muss.
 
-    ---
+---
+
+1. Wie kann man die folgenden Kenngrößen von Regelkreisen berechnen: Führungsübertragungsfunktion, Störübergangsfunktion, bleibende Regelabweichung, Kreisverstärkung, Stabilitätsrand, Pole, Empfindlichkeit?
+2. Was besagt das Innere-Modell-Prinzip und wie kann man es für impulsförmige bzw. sprungförmige Störsignale erfüllen?
+
+---
+
+
+  
 
     ### 1. Berechnung von Kenngrößen im Regelkreis
 
@@ -448,6 +503,16 @@ Das **Innere-Modell-Prinzip** besagt, dass ein stabiler Regelkreis eine station�
     Das Hinzufügen des I-Anteils sorgt dafür, dass $G_o(s)$ einen Pol bei $s=0$ hat, wodurch die bleibende Regelabweichung für eine sprungförmige Eingabe oder eine sprungförmige Störung zu null wird.
 
   ---
+  Die Reglerstruktur wird anhand struktureller Eigenschaften der Regelstrecke festgelegt.
+Stellen Sie die Regeln für die Wahl der Reglerstruktur zusammen, wenn folgende Forderungen erfüllt werden sollen:
+• Der Regelkreis soll stabil bzw. I-stabil sein.
+• Der Regelkreis soll die Eigenschaft der Sollwertfolge besitzen.
+• Das Messrauschen soll ausreichend unterdrückt werden.
+• Der Regelkreis soll robust gegenüber Unsicherheiten des Regelstreckenmodells sein.
+• Das Führungsverhalten und das Störverhalten sollen gegebene Dynamikforderungen erfüllen.
+Klassifizieren Sie die Regelungsaufgaben in Abhängigkeit davon, welche dieser Forderungen von besonderer Bedeutung sind, und stellen Sie die für die einzelnen Klassen von Regelungsaufgaben zutreffenden Forderungen an die Reglerstruktur zusammen. Welche Beschränkungen ergibt sich für die Wahl der Reglerparameter aufgrund des Gleichgewichtstheorems?
+
+---
 
   Um die Reglerstruktur festzulegen, müssen die geforderten Eigenschaften des Regelkreises berücksichtigt werden. Die Wahl des Reglers ist ein Kompromiss zwischen Stabilität, Nachführgenauigkeit, Rauschunterdrückung und Robustheit.
 
@@ -513,7 +578,13 @@ Daraus ergeben sich folgende Beschränkungen:
 * **Erhaltung der Masse:** Eine hohe Verstärkung in einem Frequenzbereich führt zu einer geringen Verstärkung in einem anderen.
     * Um die **Stabilität zu gewährleisten**, darf die Empfindlichkeitsfunktion nicht zu stark ansteigen. Eine hohe Verstärkung bei einer Frequenz (z.B. durch einen I-Anteil) kann zu einer Resonanzüberhöhung bei einer anderen Frequenz führen, die die Robustheit gefährdet. Das bedeutet, dass der Regler **kompromittiert** werden muss, um sowohl Robustheit als auch Leistung zu gewährleisten.
  
-    * ---
+  ---
+
+  1. Welche Entwurfsverfahren für einschleifige Regelkreise kennen Sie?
+2. Vergleichen Sie die Annahmen, von denen die einzelnen Verfahren ausgehen, und geben Sie an, für welche Anwendungsfälle sich diese Verfahren deshalb besonders gut eignen.
+3. Schreiben Sie das Vorgehen beim Entwurf für die einzelnen Verfahren in Form eines Programmablaufplanes auf. Wo treten Iterationsschleifen auf? Wann werden diese Schleifen durchlaufen und welche Veränderungen gegenüber vorhergehenden Entwurfsschritten finden in ihnen statt?
+   
+---
  
     * ### 1. Entwurfsverfahren für einschleifige Regelkreise
 
@@ -569,7 +640,11 @@ Die wichtigsten Entwurfsverfahren für einschleifige Regelkreise lassen sich in 
     * **Wann?** Wenn der Phasen- oder Amplitudenrand zu klein ist oder wenn die Bandbreite nicht ausreicht.
     * **Veränderungen:** Die Reglerparameter werden angepasst. Zum Beispiel wird der I-Anteil verschoben, um die Phase bei niedrigen Frequenzen anzuheben, oder der D-Anteil hinzugefügt, um die Phase bei höheren Frequenzen zu erhöhen und die Stabilität zu verbessern. Die Schritte 1-3 werden mit den neuen Parametern wiederholt.
  
-    * ---
+  ---
+
+Ein Regelkreis, der aus einer stabilen Regelstrecke und einem PID-Regler besteht, schwingt. Wie müssen Sie die Reglerparameter kP, TI und TD verändern, um dieses Schwingen zu beseitigen? Erläutern Sie Ihr Vorgehen anhand der Wurzelortskurve, am Bodediagramm der offenen Kette und an der Ortskurve der offenen Kette. Wie verändern sich diese Diagramme, wenn Sie den D-Anteil abschalten (TD = 0)?
+
+  ---
  
     * Das Schwingen eines Regelkreises mit einem PID-Regler deutet auf **Instabilität** oder **zu geringe Dämpfung** hin. Um dieses Schwingen zu beseitigen, müssen die Reglerparameter so verändert werden, dass das System stabiler wird.
 
@@ -602,6 +677,11 @@ Die wichtigsten Entwurfsverfahren für einschleifige Regelkreise lassen sich in 
 
 ---
 
+1. Welche Modelle dynamischer Systeme haben Sie kennengelernt?
+2. Welche Eigenschaften treten sowohl bei Eingrößen- als auch bei Mehrgrößensystemen auf? Welche zusätzlichen Eigenschaften haben Mehrgrößensysteme?
+3. Welche Systemeigenschaften sind struktureller Art, so dass sie weitgehend unabhängig von den Systemparametern sind und mit graphentheoretischen Mitteln bestimmt werden können?
+
+---
 ### 1. Modelle dynamischer Systeme
 
 In der Regelungstechnik werden dynamische Systeme hauptsächlich durch folgende Modelle beschrieben:
@@ -639,7 +719,14 @@ Strukturelle Systemeigenschaften sind unabhängig von den genauen Werten der Sys
 * **Strukturelle Beobachtbarkeit**: Ein System ist strukturell beobachtbar, wenn es möglich ist, alle internen Zustände durch die Messung der Ausgaben zu rekonstruieren. Die strukturelle Beobachtbarkeit hängt von der Anordnung von Nullen und Einsen in den Matrizen $A$ und $C$ ab.
 * **Struktureller Rang**: Der Rang der Matrizen, die die Steuerbarkeit oder Beobachtbarkeit beschreiben. Graphentheoretische Verfahren, wie die Analyse von Graphen auf zyklische Strukturen oder Pfade, können verwendet werden, um festzustellen, ob ein System strukturell steuerbar oder beobachtbar ist.
 
-* ---
+---
+
+1. Stellen Sie die Beschreibungsformen für kontinuierliche und zeitdiskrete Systeme in Form einer Tabelle gegenüber und kennzeichnen Sie durch Pfeile, welche Modelle Sie direkt ineinander umrechnen können, wenn das zeitdiskrete System aus dem kontinuierlichen durch Abtastung hervorgeht.
+2. Wie können die Pole und Nullstellen beider Systemklassen berechnet werden?
+3. Wie können Sie die Steuerbarkeit, Beobachtbarkeit und Stabilität überprüfen? Welche Beziehungen gibt es zwischen diesen Eigenschaften des kontinuierlichen Systems und des zeitdiskreten Systems, das aus dem kontinuierlichen System durch Abtastung entsteht?
+4. Welche Reglerentwurfsverfahren sind für beide Betrachtungsweisen anwendbar, welche nur für kontinuierliche bzw. nur für zeitdiskrete Systeme?
+
+---
 
 * ### 1. Vergleich von kontinuierlichen und zeitdiskreten Systemmodellen
 
@@ -706,6 +793,14 @@ Pfeile zeigen die direkten Umrechnungen bei der Abtastung:
     * **Deadbeat-Algorithmus:** Ein Regler, der die Systemantwort in einer minimalen Anzahl von Schritten auf den Sollwert bringt, was nur in der diskreten Domäne möglich ist.
  
 ---
+1. Erläutern Sie die Definitionen der Zustandsstabilität, der E/A-Stabilität und der inneren
+Stabilität von Regelkreisen.
+2. Wie hängen diese Stabilitätseigenschaften zusammen? (Hinweis: Stellen Sie Bedingungen zusammen, unter denen mit einer der angegebenen Stabilitätseigenschaften gleichzeitig eine andere dieser Eigenschaften nachgewiesen
+ist.)
+3. Wie kann die Stabilität von Regelkreisen geprüft werden? (Hinweis: Stellen Sie die für die einzelnen Modellformen anwendbaren Bedingungen zusammen. Kennzeichnen Sie, welche der Bedingungen notwendig, welche hinreichend bzw. welche notwendig und hinreichend für die Stabilität sind.)
+4. Was versteht man unter Integrität? Wie kann man diese Eigenschaft nachweisen?
+
+---
 
 ### 1. Definitionen der Stabilitätsarten
 
@@ -754,7 +849,16 @@ Die Stabilität kann je nach Modellform mit verschiedenen Kriterien überprüft 
     * **Verfahren:** Der Nachweis erfolgt durch die Analyse der Stabilität des Regelkreises unter der Annahme, dass ein oder mehrere seiner Bestandteile (z.B. ein Feedback-Pfad) ausgefallen sind.
     * **Mathematisch:** Man muss die Übertragungsfunktion des Regelkreises für alle möglichen Ausfallszenarien aufstellen und dann die Stabilität dieser neuen, vereinfachten Systeme überprüfen. Beispielsweise kann man die Übertragungsfunktion des Reglers $G_R(s)$ durch $0$ ersetzen, um den Ausfall zu simulieren, und dann die Stabilität des restlichen Regelkreises prüfen. Wenn das System in allen relevanten Ausfallszenarien stabil bleibt, hat es eine gute Integrität.
  
-    * ---
+---
+Gegeben ist eine instabile Regelstrecke. Beantworten Sie die folgenden Fragen zur Existenz und zum Entwurf einer linearen Regelung, mit der der geschlossene Kreis stabil ist.
+
+1. Welche Eigenschaften muss die Regelstrecke besitzen, damit ein Regler gefunden werden kann, für den der geschlossene Regelkreis stabil ist? Sind diese Forderungen für kontinuierliche Regler bzw. Abtastregler unterschiedlich?
+2. Unter welchen Bedingungen kann das Stabilisierungsproblem durch eine proportionale Rückführung gelöst werden?
+3. Unter welchen Bedingungen sind dynamische Regler notwendig? Welche Struktur haben diese dynamischen Regler und wie findet man geeignete dynamische Elemente dieser Regler?
+4. Wie geht man vor, um stabilisierende Regler zu entwerfen?
+5. Unter welcher Bedingung ist die Stabilität des entstehenden Regelkreises robust gegenüber Modellunbestimmtheiten?
+
+---
  
     * Eine instabile Regelstrecke kann durch einen geeigneten linearen Regler stabilisiert werden, wenn bestimmte Bedingungen erfüllt sind.
 
@@ -812,9 +916,16 @@ Die Stabilität eines Regelkreises ist robust gegenüber Modellunsicherheiten, w
     * **Frequenzbereich**: Ein großer **Phasenrand** (z.B. > $45^\circ$) und ein hoher **Amplitudenrand** (z.B. > 6 dB) im **Bode-Diagramm** sind Indikatoren für robuste Stabilität.
     * **In der Wurzelortskurve**: Die Wurzeln des geschlossenen Kreises sollten eine ausreichende Distanz von der imaginären Achse haben, um auch bei kleinen Änderungen der Pole nicht in die rechte Halbebene zu wandern. Dies wird durch die sogenannte **relative Stabilität** bestimmt.
  
-    * ---
+---
+1. Warum haben Zustandsrückführungen eine so große Bedeutung in der Regelungstechnik, obwohl sie i. Allg. technisch nicht realisierbar sind?
+2. Wie können Zustandsrückführungen entworfen werden?
+3. Wie können Zustandsrückführungen realisiert werden?
+4. Welche Probleme entstehen, wenn man von einer Zustandsrückführung auf eine Ausgangsrückführung übergeht?
+5. Unter welchen Bedingungen besitzt der Regelkreis mit Zustandsrückführung die Eigenschaft der Sollwertfolge?
+
+---
  
-    * ### 1. Warum Zustandsrückführungen so wichtig sind
+ ### 1. Warum Zustandsrückführungen so wichtig sind
 
 Zustandsrückführungen haben eine große Bedeutung in der Regelungstechnik, obwohl sie technisch selten direkt umsetzbar sind, weil sie ein **ideales theoretisches Konzept** darstellen. Sie ermöglichen es, die **Pole des geschlossenen Regelkreises an jede beliebige Position** in der stabilen linken Halbebene zu verschieben (sogenannte "Polplatzierung"), vorausgesetzt, das System ist **vollständig steuerbar**. Dies ist der Hauptgrund für ihre theoretische Relevanz: Sie zeigen, was unter idealen Bedingungen möglich ist, und dienen als Grundlage für den Entwurf von praktischen Reglern.
 
@@ -859,7 +970,14 @@ Ein Regelkreis mit reiner Zustandsrückführung hat im Allgemeinen **nicht** die
 * **Bedingung für Sollwertfolge:** Die Sollwertfolge kann nur erreicht werden, wenn die Übertragungsfunktion des geschlossenen Regelkreises bei **$s \to 0$ den Wert 1** annimmt. In einer reinen Zustandsrückführung kann dies nur erreicht werden, indem die Zustandsrückführung durch eine **Integratorrückkopplung** oder eine **Vorsteuerung** ergänzt wird.
 * **Realistisches Szenario:** In der Praxis wird eine Zustandsrückführung oft durch eine **Regler-Struktur mit einem Integralanteil** erweitert, die den stationären Fehler eliminiert. Der I-Anteil sorgt dafür, dass die offene Kette einen Pol bei $s=0$ hat, was nach dem **Inneren-Modell-Prinzip** für die Sollwertfolge bei sprungförmigen Eingaben notwendig ist.
 
-* ---
+---
+1. Stellen Sie die Entwurfsprinzipien für Ein- und Mehrgrößenregler in Form einer Übersicht zusammen. Kennzeichnen Sie, unter welchen Bedingungen die einzelnen Prinzipien anwendbar sind und für welche Entwurfsaufgaben sie besonders gut geeignet sind. Wie müssen die Entwurfsforderungen formuliert werden? Welche Art von Reglergesetzen entsteht?
+2. Bewerten Sie anhand Ihrer Tabelle den Aufwand für den Entwurf der Regler und für deren Realisierung. Welche Verfahren sind praktikabel, wenn die Entwurfsforderung relativ schwach sind, welche, wenn es auf die Einhaltung exakter und bezüglich der Regelkreisdynamik sehr strenger Forderungen ankommt?
+3. Welche Vor- und welche Nachteile haben die Entwurfsverfahren untereinander, wenn man die Art und Weise betrachtet, in der die Güteforderungen formuliert werden müssen, um mit den einzelnen Entwurfsverfahren berücksichtigt zu werden?
+4. Unter welchen Bedingungen kann der Entwurf eines Mehrgrößenreglers auf den Entwurf mehrerer Eingrößenregler zurückgeführt werden?
+5. Was ist eine dezentrale Regelung? Unter welchen Bedingungen muss sie verwendet werden? Wie kann man sie entwerfen?
+
+---
 
 * ### 1. Entwurfsprinzipien für Ein- und Mehrgrößenregler
 
@@ -928,6 +1046,13 @@ Ein Mehrgrößenregler kann auf den Entwurf mehrerer Eingrößenregler zurückge
     3.  **Stabilitätsprüfung:** Überprüfen Sie die Stabilität des gesamten dezentral geregelten Systems. Oft wird dafür das **Relativ-Gain-Array (RGA)** als Hilfsmittel verwendet.
  
   ---
+
+  1. Welche prinzipiellen Unterschiede bestehen zwischen einer kontinuierlichen und einer zeitdiskreten Regelung?
+2. Bringt die Abtastung Vereinfachungen oder zusätzliche Schwierigkeiten für den Entwurf und die Realisierung einer Regelung?
+3. Welche Gesichtspunkte sind für die Wahl der Abtastzeit maßgebend?
+4. Wann kann eine kontinuierliche Regelung ohne Probleme als zeitdiskrete Regelung eingesetzt werden?
+
+---
 
   ### 1. Prinzipielle Unterschiede zwischen kontinuierlicher und zeitdiskreter Regelung
 
