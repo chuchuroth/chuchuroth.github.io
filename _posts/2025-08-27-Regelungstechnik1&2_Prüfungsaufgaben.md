@@ -6,6 +6,10 @@ categories: jekyll update
 ---
 
 
+<img width="97" height="31" alt="Screenshot 2025-08-27 080416" src="https://github.com/user-attachments/assets/65a98a94-d7c1-41cb-975d-78ff3cd9154f" />
+
+
+
 Ordnen Sie folgende Begriffe den Modellierungs-, Analyse- und Entwurfsverfahren der Regelungstechnik zu und erläutern Sie ihre Bedeutung:
 Anstiegszeit, Bandbreite, Eigenvorgang, Empfindlichkeitsfunktion, Folgeregelung,
 Gleichgewichtszustand, kanonische Zustandsvariablen, Knickpunktabstand, Kreisverstärkung, Linearität, Nulldynamik, Resonanzfrequenz, statisches Verhalten,
