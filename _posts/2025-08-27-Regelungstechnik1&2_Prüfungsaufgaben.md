@@ -63,14 +63,8 @@ Für das Systemverhalten linearer Systeme spielen verschiedene mathematische Gr�
 
 ### 1. Bedeutung und Berechnung
 
-| Begriff | Bedeutung | Berechnung (aus den Modellen) |
-| :--- | :--- | :--- |
-| **Nullstellen** | Frequenzen ($s$-Werte), bei denen die Übertragungsfunktion den Wert Null annimmt. Sie beeinflussen die Form der Frequenzantwort und können bestimmte Frequenzen im Systemausgang unterdrücken. | Nullstellen sind die Wurzeln des Zählerpolynoms $N(s)$ der Übertragungsfunktion $G(s) = \frac{N(s)}{D(s)}$ |
-| **Pole** | Frequenzen ($s$-Werte), bei denen die Übertragungsfunktion unendlich wird. Sie sind die entscheidenden Größen für das Systemverhalten, insbesondere für die Stabilität und die Eigenbewegung. | Pole sind die Wurzeln des Nennerpolynoms $D(s)$ der Übertragungsfunktion $G(s) = \frac{N(s)}{D(s)}$ |
-| **Eigenwerte** | Dieselben Werte wie die Pole. Sie bestimmen die dynamische Eigenbewegung des Systems. Ein System ist stabil, wenn alle Eigenwerte (Pole) einen negativen Realteil haben. | Eigenwerte sind die Wurzeln des charakteristischen Polynoms $\det(A - \lambda I) = 0$ der Systemmatrix $A$ in der Zustandsraumdarstellung $\dot{x}=Ax+Bu$ |
-| **relativer Grad** | Differenz zwischen der Anzahl der Pole und der Anzahl der Nullstellen ($m-n$). Er gibt Aufschluss darüber, wie stark hochfrequente Signale gedämpft werden. | $n-m$ bei der Übertragungsfunktion $G(s)$ |
-| **Zeitkonstanten** | Bestimmen die Geschwindigkeit des Systems bei der Antwort auf eine Eingabe. Sie sind die Kehrwerte des Betrags der reellen Pole bzw. des Realteils der komplexen Pole ($T = 1/|\text{Re}(p)|$). | $T_i = \frac{1}{|p_i|}$ für reelle Pole $p_i$ |
-| **Grenzfrequenz** | Die Frequenz, bei der der Amplitudengang um 3 dB (Faktor $1/\sqrt{2}$) gegenüber dem Gleichstromwert abgefallen ist. Sie entspricht oft dem Betrag des dominanten Pols. Sie ist ein Maß für die Bandbreite des Systems. | Ablesen aus dem Bode-Diagramm oder der Frequenzantwort $|\frac{Y(j\omega)}{U(j\omega)}|$ |
+<img width="567" height="612" alt="image" src="https://github.com/user-attachments/assets/f5ddb5cc-bccb-4650-8412-2a1af2d82557" />
+
 
 ***
 
@@ -95,7 +89,10 @@ Für das Systemverhalten linearer Systeme spielen verschiedene mathematische Gr�
     * **Zeitkonstanten** beeinflussen die Geschwindigkeit des Übergangsvorgangs. Eine kleinere Zeitkonstante führt zu einem schnelleren Einschwingen.
 
 * **Stationäres Verhalten (eingeschwungener Zustand)**:
-    * Das stationäre Verhalten wird primär durch die Anzahl der Pole im Ursprung ($s=0$) der Übertragungsfunktion bestimmt. Ein Pol bei $s=0$ bedeutet einen Systemtyp 1, der einen stationären Fehler bei einer Rampenfunktion korrigieren kann. Pole bei $s=0$ beeinflussen die Art des stationären Fehlers.
+    * Das stationäre Verhalten wird primär durch die Anzahl der Pole im Ursprung (<img width="39" height="18" alt="image" src="https://github.com/user-attachments/assets/5460cea5-b334-4aa6-acb5-615060aaea57" />
+) der Übertragungsfunktion bestimmt. Ein Pol bei <img width="39" height="18" alt="image" src="https://github.com/user-attachments/assets/33dd8c5a-239b-462b-99d8-d0475e1b4aae" />
+ bedeutet einen Systemtyp 1, der einen stationären Fehler bei einer Rampenfunktion korrigieren kann. Pole bei <img width="39" height="18" alt="image" src="https://github.com/user-attachments/assets/d4fc8602-344a-4767-b923-8bafdbd70256" />
+ beeinflussen die Art des stationären Fehlers.
     * **Grenzfrequenz** ist ein Maß für die Frequenzbereichsleistung. Eine höhere Grenzfrequenz bedeutet, dass das System auf schnellere Eingangssignale reagieren kann, was sich auch auf das stationäre Verhalten bei periodischen Signalen auswirkt.
  
 
