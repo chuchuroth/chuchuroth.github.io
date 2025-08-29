@@ -5,11 +5,6 @@ date:   2025-08-27
 categories: jekyll update
 ---
 
-
-<img width="97" height="31" alt="Screenshot 2025-08-27 080416" src="https://github.com/user-attachments/assets/65a98a94-d7c1-41cb-975d-78ff3cd9154f" />
-
-
-
 Ordnen Sie folgende Begriffe den Modellierungs-, Analyse- und Entwurfsverfahren der Regelungstechnik zu und erläutern Sie ihre Bedeutung:
 Anstiegszeit, Bandbreite, Eigenvorgang, Empfindlichkeitsfunktion, Folgeregelung,
 Gleichgewichtszustand, kanonische Zustandsvariablen, Knickpunktabstand, Kreisverstärkung, Linearität, Nulldynamik, Resonanzfrequenz, statisches Verhalten,
@@ -121,7 +116,8 @@ In der Regelungstechnik werden dynamische Systeme hauptsächlich durch zwei Arte
 Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Zeit ($t$). Sie sind besonders nützlich, um die **interne Dynamik** und den **Zustand** des Systems zu analysieren.
 
 * **Zustandsraumdarstellung:**
-    * **Beschreibung:** Ein System wird durch einen Satz von Differentialgleichungen erster Ordnung beschrieben. Diese Gleichungen beziehen den **Zustandsvektor** ($x$) auf die Eingangsgröße ($u$) und beschreiben, wie sich der Zustand des Systems über die Zeit ändert. Die Ausgabe ($y$) ist eine Funktion des Zustandsvektors und der Eingangsgröße. Die allgemeine Form ist $\dot{x}(t) = Ax(t) + Bu(t)$ und $y(t) = Cx(t) + Du(t)$.
+    * **Beschreibung:** Ein System wird durch einen Satz von Differentialgleichungen erster Ordnung beschrieben. Diese Gleichungen beziehen den **Zustandsvektor** ($x$) auf die Eingangsgröße ($u$) und beschreiben, wie sich der Zustand des Systems über die Zeit ändert. Die Ausgabe ($y$) ist eine Funktion des Zustandsvektors und der Eingangsgröße. Die allgemeine Form ist <img width="418" height="32" alt="image" src="https://github.com/user-attachments/assets/c15c0327-f1f4-4066-afd5-e0300aa20390" />
+.
     * **Voraussetzungen:** Anwendbar auf **lineare, zeitinvariante (LTI)** und **nichtlineare** Systeme, sowie **Mehrgrößensysteme (MIMO)**. Es ist ein internes Modell, das die gesamte Systemdynamik erfasst, nicht nur das E/A-Verhalten.
 
 * **Differentialgleichungen:**
@@ -132,11 +128,13 @@ Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Zeit ($t$
 Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Frequenz ($\omega$ oder der komplexen Frequenz $s$). Sie erfassen ausschließlich das **Eingabe-Ausgabe-Verhalten** des Systems.
 
 * **Übertragungsfunktion:**
-    * **Beschreibung:** Das Verhältnis der Laplace-Transformierten der Ausgangsgröße $Y(s)$ zur Laplace-Transformierten der Eingangsgröße $U(s)$ bei null Anfangsbedingungen, $G(s) = \frac{Y(s)}{U(s)}$. Die Übertragungsfunktion ist ein rationaler Bruch von Polynomen in $s$.
+    * **Beschreibung:** Das Verhältnis der Laplace-Transformierten der Ausgangsgröße $Y(s)$ zur Laplace-Transformierten der Eingangsgröße $U(s)$ bei null Anfangsbedingungen, <img width="104" height="40" alt="image" src="https://github.com/user-attachments/assets/f4f26b3a-fee4-4993-9e18-3e4539ce5f9e" />
+ Die Übertragungsfunktion ist ein rationaler Bruch von Polynomen in $s$.
     * **Voraussetzungen:** Das System muss **linear** und **zeittinvariant (LTI)** sein. Dieses Modell erfasst nur das äußere E/A-Verhalten und ignoriert die interne Dynamik, die nicht steuerbar oder nicht beobachtbar ist.
 
 * **Frequenzgang:**
-    * **Beschreibung:** Der Frequenzgang ist die Übertragungsfunktion mit $s = j\omega$, also $G(j\omega) = \frac{Y(j\omega)}{U(j\omega)}$. Er beschreibt, wie das System auf sinusförmige Eingangssignale reagiert, und gibt die Verstärkung und Phasenverschiebung in Abhängigkeit von der Frequenz an. Er kann grafisch durch **Bode-Diagramme** oder **Nyquist-Diagramme** dargestellt werden.
+    * **Beschreibung:** Der Frequenzgang ist die Übertragungsfunktion mit $s = j\omega$, also <img width="132" height="37" alt="image" src="https://github.com/user-attachments/assets/07cfb656-ec37-4441-a598-b3eee76fb4be" />
+. Er beschreibt, wie das System auf sinusförmige Eingangssignale reagiert, und gibt die Verstärkung und Phasenverschiebung in Abhängigkeit von der Frequenz an. Er kann grafisch durch **Bode-Diagramme** oder **Nyquist-Diagramme** dargestellt werden.
     * **Voraussetzungen:** Das System muss **linear** und **zeittinvariant (LTI)** sein. Es wird angenommen, dass der stationäre Zustand erreicht ist.
 
 ***
@@ -152,7 +150,10 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 * **Laplace-Transformation der Zustandsraumdarstellung:**
     * **Voraussetzung:** Die Zustandsraumdarstellung gilt nur für LTI-Systeme.
-    * **Transformation:** Die Gleichungen $\dot{x}(t) = Ax(t) + Bu(t)$ und $y(t) = Cx(t) + Du(t)$ werden laplace-transformiert. Mit null Anfangsbedingungen ergibt sich $sX(s) = AX(s) + BU(s)$ und $Y(s) = CX(s) + DU(s)$. Durch algebraische Umformung erhält man die Übertragungsfunktion $G(s) = C(sI - A)^{-1}B + D$.
+    * **Transformation:** Die Gleichungen <img width="344" height="26" alt="image" src="https://github.com/user-attachments/assets/92734da6-ba99-4dbb-afbc-5cd4cd572027" /> <img width="55" height="24" alt="image" src="https://github.com/user-attachments/assets/95896e0a-843e-46f9-8ec2-7db0bff10a2f" />
+ werden laplace-transformiert. Mit null Anfangsbedingungen ergibt sich <img width="462" height="29" alt="image" src="https://github.com/user-attachments/assets/98a096bf-84d2-4353-85e7-0ee7e56e910f" />
+. Durch algebraische Umformung erhält man die Übertragungsfunktion <img width="255" height="27" alt="image" src="https://github.com/user-attachments/assets/f75bec30-d70c-4be4-a2da-a9696d9bf252" />
+
     * **Zusätzliche Annahme:** Diese Transformation erfasst nur das **E/A-Verhalten** des Systems. Jede intern nicht steuerbare oder nicht beobachtbare Dynamik wird in der Übertragungsfunktion nicht sichtbar sein.
 
 #### Von Frequenzbereich zu Zeitbereich
@@ -201,27 +202,34 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 | **PT2** | $A = \begin{bmatrix} 0 & 1 \\ -1/T_2^2 & -2\zeta/T_2 \end{bmatrix}, B = \begin{bmatrix} 0 \\ K/T_2^2 \end{bmatrix}, C = \begin{bmatrix} 1 & 0 \end{bmatrix}, D = [0]$ | $G(s) = \frac{K}{1+2\zeta T s + T^2 s^2}$ |
 | **PD** | $A = [0], B = [0], C = [0], D = [K_p+K_d \cdot s]$ | $G(s) = K_p(1+sT_d)$ |
 | **T** | **Nur Zeitbereich** | $G(s) = e^{-sT_t}$ |
+<img width="700" height="352" alt="image" src="https://github.com/user-attachments/assets/893f3e85-6c34-4fcc-a21d-f7350c8f7ce9" />
 
 ***
 
 ### 3. Eigenschaften und qualitative Diagramme
 
 #### **P-Glied**
-* **Eigenschaften:** Keine Pole oder Nullstellen. Reale Verstärkung $K_p$. Sofortige Reaktion.
+* **Eigenschaften:** Keine Pole oder Nullstellen. Reale Verstärkung <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/bc46c277-4eb4-4187-830d-a77f886a4a54" />
+. Sofortige Reaktion.
 * **Diagramme:** .
-    * **Übergangsfunktion:** Sprung auf den Wert $K_p$.
+    * **Übergangsfunktion:** Sprung auf den Wert <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/bb3aa7c0-60d8-43a5-8d51-065a85dfe94b" />
+.
     * **Gewichtsfunktion:** Dirac-Stoß.
     * **PN-Bild:** Keine Pole, keine Nullstellen.
-    * **Ortskurve:** Ein Punkt auf der reellen Achse bei $K_p$.
-    * **Bodediagramm:** Gerade bei $20\log_{10}(K_p)$ (Amplitudengang), $0^\circ$ (Phasengang).
+    * **Ortskurve:** Ein Punkt auf der reellen Achse bei <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/62fd363b-045b-4fd4-bf8e-c9a0411b9ad3" />
+.
+    * **Bodediagramm:** Gerade bei <img width="108" height="29" alt="image" src="https://github.com/user-attachments/assets/b4ad29fb-ef7c-488f-9fea-4e3c8349deba" />
+(Amplitudengang), $0^\circ$ (Phasengang).
 
 #### **I-Glied**
 * **Eigenschaften:** Pol bei $s=0$. Nicht stabil. **Nicht sprungfähig**.
 * **Diagramme:** .
     * **Übergangsfunktion:** Lineare Rampe.
-    * **Gewichtsfunktion:** Konstante bei $K_i$.
+    * **Gewichtsfunktion:** Konstante bei <img width="26" height="27" alt="image" src="https://github.com/user-attachments/assets/c66c5cf9-631a-44cd-9f7f-5e6170a9c452" />
+.
     * **PN-Bild:** Pol bei $s=0$.
-    * **Ortskurve:** Imaginäre Achse, von $-\infty$ bis $0$ bei steigender Frequenz.
+    * **Ortskurve:** Imaginäre Achse, von <img width="40" height="16" alt="image" src="https://github.com/user-attachments/assets/67636063-4a86-4320-a72d-d8c377d50d9b" />
+ bis $0$ bei steigender Frequenz.
     * **Bodediagramm:** Abfallende Gerade mit $-20$ dB/Dek (Amplitudengang), $-90^\circ$ (Phasengang).
 
 #### **PT1-Glied**
@@ -229,7 +237,8 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 * **Diagramme:** .
     * **Übergangsfunktion:** E-Funktion-Anstieg.
     * **Gewichtsfunktion:** E-Funktion-Abfall.
-    * **PN-Bild:** Pol bei $s = -1/T$.
+    * **PN-Bild:** Pol bei<img width="89" height="23" alt="image" src="https://github.com/user-attachments/assets/931e602b-dfd2-4935-87d7-bb08894a56fd" />
+.
     * **Ortskurve:** Kreisbogen vom Punkt $K$ zum Ursprung.
     * **Bodediagramm:** Amplitudengang fällt ab einem Knickpunkt bei $\omega=1/T$ mit $-20$ dB/Dek. Phasengang von $0^\circ$ zu $-90^\circ$.
 
