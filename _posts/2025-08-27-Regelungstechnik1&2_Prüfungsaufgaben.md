@@ -388,7 +388,7 @@ Der Entwurf einer Vorsteuerung basiert auf einem **Modell der Regelstrecke**. Da
 
 ---
 
-1. Wie kann man die folgenden Kenngrößen von Regelkreisen berechnen: Führungsübertragungsfunktion, Störübergangsfunktion, bleibende Regelabweichung, Kreisverstärkung, Stabilitätsrand, Pole, Empfindlichkeit?
+1. Wie kann man die folgenden Kenngrößen von Regelkreisen berechnen: Führungsübertragungsfunktion, Störübergangsfunktion, bleibende Regelabweichung, Kreisverstärkung, Stabilitätsrand, Pole, Empfindlichkeit?
 2. Was besagt das Innere-Modell-Prinzip und wie kann man es für impulsförmige bzw. sprungförmige Störsignale erfüllen?
 
 ---
@@ -626,11 +626,8 @@ Strukturelle Systemeigenschaften sind unabhängig von den genauen Werten der Sys
 | **Zeitbereichsmodelle** | Differentialgleichungen \dot{x}(t)=Ax(t)+Bu(t) y(t)=Cx(t)+Du(t) | Differenzengleichungen x[k+1]=A_dx[k]+B_du[k] y[k]=C_dx[k]+D_du[k] |
 | **Frequenzbereichsmodelle** | Übertragungsfunktion G(s) | Impulsübertragungsfunktion G(z) |
 
-Pfeile zeigen die direkten Umrechnungen bei der Abtastung:
-* \dot{x}=Ax+Bu \longrightarrow x[k+1]=A_dx[k]+B_du[k]
-  wobei A_d = e^{AT_a} und B_d = \int_0^{T_a} e^{A\tau}B d\tau mit der Abtastzeit T_a.
-* G(s) \longrightarrow G(z)
-  mit der **z-Transformation** und der **Laplace-Transformation**.
+<img width="460" height="391" alt="image" src="https://github.com/user-attachments/assets/84c7283f-9f9e-4c89-a84d-7a8302a27c3c" />
+
 
 ***
 
@@ -825,12 +822,12 @@ Zustandsrückführungen haben eine große Bedeutung in der Regelungstechnik, obw
 ### 2. Entwurf von Zustandsrückführungen
 
 Der Entwurf einer Zustandsrückführung basiert auf der **Zustandsraumdarstellung** des Systems:
-\dot{x}(t) = Ax(t) + Bu(t)
+<img width="152" height="32" alt="image" src="https://github.com/user-attachments/assets/8710f745-4b88-4d19-bfb9-ff4cbc0c4d76" />
+
 y(t) = Cx(t) + Du(t)Das Rückführungsgesetz lautetu(t) = -Kx(t) + r(t) wobei K der Rückführvektor der Verstärkungen und r(t) der Sollwert ist.
 
-1.  **Polvorgabe:** Zuerst wählt man die gewünschten Pole für den geschlossenen Regelkreis in der linken Halbebene. Die Wahl der Pole beeinflusst die Dynamik, Dämpfung und Geschwindigkeit des Systems.
-2.  **Charakteristisches Polynom:** Aus den gewünschten Polen erstellt man das gewünschte charakteristische Polynom P_{gewünscht}(\lambda) = (\lambda-\lambda_1)(\lambda-\lambda_2)\dots.
-3.  **Berechnung der Verstärkungsmatrix:** Das charakteristische Polynom des geschlossenen Regelkreises mit Rückführung ist P_{geschlossen}(\lambda) = \det(\lambda I - (A-BK)). Man muss nun die Koeffizienten des Polynoms P_{geschlossen}(\lambda) mit denen von P_{gewünscht}(\lambda) vergleichen. Durch das Lösen der resultierenden Gleichungen für die Elemente von K kann man die Verstärkungsmatrix K berechnen. Ein häufig verwendeter Algorithmus ist die **Acker-Formel** oder der Entwurf über die **kanonische Steuerbarkeitsform**.
+<img width="538" height="246" alt="image" src="https://github.com/user-attachments/assets/5edd269e-d7f2-4d49-860b-c7b32ecdc5a4" />
+
 
 ---
 
@@ -839,7 +836,8 @@ y(t) = Cx(t) + Du(t)Das Rückführungsgesetz lautetu(t) = -Kx(t) + r(t) wobei K 
 Zustandsrückführungen sind in der Praxis nur selten direkt realisierbar, da oft nicht alle Zustandsvariablen messbar sind. Die Lösung dafür ist der Einsatz eines **Zustandsbeobachters (State Observer)**.
 
 * **Prinzip:** Ein Zustandsbeobachter ist ein dynamisches System, das die internen Zustandsvariablen des realen Systems auf der Grundlage der messbaren Eingangs- und Ausgangsgrößen **schätzt**. Der Beobachter hat die gleiche mathematische Struktur wie das Originalsystem.
-* **Realisierung:** Die geschätzten Zustände \hat{x}(t) aus dem Beobachter werden anstelle der realen Zustände für die Rückführung verwendet. Das Rückführungsgesetz lautet dann u(t) = -K\hat{x}(t) + r(t).
+* **Realisierung:** Die geschätzten Zustände \hat{x}(t) aus dem Beobachter werden anstelle der realen Zustände für die Rückführung verwendet. Das Rückführungsgesetz lautet dann <img width="167" height="38" alt="image" src="https://github.com/user-attachments/assets/c1baad35-67af-41a1-acf1-67a5b6503fdb" />
+
 * **Separierungsprinzip:** Die Theorie besagt, dass der Entwurf des Reglers (Polplatzierung der Zustände) und der Entwurf des Beobachters (Polplatzierung der Fehler) **unabhängig voneinander** durchgeführt werden können. Das bedeutet, man entwirft zuerst den idealen Zustandsrückführungsregler und dann den Beobachter, der die geschätzten Zustände bereitstellt.
 
 ---
@@ -894,7 +892,7 @@ Ein Regelkreis mit reiner Zustandsrückführung hat im Allgemeinen **nicht** die
     * **Realisierungsaufwand:** Mittel bis hoch. Erfordert die Messung oder Schätzung aller Zustandsvariablen (z.B. durch einen Beobachter).
     * **Anwendung:** Für sehr strenge Dynamikanforderungen (Polplatzierung) oder für Systemoptimierung (LQR) in hochpräzisen Anwendungen (z.B. Luft- und Raumfahrt).
 
-* **Robust (H_\infty):**
+* **Robust <img width="49" height="14" alt="image" src="https://github.com/user-attachments/assets/e9351ae3-6ff3-45d0-804f-f91bbd89c714" />**
     * **Entwurfsaufwand:** Sehr hoch. Mathematisch anspruchsvoll und erfordert spezielle Software.
     * **Realisierungsaufwand:** Hoch. Die Regler können eine hohe Ordnung haben, was komplex in der Implementierung ist.
     * **Anwendung:** Wenn die Robustheit im Vordergrund steht und die Modellunsicherheiten groß sind (z.B. in der Robotik oder bei Prozessleitsystemen).
