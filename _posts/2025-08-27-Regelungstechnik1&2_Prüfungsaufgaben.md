@@ -122,7 +122,8 @@ Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Zeit (t).
     * **Voraussetzungen:** Das System muss **linear** und **zeittinvariant** sein.
 
 #### Frequenzbereichsmodelle
-Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Frequenz (\omega oder der komplexen Frequenz s). Sie erfassen ausschließlich das **Eingabe-Ausgabe-Verhalten** des Systems.
+Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Frequenz (<img width="27" height="24" alt="image" src="https://github.com/user-attachments/assets/9f3a1d3c-1fa4-4e14-b849-0afe88535d48" />
+oder der komplexen Frequenz s). Sie erfassen ausschließlich das **Eingabe-Ausgabe-Verhalten** des Systems.
 
 * **Übertragungsfunktion:**
     * **Beschreibung:** Das Verhältnis der Laplace-Transformierten der Ausgangsgröße Y(s) zur Laplace-Transformierten der Eingangsgröße U(s) bei null Anfangsbedingungen, <img width="104" height="40" alt="image" src="https://github.com/user-attachments/assets/f4f26b3a-fee4-4993-9e18-3e4539ce5f9e" />
@@ -130,7 +131,8 @@ Diese Modelle beschreiben das Systemverhalten in Abhängigkeit von der Frequenz 
     * **Voraussetzungen:** Das System muss **linear** und **zeittinvariant (LTI)** sein. Dieses Modell erfasst nur das äußere E/A-Verhalten und ignoriert die interne Dynamik, die nicht steuerbar oder nicht beobachtbar ist.
 
 * **Frequenzgang:**
-    * **Beschreibung:** Der Frequenzgang ist die Übertragungsfunktion mit s = j\omega, also <img width="132" height="37" alt="image" src="https://github.com/user-attachments/assets/07cfb656-ec37-4441-a598-b3eee76fb4be" />
+    * **Beschreibung:** Der Frequenzgang ist die Übertragungsfunktion mit s = <img width="27" height="24" alt="image" src="https://github.com/user-attachments/assets/2b3c2332-8530-41fb-8359-f987cf7e0055" />
+, also <img width="132" height="37" alt="image" src="https://github.com/user-attachments/assets/07cfb656-ec37-4441-a598-b3eee76fb4be" />
 . Er beschreibt, wie das System auf sinusförmige Eingangssignale reagiert, und gibt die Verstärkung und Phasenverschiebung in Abhängigkeit von der Frequenz an. Er kann grafisch durch **Bode-Diagramme** oder **Nyquist-Diagramme** dargestellt werden.
     * **Voraussetzungen:** Das System muss **linear** und **zeittinvariant (LTI)** sein. Es wird angenommen, dass der stationäre Zustand erreicht ist.
 
@@ -163,7 +165,8 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 #### Zusätzliche Annahmen und Vereinfachungen
 
 * **Lineare und zeitinvariante (LTI) Annahme:** Fast alle Frequenzbereichsmodelle (Übertragungsfunktion, Frequenzgang) sind auf LTI-Systeme beschränkt. Nichtlineare und zeitinvariante Systeme können oft lokal um einen Arbeitspunkt linearisiert werden, um diese Methoden anwenden zu können.
-* **Stationäre Annahme:** Der Frequenzgang G(j\omega) beschreibt das Verhalten des Systems im stationären Zustand, nachdem alle transienten Effekte abgeklungen sind.
+* **Stationäre Annahme:** Der Frequenzgang G(<img width="27" height="24" alt="image" src="https://github.com/user-attachments/assets/fa057dfa-abc5-4a38-bb65-dcef5247233a" />
+) beschreibt das Verhalten des Systems im stationären Zustand, nachdem alle transienten Effekte abgeklungen sind.
 
 ---
 
