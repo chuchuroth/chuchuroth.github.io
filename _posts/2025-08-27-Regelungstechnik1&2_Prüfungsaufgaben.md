@@ -214,10 +214,13 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 ### 4. Kennzeichnung wichtiger Kenngrößen in den Diagrammen
 
-* **Statische Verstärkung (K):** Kann aus der **Übergangsfunktion** als Endwert abgelesen werden. Im **Bodediagramm** der Amplitudengang bei \omega \to 0. In der **Ortskurve** ist es der Anfangspunkt der Kurve auf der reellen Achse.
+* **Statische Verstärkung (K):** Kann aus der **Übergangsfunktion** als Endwert abgelesen werden. Im **Bodediagramm** der Amplitudengang bei <img width="61" height="22" alt="image" src="https://github.com/user-attachments/assets/6c50caab-b6c1-43d7-8302-203b14ac9c20" />
+. In der **Ortskurve** ist es der Anfangspunkt der Kurve auf der reellen Achse.
 * **Summenzeitkonstante (T):** Bei PT1-Gliedern die Zeit, die der Ausgang benötigt, um 63.2% des Endwerts zu erreichen. Im **Bodediagramm** ist 1/T die Frequenz des Knickpunktes.
-* **Dämpfung (\zeta):** Bei PT2-Gliedern kann die Dämpfung aus dem Überschwingen der **Übergangsfunktion** abgeleitet werden. In der **Ortskurve** und im **Bodediagramm** manifestiert sich eine geringe Dämpfung als eine Resonanzüberhöhung.
-* **Sprungfähigkeit:** Eine endliche Sprungantwort impliziert eine **Übertragungsfunktion** ohne Nullstellen bei s \to \infty (d.h. der Zählergrad ist kleiner oder gleich dem Nennergrad).
+* <img width="122" height="33" alt="image" src="https://github.com/user-attachments/assets/f9cd515e-f82f-4fe9-b16a-c5c94a8ba794" />
+ Bei PT2-Gliedern kann die Dämpfung aus dem Überschwingen der **Übergangsfunktion** abgeleitet werden. In der **Ortskurve** und im **Bodediagramm** manifestiert sich eine geringe Dämpfung als eine Resonanzüberhöhung.
+* **Sprungfähigkeit:** Eine endliche Sprungantwort impliziert eine **Übertragungsfunktion** ohne Nullstellen bei <img width="64" height="22" alt="image" src="https://github.com/user-attachments/assets/3627bedf-5e44-4a8f-a522-8b1a0953582c" />
+(d.h. der Zählergrad ist kleiner oder gleich dem Nennergrad).
 * **Minimalphasigkeit:** Ein System ist **minimalphasig**, wenn alle Pole und Nullstellen in der linken Halbebene liegen. Dies kann direkt aus dem **PN-Bild** oder dem **Phasengang** des Bodediagramms abgelesen werden. Bei minimalphasigen Systemen ist die Phase bei hohen Frequenzen negativ.
 * **Stabilität:** Ein System ist stabil, wenn alle Pole einen negativen Realteil haben. Dies kann im **PN-Bild** direkt abgelesen werden (alle Pole in der linken Halbebene).
 
