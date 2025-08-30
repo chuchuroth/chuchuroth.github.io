@@ -15,6 +15,23 @@ categories: jekyll update
 ## auswendig lernen!
 * 现代控制理论经典的概念本就值得背诵
 * 经典的数学公式本就值得牢记
+
+---
+Die Modellbildung in folgenden Schritten:
+1. Beschreibung des Modellierungsziels
+2. Auswahl der Modellannahmen.
+3. Beschreibung der Regelstrecke.
+4. Aufstellung des Blockschaltbildes.
+5. Aufstellung der Modellgleichungen.
+6. Modellvalidierung.
+
+---
+Aufstellung einer Differentialgleichung:
+1. Zerlegen das System in Komponenten.
+2. Schreiben die physikalischen Gesetze auf, die das Verhalten der Komponenten beschreiben.
+3. Schreiben die Beziehungen auf, die zwischen den Komponenten bestehen
+4. Fassen die Gleichungen zu einer Differentialgleichung zusammen.
+
   
 ---
 Das wissenschaftliche Fundament der klassischen und modernen Regelungstheorie besteht darin, durch geeignete Rückkopplungsstrategien Systeme stabil und leistungsfähig zu machen. Die klassische Regelungstheorie basiert auf Übertragungsfunktionen und analysiert überwiegend Ein-zu-Ein-Ausgangssysteme (SISO) im Zeit- und Frequenzbereich. Ihre zentralen Werkzeuge sind Bode-Diagramme, Nyquist-Kurven und Wurzelortskurven, mit denen Stabilität und Dynamik auf anschauliche Weise untersucht werden können. Sie repräsentiert damit einen frequenzbasierten, input-output-orientierten Ansatz.
