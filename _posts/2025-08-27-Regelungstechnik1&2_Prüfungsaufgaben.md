@@ -193,15 +193,6 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 ### 2. Zustandsraummodell und Übertragungsfunktion
 
-| Glied | Zustandsraummodell (A, B, C, D) | Übertragungsfunktion (G(s)) |
-| :--- | :--- | :--- |
-| **P** | A = [0], B = [0], C = [0], D = [K_p] | G(s) = K_p |
-| **I** | A = [0], B = [1], C = [1], D = [0] | G(s) = \frac{K_i}{s} |
-| **D** | **Nur Frequenzbereich** | G(s) = K_d \cdot s |
-| **PT1** | A = [-1/T], B = [1/T], C = [K], D = [0] | G(s) = \frac{K}{1+sT} |
-| **PT2** | <img width="403" height="75" alt="image" src="https://github.com/user-attachments/assets/c9fd278b-6d28-4ba3-b0be-9b17292e371b" /> |  <img width="161" height="39" alt="image" src="https://github.com/user-attachments/assets/6f111d85-0189-4bad-a2db-e9da61928f16" /> |
-| **PD** | A = [0], B = [0], C = [0], D = [K_p+K_d \cdot s] | G(s) = K_p(1+sT_d) |
-| **T** | **Nur Zeitbereich** | G(s) = e^{-sT_t} |
 <img width="700" height="352" alt="image" src="https://github.com/user-attachments/assets/893f3e85-6c34-4fcc-a21d-f7350c8f7ce9" />
 
 ***
