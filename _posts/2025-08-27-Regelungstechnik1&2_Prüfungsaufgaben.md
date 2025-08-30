@@ -199,7 +199,7 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m√
 | **I** | A = [0], B = [1], C = [1], D = [0] | G(s) = \frac{K_i}{s} |
 | **D** | **Nur Frequenzbereich** | G(s) = K_d \cdot s |
 | **PT1** | A = [-1/T], B = [1/T], C = [K], D = [0] | G(s) = \frac{K}{1+sT} |
-| **PT2** | A = \begin{bmatrix} 0 & 1 \\ -1/T_2^2 & -2\zeta/T_2 \end{bmatrix}, B = \begin{bmatrix} 0 \\ K/T_2^2 \end{bmatrix}, C = \begin{bmatrix} 1 & 0 \end{bmatrix}, D = [0] | G(s) = \frac{K}{1+2\zeta T s + T^2 s^2} |
+| **PT2** | <img width="403" height="75" alt="image" src="https://github.com/user-attachments/assets/c9fd278b-6d28-4ba3-b0be-9b17292e371b" /> |  <img width="161" height="39" alt="image" src="https://github.com/user-attachments/assets/6f111d85-0189-4bad-a2db-e9da61928f16" /> |
 | **PD** | A = [0], B = [0], C = [0], D = [K_p+K_d \cdot s] | G(s) = K_p(1+sT_d) |
 | **T** | **Nur Zeitbereich** | G(s) = e^{-sT_t} |
 <img width="700" height="352" alt="image" src="https://github.com/user-attachments/assets/893f3e85-6c34-4fcc-a21d-f7350c8f7ce9" />
