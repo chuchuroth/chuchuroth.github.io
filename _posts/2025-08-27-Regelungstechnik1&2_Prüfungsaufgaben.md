@@ -279,7 +279,7 @@ Die Stabilität kann für die Regelstrecke (offener Kreis) und den Regelkreis (g
     * **Grafische Kriterien:**
         * **Wurzelortskurve (Root Locus):** Diese Methode zeigt, wie sich die geschlossenen Pole bewegen, wenn die Kreisverstärkung von null bis unendlich variiert wird. Das System ist stabil, solange die Wurzelortskurve nicht in die rechte Hälfte der s-Ebene eindringt. .
         * **Nyquist-Kriterium:** Dieses Kriterium überprüft die Stabilität anhand des Frequenzgangs des **offenen Regelkreises**. Das System ist stabil, wenn die Nyquist-Kurve den kritischen Punkt (-1, j0) nicht umschließt. Es ist eine sehr leistungsfähige Methode, da es auch Aussagen über die relative Stabilität (Phasen- und Amplitudenrand) ermöglicht.
-        * **Bode-Kriterium:** Dieses Kriterium basiert auf dem **Bode-Diagramm** des offenen Regelkreises. Ein System ist stabil, wenn der Amplitudengang bei der Phasenverschiebung von -180^\circ kleiner als 1 ist und die Phase bei dem Amplitudengang 1 über -180^\circ liegt.
+        * **Bode-Kriterium:** Dieses Kriterium basiert auf dem **Bode-Diagramm** des offenen Regelkreises. Ein System ist stabil, wenn der Amplitudengang bei der Phasenverschiebung von -180° kleiner als 1 ist und die Phase bei dem Amplitudengang 1 über -180° liegt.
      
 ---
 
@@ -294,30 +294,11 @@ Das Verhalten vieler Regelstrecken lässt sich in guter Näherung durch PT2- bzw
 
 Hier wird die Stabilität von Regelkreisen mit PT2- bzw. PTtT1-Strecken unter Verwendung eines P-Reglers (Verstärkung K_p) nachgewiesen.
 
-#### **PT2-Strecke + P-Regler**
+<img width="547" height="465" alt="image" src="https://github.com/user-attachments/assets/9145e419-4b17-4853-93cb-6918eef8f993" />
 
-* **Charakteristisches Polynom:**
-    Die Übertragungsfunktion der offenen Kette ist G_o(s) = K_p \cdot \frac{K}{1 + 2\zeta T s + T^2 s^2}.
-    Das charakteristische Polynom der geschlossenen Kette lautet D(s) = 1 + G_o(s) = 1 + \frac{K_p K}{1 + 2\zeta T s + T^2 s^2} = 0.
-    Multipliziert man mit dem Nenner, erhält man D(s) = T^2 s^2 + 2\zeta T s + (1 + K_p K) = 0.
-    Alle Koeffizienten dieses Polynoms sind für positive T, \zeta, K_p und K **positiv**. Nach dem **Hurwitz-Kriterium** ist dies die notwendige und hinreichende Bedingung für die Stabilität eines Polynoms 2. Grades. Daher ist der Regelkreis für **beliebige positive K_p stabil**.
 
-* **Bodediagramm und Ortskurve:**
-    Das Bode-Diagramm der offenen Kette hat einen Phasenverlauf, der von 0^\circ bis -180^\circ geht. Der Amplitudengang ist bei \omega \to \infty einfallend mit -40 dB/Dek. Da der Phasenverlauf niemals unter -180^\circ kommt, wird die kritische Frequenz (bei der die Phase -180^\circ ist) nicht erreicht. Folglich ist die **Ortskurve** der offenen Kette im Nyquist-Diagramm stets rechts von der imaginären Achse und umschließt den kritischen Punkt (-1, 0) nicht. .
+<img width="553" height="389" alt="image" src="https://github.com/user-attachments/assets/cc10bf7c-f4dc-4e54-a345-d2f6b098f0f7" />
 
-* **Wurzelortskurve:**
-    Die Wurzelortskurve startet bei den Polen der offenen Kette, die für positive Dämpfung in der linken Halbebene liegen. Da der relative Grad 2 ist, verlaufen die beiden Äste der Kurve zu den beiden Nullstellen im Unendlichen. Die Äste der Kurve verlaufen asymptotisch auf der Geraden 2\alpha = (180 + 360k), also bei -90^\circ und +90^\circ, und bleiben damit **stets in der linken Halbebene**. Dies beweist die Stabilität für alle positiven K_p.
-
-#### **PTtT1-Strecke + P-Regler**
-
-* **Charakteristisches Polynom:**
-    Die Übertragungsfunktion ist G_o(s) = K_p \cdot \frac{K}{1+sT_1}e^{-sT_t}. Die Gleichung 1 + G_o(s) = 0 hat unendlich viele Wurzeln aufgrund des e^{-sT_t}-Terms und kann daher nicht direkt mit algebraischen Kriterien wie dem Hurwitz-Kriterium überprüft werden.
-
-* **Bodediagramm und Ortskurve:**
-    Das Bodediagramm der offenen Kette zeigt, dass die Totzeit e^{-sT_t} einen zusätzlichen, linear fallenden Phasenverlauf von \phi = -\omega T_t hinzufügt. Dies führt dazu, dass die Gesamtphase des Systems (aus der Verzögerung und der Totzeit) die **-180^\circ-Grenze überschreitet**. Bei der Frequenz, bei der die Phase exakt -180^\circ ist (Phasen-Schnittfrequenz), muss der Betrag der offenen Kette kleiner als 1 sein, um Stabilität zu gewährleisten. Die Ortskurve **kann den kritischen Punkt (-1, 0) umschließen**, wenn die Kreisverstärkung K_p K zu groß wird. Daher existiert eine kritische Verstärkung K_{krit} .
-
-* **Wurzelortskurve:**
-    Die Wurzelortskurve einer Totzeit ist komplexer. Die Totzeit führt zu einem Anstieg der Anzahl der Pole im Unendlichen, was dazu führt, dass die Wurzeln die linke Halbebene verlassen und in die rechte eintreten können.
 
 ---
 
@@ -344,10 +325,7 @@ Die Verwendung eines I-Reglers (Übertragungsfunktion G_R(s) = \frac{K_i}{s}) ve
 * **Zusätzlicher Pol im Ursprung:**
     Der I-Regler fügt einen **zusätzlichen Pol bei s=0** zur offenen Kette hinzu. Dies verändert die Eigenbewegung und das stationäre Verhalten des Regelkreises.
 
-* **PT2-Strecke + I-Regler:**
-    * **Charakteristisches Polynom:** Das Polynom der geschlossenen Kette wird zu s(T^2 s^2 + 2\zeta T s + 1) + K_i K = 0. Dies ist ein Polynom 3. Grades: T^2 s^3 + 2\zeta T s^2 + s + K_i K = 0.
-        Nach dem **Hurwitz-Kriterium** ist die Stabilitätsbedingung a_1 a_2 > a_0 a_3 (oder 2\zeta T \cdot 1 > T^2 K_i K), was zu K_i K < 2\zeta/T führt. Dies bedeutet, dass eine **obere Schranke für die Reglerverstärkung K_i existiert**, im Gegensatz zum P-Regler.
-    * **Bodediagramm und Ortskurve:** Der zusätzliche Pol im Ursprung verschiebt den Phasenverlauf im Bodediagramm um -90^\circ nach unten. Der Phasenverlauf startet bei -90^\circ und geht bis -270^\circ. Die Ortskurve des offenen Regelkreises beginnt nun auf der negativen imaginären Achse und nähert sich der negativen reellen Achse, wo sie den kritischen Punkt (-1, 0) umschließen kann.
+<img width="536" height="269" alt="image" src="https://github.com/user-attachments/assets/49270e71-0a7c-4362-8a81-d871a487ca5f" />
 
 * **PTtT1-Strecke + I-Regler:**
     * Der I-Regler verschiebt den Phasengang erneut um -90^\circ. Da das PTtT1-Glied bereits eine Phasenverschiebung über -180^\circ aufweist, wird der gesamte Regelkreis mit einem I-Regler noch anfälliger für Instabilität. Eine obere Schranke für die Reglerverstärkung K_i existiert ebenfalls, die sogar noch kleiner ist als die für einen P-Regler, um Stabilität zu gewährleisten.
