@@ -199,55 +199,16 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 ### 3. Eigenschaften und qualitative Diagramme
 
-#### **P-Glied**
-* **Eigenschaften:** Keine Pole oder Nullstellen. Reale Verstärkung <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/bc46c277-4eb4-4187-830d-a77f886a4a54" />
-. Sofortige Reaktion.
-* **Diagramme:** .
-    * **Übergangsfunktion:** Sprung auf den Wert <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/bb3aa7c0-60d8-43a5-8d51-065a85dfe94b" />
-.
-    * **Gewichtsfunktion:** Dirac-Stoß.
-    * **PN-Bild:** Keine Pole, keine Nullstellen.
-    * **Ortskurve:** Ein Punkt auf der reellen Achse bei <img width="27" height="29" alt="image" src="https://github.com/user-attachments/assets/62fd363b-045b-4fd4-bf8e-c9a0411b9ad3" />
-.
-    * **Bodediagramm:** Gerade bei <img width="108" height="29" alt="image" src="https://github.com/user-attachments/assets/b4ad29fb-ef7c-488f-9fea-4e3c8349deba" />
-(Amplitudengang), 0^\circ (Phasengang).
+<img width="684" height="289" alt="image" src="https://github.com/user-attachments/assets/1bc00fd3-b028-44cc-ae08-0fbf95699419" />
 
-#### **I-Glied**
-* **Eigenschaften:** Pol bei s=0. Nicht stabil. **Nicht sprungfähig**.
-* **Diagramme:** .
-    * **Übergangsfunktion:** Lineare Rampe.
-    * **Gewichtsfunktion:** Konstante bei <img width="26" height="27" alt="image" src="https://github.com/user-attachments/assets/c66c5cf9-631a-44cd-9f7f-5e6170a9c452" />
-.
-    * **PN-Bild:** Pol bei s=0.
-    * **Ortskurve:** Imaginäre Achse, von <img width="40" height="16" alt="image" src="https://github.com/user-attachments/assets/67636063-4a86-4320-a72d-d8c377d50d9b" />
- bis 0 bei steigender Frequenz.
-    * **Bodediagramm:** Abfallende Gerade mit -20 dB/Dek (Amplitudengang), -90^\circ (Phasengang).
+<img width="666" height="314" alt="image" src="https://github.com/user-attachments/assets/b873ab7e-d999-414c-857b-8083ffd37da1" />
 
-#### **PT1-Glied**
-* **Eigenschaften:** Pol bei s = -1/T. Stabil für T>0. Sprungfähig.
-* **Diagramme:** .
-    * **Übergangsfunktion:** E-Funktion-Anstieg.
-    * **Gewichtsfunktion:** E-Funktion-Abfall.
-    * **PN-Bild:** Pol bei<img width="89" height="23" alt="image" src="https://github.com/user-attachments/assets/931e602b-dfd2-4935-87d7-bb08894a56fd" />
-.
-    * **Ortskurve:** Kreisbogen vom Punkt K zum Ursprung.
-    * **Bodediagramm:** Amplitudengang fällt ab einem Knickpunkt bei \omega=1/T mit -20 dB/Dek. Phasengang von 0^\circ zu -90^\circ.
+<img width="708" height="312" alt="image" src="https://github.com/user-attachments/assets/0c1a0358-7d59-4ed7-bb7a-ee0561ddc75f" />
 
-#### **PT2-Glied**
-* **Eigenschaften:** Zwei Pole. Stabilität abhängig von den Polen. Kann schwingen.
-* **Diagramme:** .
-    * **Übergangsfunktion:** E-Funktion-Anstieg (gedämpft schwingend oder aperiodisch).
-    * **PN-Bild:** Zwei Pole, reell oder konjugiert komplex.
-    * **Ortskurve:** Spiral- oder Kreisbogen zum Ursprung.
-    * **Bodediagramm:** Amplitudengang fällt ab einem Knickpunkt bei \omega=1/T mit -40 dB/Dek. Phasengang von 0^\circ zu -180^\circ.
+<img width="709" height="284" alt="image" src="https://github.com/user-attachments/assets/fcae7f6d-2d0a-4e6a-b631-ebb9a8bb6b36" />
 
-#### **T-Glied**
-* **Eigenschaften:** Unendlich viele Pole. Nicht sprungfähig im Frequenzbereich.
-* **Diagramme:** .
-    * **Übergangsfunktion:** Zeitlich verzögerte Kopie der Eingabe.
-    * **PN-Bild:** Keine Pole/Nullstellen.
-    * **Ortskurve:** Einheitskreis, der mit der Frequenz durchlaufen wird.
-    * **Bodediagramm:** Amplitudengang konstant bei 0 dB. Phasengang linear fallend.
+<img width="681" height="255" alt="image" src="https://github.com/user-attachments/assets/622090ef-1aca-4955-be50-b21d72d80b6d" />
+
 
 ***
 
