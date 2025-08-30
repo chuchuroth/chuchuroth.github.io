@@ -382,20 +382,9 @@ Steuerungen können grob in zwei Hauptkategorien eingeteilt werden: solche in ei
 
 Der Entwurf einer Vorsteuerung basiert auf einem **Modell der Regelstrecke**. Das Ziel ist, die Eingangsgröße des Systems so vorzuformen, dass die Ausgangsgröße dem Sollwert folgt, bevor der Regelkreis überhaupt eingreift.
 
-1.  **Modell der Regelstrecke:** Beginnen Sie mit der Übertragungsfunktion G(s) der Regelstrecke. Nehmen wir an, wir haben eine Regelstrecke mit G(s) = \frac{Y(s)}{U(s)}.
-2.  **Modell der Vorsteuerung:** Die Vorsteuerung G_{FF}(s) wird so entworfen, dass sie die Dynamik der Regelstrecke **invers** abbildet. Mathematisch bedeutet das, dass der Ausgang der Vorsteuerung U(s) so gewählt wird, dass der Systemausgang Y(s) dem Sollwert W(s) entspricht. Im Idealfall soll Y(s) = W(s) gelten.
-    Y(s) = G(s) \cdot U(s)
-    U(s) = G_{FF}(s) \cdot W(s)
-    Durch Einsetzen erhält man:
-    Y(s) = G(s) \cdot G_{FF}(s) \cdot W(s)
-    Um Y(s) = W(s) zu erreichen, muss die Gesamtübertragungsfunktion G(s) \cdot G_{FF}(s) gleich 1 sein.
-    Daher ist die ideale Vorsteuerungsübertragungsfunktion:
-    G_{FF}(s) = \frac{1}{G(s)}
-    Diese ideale Vorsteuerung ist allerdings oft **nicht realisierbar**, weil:
-    * **Nicht-kausale Systeme:** Wenn G(s) mehr Pole als Nullstellen hat, würde G_{FF}(s) mehr Nullstellen als Pole besitzen. Solche Systeme können nicht physikalisch realisiert werden, da sie eine "Voraussage" der Eingabe erfordern.
-    * **Unstabile Pole:** Wenn G(s) instabile Pole (in der rechten Halbebene) hat, hätte G_{FF}(s) instabile Nullstellen, was die Vorsteuerung ebenfalls unbrauchbar macht.
-3.  **Praktische Realisierung:** Aufgrund dieser Probleme wird oft eine **näherungsweise** Vorsteuerung entworfen. Dabei werden nur die **relevanten dynamischen Terme** der Regelstrecke invertiert. Bei einem PT1-Glied G(s) = \frac{K}{1+sT} wäre die ideale Vorsteuerung G_{FF}(s) = \frac{1+sT}{K}. Da dieser Regler eine Ableitung enthält (D-Anteil), kann er Rauschen verstärken und wird daher oft durch eine reale, weniger ideale Umsetzung ersetzt, z.B. durch Hinzufügen eines Filters.
-    Die Vorsteuerung wird dann **parallel zum Hauptregelkreis** implementiert. Sie dient dazu, die Dynamik des Systems bereits vorab zu korrigieren, sodass der eigentliche Regler nur noch kleine Restabweichungen ausgleichen muss.
+<img width="544" height="639" alt="image" src="https://github.com/user-attachments/assets/cda7ef25-8bb1-4e25-962b-a3ffa20c8f63" />
+
+
 
 ---
 
@@ -411,29 +400,8 @@ Der Entwurf einer Vorsteuerung basiert auf einem **Modell der Regelstrecke**. Da
 
 Die Berechnung der Kenngrößen eines Regelkreises hängt von seiner Struktur ab. Hier werden die wichtigsten Kenngrößen basierend auf der offenen Kette G_o(s) = G_R(s) \cdot G_S(s) berechnet, wobei G_R(s) die Übertragungsfunktion des Reglers und G_S(s) die der Regelstrecke ist.
 
-* **Führungsübertragungsfunktion (G_w(s)):** Sie beschreibt das Verhältnis von Ausgang Y(s) zu Sollwert W(s).
-    G_w(s) = \frac{Y(s)}{W(s)} = \frac{G_o(s)}{1+G_o(s)}
+<img width="563" height="696" alt="image" src="https://github.com/user-attachments/assets/2609d56a-c8f1-4c8e-bc90-b9498c6ffed3" />
 
-* **Störübertragungsfunktion (G_z(s)):** Sie beschreibt das Verhältnis von Ausgang Y(s) zu einer Störung Z(s), die am Eingang der Regelstrecke wirkt.
-    G_z(s) = \frac{Y(s)}{Z(s)} = \frac{G_S(s)}{1+G_o(s)}
-
-* **Bleibende Regelabweichung (e_{stat}):** Sie ist der stationäre Fehler, wenn der Sollwert eine Sprungfunktion ist (W(s) = \frac{1}{s}) und Störungen null sind. Sie kann mit dem **Endwertsatz** berechnet werden:
-    e_{stat} = \lim_{t\to\infty} e(t) = \lim_{s\to 0} s \cdot E(s) = \lim_{s\to 0} s \cdot \frac{W(s)}{1+G_o(s)} = \lim_{s\to 0} \frac{s \cdot \frac{1}{s}}{1+G_o(s)} = \frac{1}{1+G_o(0)}
-    Wenn G_o(0) \to \infty (z.B. durch einen I-Anteil im Regler), wird e_{stat} = 0.
-
-* **Kreisverstärkung (K_o):** Die Kreisverstärkung ist die Verstärkung der offenen Kette bei Gleichstrom (\omega = 0 oder s=0).
-    K_o = \lim_{s\to 0} G_o(s)
-    Sie ist ein Maß für die Stabilität und die bleibende Regelabweichung.
-
-* **Stabilitätsrand (Amplituden- und Phasenrand):** Diese Kenngrößen geben an, wie weit das System von der Stabilitätsgrenze entfernt ist. Sie werden typischerweise aus dem **Bode-Diagramm** oder der **Ortskurve** der offenen Kette abgelesen.
-    * **Phasenrand (\phi_R):** 180^\circ + \phi_{Go}(\omega_c), wobei \omega_c die Schnittfrequenz ist, an der |G_o(j\omega_c)|=1 ist.
-    * **Amplitudenrand (A_R):** 1/|G_o(j\omega_p)|, wobei \omega_p die Frequenz ist, an der \phi_{Go}(j\omega_p)=-180^\circ ist.
-
-* **Pole:** Die Pole des **geschlossenen Regelkreises** sind die Wurzeln des charakteristischen Polynoms 1+G_o(s) = 0. Sie bestimmen die Stabilität und das Einschwingverhalten des Systems.
-
-* **Empfindlichkeit (S(s)):** Sie beschreibt, wie empfindlich die Führungsübertragungsfunktion auf Änderungen der Übertragungsfunktion der Regelstrecke G_S(s) reagiert.
-    S(s) = \frac{1}{1+G_o(s)} = \frac{1}{1+G_R(s)G_S(s)}
-    Eine geringe Empfindlichkeit ist wünschenswert.
 
 ***
 
@@ -446,7 +414,8 @@ Das **Innere-Modell-Prinzip** besagt, dass ein stabiler Regelkreis eine station�
 
 * **Erfüllung für sprungförmige Signale:**
     Die Laplace-Transformierte einer Sprungfunktion ist 1/s. Um das Innere-Modell-Prinzip zu erfüllen, muss die Übertragungsfunktion des offenen Regelkreises G_o(s) einen **Pol bei s=0** enthalten. Dieser Pol entspricht einem **I-Anteil** im Regler, der den stationären Fehler eliminiert.
-    G_R(s) = K_p + \frac{K_i}{s} + K_d s
+   <img width="178" height="28" alt="image" src="https://github.com/user-attachments/assets/dc06938e-6570-4390-ac3c-e95c09d56d82" />
+
     Das Hinzufügen des I-Anteils sorgt dafür, dass G_o(s) einen Pol bei s=0 hat, wodurch die bleibende Regelabweichung für eine sprungförmige Eingabe oder eine sprungförmige Störung zu null wird.
 
 ---
@@ -467,24 +436,7 @@ Um die Reglerstruktur festzulegen, müssen die geforderten Eigenschaften des Reg
 
 ### 1. Regeln für die Wahl der Reglerstruktur
 
-Die Reglerstruktur, meistens ein PID-Regler (G_R(s) = K_p + \frac{K_i}{s} + K_d s), wird basierend auf den folgenden Forderungen gewählt:
-
-* **Stabilität bzw. I-Stabilität:** Ein Regelkreis muss stabil sein. Stabilität kann durch die Wahl der Reglerverstärkung K_p oder K_i beeinflusst werden.
-    * Die **Kreisverstärkung** G_o(s) = G_R(s)G_S(s) muss so gewählt werden, dass die **Nyquist-Kurve** des offenen Kreises den Punkt (-1, 0) nicht umschließt.
-
-* **Sollwertfolge:** Um eine bleibende Regelabweichung zu vermeiden, insbesondere bei sprungförmigen Sollwertänderungen, ist ein **I-Anteil** im Regler erforderlich (Innere-Modell-Prinzip).
-    * Der I-Anteil sorgt für einen **Pol bei s=0** in der offenen Kette, was den stationären Fehler eliminiert.
-
-* **Messrauschunterdrückung:** Hochfrequentes Messrauschen wird von einem **D-Anteil** im Regler verstärkt.
-    * Zur Rauschunterdrückung muss der D-Anteil (oder der gesamte Regler) als **tiefpassgefilterter** Regler ausgeführt werden, z.B. durch Hinzufügen eines Filters. Eine hohe **Reglerordnung** erhöht die Rauschempfindlichkeit.
-
-* **Robustheit:** Ein Regelkreis ist robust, wenn er trotz Unsicherheiten im Modell der Regelstrecke stabil bleibt.
-    * Die **Empfindlichkeitsfunktion** S(s) = \frac{1}{1+G_o(s)} sollte über einen bestimmten Frequenzbereich möglichst klein sein.
-    * Ein großer **Phasenrand** oder **Amplitudenrand** im **Bodediagramm** deutet auf eine gute Robustheit hin.
-
-* **Dynamik (Führungs- und Störverhalten):** Die Reglerparameter K_p, T_i = K_p/K_i und T_d = K_d/K_p beeinflussen die Dynamik des Regelkreises.
-    * Die **Geschwindigkeit** der Sollwertfolge wird durch die Pol-Nullstellen-Anordnung der Führungsübertragungsfunktion G_w(s) beeinflusst. .
-    * Das **Störverhalten** wird durch die Pol-Nullstellen-Anordnung der Störübertragungsfunktion G_z(s) bestimmt.
+<img width="561" height="671" alt="image" src="https://github.com/user-attachments/assets/8e6f7feb-032b-4a5e-8c46-5278e3effc60" />
 
 ***
 
@@ -514,16 +466,8 @@ Je nach den Prioritäten der Anwendung kann man Regelungsaufgaben klassifizieren
 
 ### 3. Beschränkungen durch das Gleichgewichtstheorem
 
-Das **Gleichgewichtstheorem** (auch als Regelungsnormalform bekannt) besagt, dass die dynamischen Eigenschaften von **Führungs- und Störübertragungsfunktion** nicht unabhängig voneinander eingestellt werden können. Die Summe der Empfindlichkeitsfunktion S(s) = \frac{1}{1+G_o(s)} und der Komplementärfunktion T(s) = \frac{G_o(s)}{1+G_o(s)} ist immer eins:
-S(s) + T(s) = \frac{1}{1+G_o(s)} + \frac{G_o(s)}{1+G_o(s)} = 1
-Daraus ergeben sich folgende Beschränkungen:
+<img width="556" height="513" alt="image" src="https://github.com/user-attachments/assets/085bab2d-a1f0-4e5e-a2ca-562a9317516f" />
 
-* **Kein perfektes Verhalten:** Man kann nicht gleichzeitig ein sehr gutes Störverhalten (kleines S(s)) und ein sehr gutes Führungsverhalten (kleines 1-T(s)) erreichen, da die Funktionen miteinander verbunden sind.
-* **Konflikt zwischen Robustheit und Geschwindigkeit:**
-    * Für gute **Störunterdrückung** bei niedrigen Frequenzen (wo Störungen typischerweise auftreten), muss S(s) klein sein, was eine hohe Kreisverstärkung |G_o(j\omega)| erfordert.
-    * Für gute **Robustheit** gegenüber hochfrequenten Unsicherheiten, muss die Empfindlichkeitsfunktion bei hohen Frequenzen klein sein. Das führt zu einer geringeren Kreisverstärkung bei höheren Frequenzen.
-* **Erhaltung der Masse:** Eine hohe Verstärkung in einem Frequenzbereich führt zu einer geringen Verstärkung in einem anderen.
-    * Um die **Stabilität zu gewährleisten**, darf die Empfindlichkeitsfunktion nicht zu stark ansteigen. Eine hohe Verstärkung bei einer Frequenz (z.B. durch einen I-Anteil) kann zu einer Resonanzüberhöhung bei einer anderen Frequenz führen, die die Robustheit gefährdet. Das bedeutet, dass der Regler **kompromittiert** werden muss, um sowohl Robustheit als auch Leistung zu gewährleisten.
  
 ---
 
