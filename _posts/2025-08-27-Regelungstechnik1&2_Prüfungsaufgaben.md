@@ -320,7 +320,8 @@ Die Stabilität von Regelkreisen ist oft robust gegenüber kleinen Modellierungs
 
 ### 3. Verwendung eines I-Reglers
 
-Die Verwendung eines I-Reglers (Übertragungsfunktion G_R(s) = \frac{K_i}{s}) verändert die Stabilitätsbetrachtungen grundlegend.
+Die Verwendung eines I-Reglers (Übertragungsfunktion <img width="73" height="26" alt="image" src="https://github.com/user-attachments/assets/415a0e86-1cc9-4a7b-a9fc-b7129a263c4c" />
+) verändert die Stabilitätsbetrachtungen grundlegend.
 
 * **Zusätzlicher Pol im Ursprung:**
     Der I-Regler fügt einen **zusätzlichen Pol bei s=0** zur offenen Kette hinzu. Dies verändert die Eigenbewegung und das stationäre Verhalten des Regelkreises.
