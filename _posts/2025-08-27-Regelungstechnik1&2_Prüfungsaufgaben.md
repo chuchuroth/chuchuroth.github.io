@@ -623,7 +623,8 @@ Strukturelle Systemeigenschaften sind unabhängig von den genauen Werten der Sys
 
 | Beschreibungsform | Kontinuierliche Systeme | Zeitdiskrete Systeme |
 | :--- | :--- | :--- |
-| **Zeitbereichsmodelle** | Differentialgleichungen \dot{x}(t)=Ax(t)+Bu(t) y(t)=Cx(t)+Du(t) | Differenzengleichungen x[k+1]=A_dx[k]+B_du[k] y[k]=C_dx[k]+D_du[k] |
+| **Zeitbereichsmodelle** | Differentialgleichungen <img width="238" height="37" alt="image" src="https://github.com/user-attachments/assets/e2f330fd-ebab-499b-97d8-340ff48c1d37" />
+ | Differenzengleichungen x[k+1]=A_dx[k]+B_du[k] y[k]=C_dx[k]+D_du[k] |
 | **Frequenzbereichsmodelle** | Übertragungsfunktion G(s) | Impulsübertragungsfunktion G(z) |
 
 <img width="460" height="391" alt="image" src="https://github.com/user-attachments/assets/84c7283f-9f9e-4c89-a84d-7a8302a27c3c" />
@@ -647,13 +648,16 @@ Strukturelle Systemeigenschaften sind unabhängig von den genauen Werten der Sys
 
 #### Überprüfung
 * **Kontinuierlich:**
-    * **Steuerbarkeit:** Überprüfen Sie den Rang der Steuerbarkeitsmatrix S = [B \quad AB \quad A^2B \quad \dots \quad A^{n-1}B] Der Rang muss gleich der Systemordnung n sein.
-    * **Beobachtbarkeit:** Überprüfen Sie den Rang der Beobachtbarkeitsmatrix O = [C^T \quad A^TC^T \quad (A^T)^2C^T \quad \dots \quad (A^T)^{n-1}C^T]^T Der Rang muss ebenfalls n sein.
+    * **Steuerbarkeit:** Überprüfen Sie den Rang der Steuerbarkeitsmatrix <img width="235" height="33" alt="image" src="https://github.com/user-attachments/assets/dc1971da-18be-4fb1-96b7-f1daaabd7030" />
+ Der Rang muss gleich der Systemordnung n sein.
+    * **Beobachtbarkeit:** Überprüfen Sie den Rang der Beobachtbarkeitsmatrix <img width="323" height="30" alt="image" src="https://github.com/user-attachments/assets/b108672c-9f65-4fe7-9b19-e4fee741259e" />
+ Der Rang muss ebenfalls n sein.
     * **Stabilität:** Ein System ist stabil, wenn alle **Eigenwerte von A einen negativen Realteil** haben. .
 
 * **Zeitdiskret:**
     * **Steuerbarkeit & Beobachtbarkeit:** Die gleichen Rangbedingungen gelten für die diskreten Matrizen A_d und B_d bzw. A_d und C_d.
-    * **Stabilität:** Ein System ist stabil, wenn alle **Eigenwerte von A_d innerhalb des Einheitskreises** in der z-Ebene liegen (|z_i| < 1). .
+    * **Stabilität:** Ein System ist stabil, wenn alle **Eigenwerte von A_d innerhalb des Einheitskreises** in der z-Ebene liegen <img width="64" height="25" alt="image" src="https://github.com/user-attachments/assets/27d01c2b-9b30-4c55-b247-a4d9ac2c03de" />
+. .
 
 #### Beziehungen bei Abtastung
 * **Steuerbarkeit & Beobachtbarkeit:**
