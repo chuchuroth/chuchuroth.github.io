@@ -263,14 +263,24 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m√
 ### 3. Eigenschaften und qualitative Diagramme
 
 <img width="684" height="289" alt="image" src="https://github.com/user-attachments/assets/1bc00fd3-b028-44cc-ae08-0fbf95699419" />
+<img width="699" height="176" alt="image" src="https://github.com/user-attachments/assets/a8456ddc-746d-4eb3-bab5-a74e6322b9f2" />
+
 
 <img width="666" height="314" alt="image" src="https://github.com/user-attachments/assets/b873ab7e-d999-414c-857b-8083ffd37da1" />
+<img width="692" height="134" alt="image" src="https://github.com/user-attachments/assets/6d4e2d09-bea9-40ad-bef5-1b32bacf713b" />
+
 
 <img width="708" height="312" alt="image" src="https://github.com/user-attachments/assets/0c1a0358-7d59-4ed7-bb7a-ee0561ddc75f" />
+<img width="698" height="147" alt="image" src="https://github.com/user-attachments/assets/0227c95d-beb4-4c7f-8ad3-029bc239fd80" />
+
 
 <img width="709" height="284" alt="image" src="https://github.com/user-attachments/assets/fcae7f6d-2d0a-4e6a-b631-ebb9a8bb6b36" />
 
 <img width="681" height="255" alt="image" src="https://github.com/user-attachments/assets/622090ef-1aca-4955-be50-b21d72d80b6d" />
+<img width="712" height="147" alt="image" src="https://github.com/user-attachments/assets/2867127c-e1dd-4f05-8202-7a5081cdb7a6" />
+
+andere wichtige √úbertragungsglieder
+<img width="692" height="437" alt="image" src="https://github.com/user-attachments/assets/bd41f52b-d7d2-48cb-b966-cd4d81f0ee5c" />
 
 
 ***
