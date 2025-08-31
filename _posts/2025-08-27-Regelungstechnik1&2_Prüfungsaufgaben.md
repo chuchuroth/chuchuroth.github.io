@@ -275,6 +275,10 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m√
 
 
 <img width="709" height="284" alt="image" src="https://github.com/user-attachments/assets/fcae7f6d-2d0a-4e6a-b631-ebb9a8bb6b36" />
+<img width="273" height="546" alt="image" src="https://github.com/user-attachments/assets/de4d6be3-358c-4fd1-954f-d914065c7010" />
+<img width="304" height="345" alt="image" src="https://github.com/user-attachments/assets/0b004b8c-5ef7-401d-a5c4-f1b09837e7a2" />
+
+
 
 <img width="681" height="255" alt="image" src="https://github.com/user-attachments/assets/622090ef-1aca-4955-be50-b21d72d80b6d" />
 <img width="712" height="147" alt="image" src="https://github.com/user-attachments/assets/2867127c-e1dd-4f05-8202-7a5081cdb7a6" />
