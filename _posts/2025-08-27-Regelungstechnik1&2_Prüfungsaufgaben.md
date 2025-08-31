@@ -25,10 +25,10 @@ Aufstellung einer Differentialgleichung:
 
 ---
 Aufstellung eines Zustandsraummodells：
-1 Systemzerlegung: Zerlegen das System in Komponenten.
-2 Komponentenmodelle: Schreiben die physikalischen Gesetze auf, die das Verhalten der Komponenten beschreiben.
-3 Kopplungsbeziehungen: Schreiben die Beziehungen auf, die zwischen den Komponenten bestehen.
-4 Modellumformung: Fassen die Gleichungen zu einem Zustandsraummodell zusammen.
+1. Systemzerlegung: Zerlegen das System in Komponenten.
+2. Komponentenmodelle: Schreiben die physikalischen Gesetze auf, die das Verhalten der Komponenten beschreiben.
+3. Kopplungsbeziehungen: Schreiben die Beziehungen auf, die zwischen den Komponenten bestehen.
+4. Modellumformung: Fassen die Gleichungen zu einem Zustandsraummodell zusammen.
 
 
 
