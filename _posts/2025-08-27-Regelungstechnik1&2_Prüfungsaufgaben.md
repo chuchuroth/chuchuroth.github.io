@@ -23,7 +23,15 @@ Aufstellung einer Differentialgleichung:
 3. Schreiben die Beziehungen auf, die zwischen den Komponenten bestehen
 4. Fassen die Gleichungen zu einer Differentialgleichung zusammen.
 
-  
+---
+Aufstellung eines Zustandsraummodells：
+1 Systemzerlegung: Zerlegen das System in Komponenten.
+2 Komponentenmodelle: Schreiben die physikalischen Gesetze auf, die das Verhalten der Komponenten beschreiben.
+3 Kopplungsbeziehungen: Schreiben die Beziehungen auf, die zwischen den Komponenten bestehen.
+4 Modellumformung: Fassen die Gleichungen zu einem Zustandsraummodell zusammen.
+
+
+
 ---
 Das wissenschaftliche Fundament der klassischen und modernen Regelungstheorie besteht darin, durch geeignete Rückkopplungsstrategien Systeme stabil und leistungsfähig zu machen. Die klassische Regelungstheorie basiert auf Übertragungsfunktionen und analysiert überwiegend Ein-zu-Ein-Ausgangssysteme (SISO) im Zeit- und Frequenzbereich. Ihre zentralen Werkzeuge sind Bode-Diagramme, Nyquist-Kurven und Wurzelortskurven, mit denen Stabilität und Dynamik auf anschauliche Weise untersucht werden können. Sie repräsentiert damit einen frequenzbasierten, input-output-orientierten Ansatz.
 
