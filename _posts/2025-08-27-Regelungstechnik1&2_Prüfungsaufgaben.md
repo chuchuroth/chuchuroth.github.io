@@ -549,6 +549,8 @@ Je nach den Prioritäten der Anwendung kann man Regelungsaufgaben klassifizieren
 
  
 ---
+---
+---
 
 1. Welche Entwurfsverfahren für einschleifige Regelkreise kennen Sie?
 2. Vergleichen Sie die Annahmen, von denen die einzelnen Verfahren ausgehen, und geben Sie an, für welche Anwendungsfälle sich diese Verfahren deshalb besonders gut eignen.
