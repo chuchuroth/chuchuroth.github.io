@@ -384,19 +384,20 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 
 Übertragungsglieder können nach ihrem dynamischen Verhalten in verschiedene Klassen eingeteilt werden. Die wichtigsten sind:
 * **P-Glied (Proportionalglied):** Die Ausgangsgröße ist proportional zur Eingangsgröße. Es gibt keine Dynamik. Beispiele: Potentiometer, Verstärker ohne Filter.
+* **P-环节（比例）：** 输出与输入成正比。
 * **I-Glied (Integrationsglied):** Die Ausgangsgröße ist das Integral der Eingangsgröße. Die Ausgangsgröße steigt oder fällt konstant, solange die Eingangsgröße konstant ungleich Null ist. Beispiele: Motor ohne Last, Füllstand eines Tanks bei konstantem Zufluss.
+* **I-环节（积分）：** 输出是输入的积分。
 * **D-Glied (Differenzialglied):** Die Ausgangsgröße ist proportional zur Änderungsrate der Eingangsgröße. Es reagiert auf Änderungen, nicht auf konstante Werte. Beispiele: Tachogenerator, induktive Sensoren.
+* **D-环节（微分）：** 输出是输入的导数。
 * **PT1-Glied (Proportional-Verzögerungsglied 1. Ordnung):** Die Ausgangsgröße verzögert sich proportional zur Eingangsgröße mit einer Zeitkonstante. Beispiele: Thermometer, RC-Glied, die meisten physikalischen Prozesse.
+* **PT1-环节（一阶惯性）：** 输出随时间延迟地跟随输入。
 * **PT2-Glied (Proportional-Verzögerungsglied 2. Ordnung):** Das System weist ein verzögertes und oft schwingendes Verhalten auf. Beispiele: Feder-Masse-Dämpfer-System, LCR-Schwingkreis.
+* **PT2-环节（二阶惯性）：** 输出呈振荡或非振荡的延迟。
 * **PD-Glied (Proportional-Differenzialglied):** Eine Kombination aus proportionalem und differenzierendem Verhalten. Es reagiert schnell auf Änderungen und behält das proportionale Signal bei.
 * **T-Glied (Totzeitglied):** Die Ausgangsgröße ist eine verzögerte Kopie der Eingangsgröße. Die Verzögerung ist konstant. Beispiele: Transportband, chemische Reaktionen mit Transportzeit.
-
-* **P-环节（比例）：** 输出与输入成正比。
-* **I-环节（积分）：** 输出是输入的积分。
-* **D-环节（微分）：** 输出是输入的导数。
-* **PT1-环节（一阶惯性）：** 输出随时间延迟地跟随输入。
-* **PT2-环节（二阶惯性）：** 输出呈振荡或非振荡的延迟。
 * **T-环节（纯延迟）：** 输出是输入的延迟副本。
+
+
 
 ***
 
@@ -409,37 +410,37 @@ Der Wechsel zwischen den Modellformen ist durch verschiedene Transformationen m�
 ### 3. Eigenschaften und qualitative Diagramme
  特性与图表
 
-
+* **P-环节：** 阶跃响应是跳变，伯德图增益为常数。
 <img width="684" height="289" alt="image" src="https://github.com/user-attachments/assets/1bc00fd3-b028-44cc-ae08-0fbf95699419" />
 <img width="699" height="176" alt="image" src="https://github.com/user-attachments/assets/a8456ddc-746d-4eb3-bab5-a74e6322b9f2" />
 
-
+* **I-环节：** 阶跃响应是斜坡，伯德图增益以 -20dB/dec 下降。
 <img width="666" height="314" alt="image" src="https://github.com/user-attachments/assets/b873ab7e-d999-414c-857b-8083ffd37da1" />
 <img width="692" height="134" alt="image" src="https://github.com/user-attachments/assets/6d4e2d09-bea9-40ad-bef5-1b32bacf713b" />
 
-
+* **PT1-环节：** 阶跃响应是指数上升，伯德图增益在转折点后以 -20dB/dec 下降。
 <img width="708" height="312" alt="image" src="https://github.com/user-attachments/assets/0c1a0358-7d59-4ed7-bb7a-ee0561ddc75f" />
 <img width="698" height="147" alt="image" src="https://github.com/user-attachments/assets/0227c95d-beb4-4c7f-8ad3-029bc239fd80" />
 
-
+* **PT2-环节：** 阶跃响应可能振荡。
 <img width="709" height="284" alt="image" src="https://github.com/user-attachments/assets/fcae7f6d-2d0a-4e6a-b631-ebb9a8bb6b36" />
 <img width="257" height="71" alt="image" src="https://github.com/user-attachments/assets/0c14a283-0c55-4399-a505-c7dc3837e332" />
 <img width="273" height="546" alt="image" src="https://github.com/user-attachments/assets/de4d6be3-358c-4fd1-954f-d914065c7010" />
 <img width="304" height="345" alt="image" src="https://github.com/user-attachments/assets/0b004b8c-5ef7-401d-a5c4-f1b09837e7a2" />
 
 
-
+* **T-环节：** 阶跃响应是延迟跳变，伯德图增益为常数，相位线性下降。
 <img width="681" height="255" alt="image" src="https://github.com/user-attachments/assets/622090ef-1aca-4955-be50-b21d72d80b6d" />
 <img width="712" height="147" alt="image" src="https://github.com/user-attachments/assets/2867127c-e1dd-4f05-8202-7a5081cdb7a6" />
 
 andere wichtige Übertragungsglieder
 <img width="692" height="437" alt="image" src="https://github.com/user-attachments/assets/bd41f52b-d7d2-48cb-b966-cd4d81f0ee5c" />
 
-* **P-环节：** 阶跃响应是跳变，伯德图增益为常数。
-* **I-环节：** 阶跃响应是斜坡，伯德图增益以 -20dB/dec 下降。
-* **PT1-环节：** 阶跃响应是指数上升，伯德图增益在转折点后以 -20dB/dec 下降。
-* **PT2-环节：** 阶跃响应可能振荡。
-* **T-环节：** 阶跃响应是延迟跳变，伯德图增益为常数，相位线性下降。
+
+
+
+
+
 
 ***
 
