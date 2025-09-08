@@ -371,14 +371,13 @@ Mit Automatisierung und SPS-Programmierung und steuerungstechnik habe ich schon 
 
 ich war als Mechatronik entwickler bei flex eingestellt, Habe ich ein paar produkte mitentwicknlt, Beispielsweise eines autonomen Rasenmähers und ein **Prüfdatenauswertungstool(data-logger)**, es ist ein internes Tool zur Auswertung von Temperatur- und Zyklusdaten, es kann die Daten automatisch sammeln, auswerten und grafisch dargestellen. Damit konnten wir früh Probleme erkennen und die Produktion verbessern. 
 
-```
+
 FLEX ist ein Hersteller professioneller elektrischer Handwerksgeräte (Power Tools) wie Bohrmaschinen, Schleifer oder Polierer. Vor der Auslieferung durchlaufen diese Geräte automatisierte Funktionsprüfstände, auf denen wichtige Parameter wie Temperatur, Stromaufnahme oder Drehzahl erfasst werden während definierter Testabläufe. Dabei entstehen sogenannte Zyklusdaten, also vollständige Datensätze pro Testdurchlauf. Ich war verantwortlich für die Konzeption, Umsetzung und Einführung des Tools. Dazu gehörten:
 1, Entwicklung einer Software (Python-basiert) zur automatischen Analyse der Zyklusdaten einzelner Geräte
 2, Auswertung zeitbasierter Messgrößen wie Temperaturverlauf, Stromaufnahme und Drehzahl über den gesamten Prüfzyklus
 3, Definition von Grenzwerten, Alarmbedingungen und Abweichungserkennung
 4, Gestaltung eines benutzerfreundlichen Dashboards zur Visualisierung der Testverläufe
 5, Abstimmung mit Fertigungs- und Qualitätsteams zur Interpretation und Weiterverwendung der Ergebnisse
-```
 
 ---
 
@@ -392,7 +391,7 @@ also ich wurde sagen selbst wenn deutsch ein Fremdsprache für mich ist, ich kan
 
 außerdem bei hella bin ich auch an andere sache beteiligt, zb das Design und den Aufbau von **Steuerungsschränken**. Dabei muss ich den kompletten Prozess begleiten, also von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie und finale Funktionstest durchzuführen. dabei habe ich engen Kontakt zur Fertigungsplanung, zur Instandhaltung und zu den Automatisierungspartnern vor Ort – also viel Abstimmung und Zusammenarbeit. außerdem muss man alle Messergebnisse und Abnahmeprotokolle dokumentieren und abgeben.
 
-```
+
 Design und den Aufbau von Steuerungsschränken, wie man sie in modernen Fertigungslinien oder in verteilten Anlagenräumen findet. Dabei habe ich den kompletten Prozess begleitet, von der ersten Konzeptphase bis hin zur Inbetriebnahme und Abnahme auf der Linie. Ich fasse hier mal zusammen, wie ich dabei vorgegangen bin – ganz locker und in freier Rede.
   1. Projektstart & Konzeption  
 Zuerst haben wir geklärt,   welche Funktionen der Schaltschrank übernehmen muss  : Brauchen wir nur eine einfache PLC-Steuerung oder eine verteilte DCS-Architektur mit mehreren Panels? Daraus ergibt sich schon die Frage nach der   Anzahl der Türen   (Single- oder Double-Door) und der passenden Größe. Dann habe ich in einem   Blockdiagramm   skizziert, wie Stromversorgungen, Sicherungen, Sensoren, Aktoren und Kommunikationsmodule (z. B. Ethernet-Switches oder Profibus-Koppler) logisch zusammenhängen.
@@ -418,7 +417,7 @@ Beim   Verkabeln   bin ich Seite für Seite nach den Schaltplänen vorgegangen:
   Klare Beschriftung an jedem Kabel, vor allem bei mehradrigen Schläuchen
 Nach der Verkabelung kam der   Erstcheck  : Multimeter ans Netz, Schritt für Schritt die MCBs anlegen, 24 V-Netz prüfen, alle Sicherungen. Dann im   SPS-Programm   die I/Os einzeln durchschalten: Digitale Eingänge per Jumper, Ausgänge über Software-Test, Analog-Signale mit Simulatoren. Sicherheitskreise (Not-Aus, Lichtvorhänge) wurden separat geprüft und verifiziert.
 Zum Schluss habe ich das **finale SPS-Programm** aufgespielt und einen kompletten Funktionstest durchgeführt – je nach Anlage vor Ort oder direkt im Schaltschrank als Trocken-Durchlauf. Alle Messergebnisse und Abnahmeprotokolle habe ich dokumentiert und dem Kunden zur Verfügung gestellt.
-```
+
 
 ---
 
@@ -428,7 +427,7 @@ soll ich weiter erzählen oder mehr über technik details gehen.
 
 ## mein aufgaben/fähigkeit
 
-```
+
 SPS- & HMI-Programmierung:
 Versiert in mehreren SPS-Plattformen wie Siemens (S7, TIA Portal), Allen-Bradley (RSLogix, Studio 5000) und Mitsubishi. Ich entwickle robuste, skalierbare und effiziente Logiken, um einen nahtlosen Maschinen- und Prozessbetrieb zu gewährleisten.
 
@@ -446,17 +445,18 @@ Kenntnisse im Einrichten und Beheben von Störungen in industriellen Netzwerken 
 
 Wartung & Optimierung:
 Ich setze präventive und predictive Wartungsstrategien um, führe Ursachenanalysen durch und nutze kontinuierliche Verbesserungsmethoden zur Steigerung von Produktivität und Zuverlässigkeit.
-```
+
 
 ---
 ## automatisierung & steuerungstechnik & SPS
 
-```
+---
 Automatisierungspyramide von unten nach oben:
 Mechanik → Aktoren/Sensoren → Steuerung (SPS) → HMI → IT-Ebene
-```
 
-```
+---
+
+
 Steuerungstechnik:
 SPS-Programmierung (z. B. Siemens S7, TIA Portal, Beckhoff TwinCAT)
 Entwicklung und Anpassung von Programmen (z. B. in TIA Portal, TwinCAT)
@@ -465,9 +465,8 @@ Verdrahtungspläne lesen und erstellen (EPLAN, WSCAD o. Ä.)
 Verwendung von KOP, FUP, ST, SCL
 Simulation & Test (z. B. mit PLCSIM)
 Programmierstand dokumentieren
-```
 
-```
+---
 SPS-Grundlagen & Logikverständnis:
 Funktionsweise und Zyklus einer SPS (E/A-Verarbeitung, Zykluszeit)
 Unterschied zwischen bitorientierter und wortorientierter Verarbeitung
@@ -477,26 +476,25 @@ Erstellung von Ablaufsteuerungen, Schrittkettendiagrammen (z. B. mit SFC)
 Logische Verknüpfung von Sensoren, Aktoren, Meldern
 Fehlerbehandlung und Notlauffunktionen programmieren
 Verständnis für Signalfluss & Timing
-```
+
+---
 
 ## servotechnik & servoantrieb
 
-```
+
 Servotechnik:
 Funktionsweise von Servoantrieben, Frequenzumrichtern
 PID-Regelung, Parameterabgleich, Inbetriebnahme
 Sicherheitsfunktionen (z. B. STO, SS1 etc.)
-```
 
-```
+---
 Servoantriebe & Motion Control:
 Grundprinzip: Regelkreis (Soll/Ist-Werte, Encoder, PWM-Steuerung)
 Typische Parameter: Drehzahl, Stromgrenzen, Bremsverhalten, Rampen
 Fehlermeldungen interpretieren und sicher beheben
 Unterschied zwischen Positions-, Drehzahl- und Momentenregelung
-```
 
-```
+---
 Servotechnik in komplexen Anlagen -
 Praxisbeispiel: Siemens SINAMICS S120 :
 Motor: 1FT7-Servo
@@ -505,10 +503,11 @@ Software: Startdrive im TIA Portal
 Kommunikation: PROFINET oder DRIVE-CLiQ
 Parameter: P- und I-Werte, Encoder-Typ, Motordaten, STO aktiviert
 Anwendung: CNC-Achse mit präziser Positionierung und hoher Dynamik
-```
+
+---
 ## stromlaufplne & schaltplan
 
-```
+
 elektrischer Schaltplan:
 1. Zeichne den Stromlaufplan für den Steuerkreis
 2. Zeichne den Laststromkreis
@@ -518,17 +517,15 @@ Stromlaufplan	Verbindet alle elektrischen Bauteile logisch – wie ein Schaltkre
 Klemmenplan	Zeigt, wie Leitungen an Klemmleisten verdrahtet sind
 Aufbauplan	Zeigt, wo Bauteile im Schaltschrank montiert sind
 Verbindungsplan	Zeigt Kabelverbindungen zwischen Baugruppen oder Schaltschränken
-```
 
-```
+---
 in der Praxis mit Schaltplänen machen musst:
 Fehlersuche: → „Warum läuft der Motor nicht?“ → Schaltplan prüfen → Taster, Relais, Sicherung nachverfolgen
 Signalverfolgung: → „Welches SPS-Eingangssignal kommt von welchem Sensor?“
 Verdrahtung prüfen / planen: → „Wie muss ich den Sensor am Klemmblock anschließen?“
 Bauteil verstehen: → „Was macht dieses Relais hier?“ → Schaltplan + Funktionsbeschreibung lesen
-```
 
-```
+---
 Schritt-für-Schritt Anleitung zur Analyse eines Stromlaufplans:
 Legende & Symbolverständnis
 Hauptspannung & Steuerstromkreis identifizieren
@@ -539,11 +536,12 @@ Sicherheitseinrichtungen erkennen
 SPS-Einbindung prüfen
 Drahtnummern & Querverweise lesen
 Klemmleisten und externe Anschlüsse
-```
+
+---
 
 ## fehlersuche
 
-```
+
 Fehlersuche und Instandsetzung:
 Systematisch mit Messgerät, Software und Erfahrung vorgehen
 Logik prüfen (z. B. warum Ausgang A0.1 nicht schaltet)
@@ -552,17 +550,16 @@ Programmanpassungen im laufenden Betrieb
 Analyse von Log-Daten und Alarmen
 Zykluszeitoptimierung, Speicherverbrauch prüfen
 Wiederverwendbarkeit von Bausteinen fördern
-```
 
-```
+---
 Typische elektrische & steuerungstechnische Fehler (aus der Praxis):
 Schützspule zieht nicht an
 Motor startet nicht / löst aus
 SPS fährt nicht hoch
 Sensor erkennt nicht / gibt Fehlersignale
 SPS-Ein-/Ausgänge defekt
-```
 
+---
 
 ## 🧰 Typische Fehlerquellen & Diagnosetipps
 
