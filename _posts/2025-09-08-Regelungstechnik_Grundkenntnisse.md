@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Regelungstechnik_Grundkenntnisse"
+date:   2025-08-27
+categories: jekyll update
+---
+
+
 ### Einführung in die Regelungstheorie
 
 - **Klassische und moderne Regelungstheorie**: Rückkopplungsstrategien, um Systeme stabil und leistungsfähig zu machen.
