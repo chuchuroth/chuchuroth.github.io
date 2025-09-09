@@ -203,7 +203,7 @@ Zusammenfassend lässt sich sagen, dass meine Arbeit als Testingenieur eine zent
 
 Der wichtigste Bestandteil beim Design von Elektrowerkzeugen ist die Motorsteuerung. Grundsätzlich lässt sich die Motorsteuerung in drei Hauptkategorien einteilen:
 
-+ 1. Blockkommutierung / offene PWM-Steuerung
++ 1.  Offene PWM-/Blockkommutierung (Six-Step, Trapezsteuerung)
 Diese Art der Steuerung nutzt einfache PWM-Signale im offenen Regelkreis mit Spannungs- bzw. Stromregelung. Sie wird bei Elektrowerkzeugen mit geringen Genauigkeitsanforderungen eingesetzt, wie zum Beispiel Laubbläser, Kettensägen oder Gartenscheren. Solche Werkzeuge verwenden in der Regel bürstenlose Gleichstrommotoren (BLDC). Die Steuerungsmethode ist einfach und kostengünstig.
 
 + 2. Geschlossene PWM-Drehzahlregelung
