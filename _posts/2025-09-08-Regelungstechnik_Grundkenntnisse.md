@@ -214,11 +214,9 @@ In automatischen Rasenmähern und anderen High-End-Werkzeugen wird eine fortschr
 
 Weitere Aspekte
 
-Frequenzumrichter und Treiberchips übernehmen die intelligente Anpassung von Spannung, Frequenz und Strom.
-
-Strom- und Spannungssensoren ermöglichen die Echtzeitüberwachung, um Überlastungen oder Kurzschlüsse zu vermeiden.
-
-Batteriemanagementsysteme (BMS) überwachen den Zustand der Akkus. Dazu gehören auch Kühl- und Schutzmechanismen wie Temperatursensoren, die vor Überhitzung, Überlast oder Kurzschluss schützen.
++ Frequenzumrichter und Treiberchips übernehmen die intelligente Anpassung von Spannung, Frequenz und Strom.
++ Strom- und Spannungssensoren ermöglichen die Echtzeitüberwachung, um Überlastungen oder Kurzschlüsse zu vermeiden.
++ Batteriemanagementsysteme (BMS) überwachen den Zustand der Akkus. Dazu gehören auch Kühl- und Schutzmechanismen wie Temperatursensoren, die vor Überhitzung, Überlast oder Kurzschluss schützen.
 
 Außerdem bin ich auch für die Durchführung von Tests verantwortlich. Dabei werden üblicherweise folgende Standards und Prüfungen angewendet:
 
