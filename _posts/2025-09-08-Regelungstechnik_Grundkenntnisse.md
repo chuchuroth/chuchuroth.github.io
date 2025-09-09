@@ -190,6 +190,10 @@ Die Elektrowerkzeugbranche wächst kontinuierlich, wobei Qualität, Sicherheit u
 
 Meine Tätigkeit stellt sicher, dass Motorantriebe in Elektrowerkzeugen **leistungsfähig, sicher und normgerecht** sind. Mit den Tests unterstütze ich Entwicklungsabteilungen dabei, Schwachstellen frühzeitig zu identifizieren und gezielte Verbesserungen vorzunehmen. Gleichzeitig optimiere ich die Testprozesse so, dass **Kosten gesenkt** werden können, ohne die Qualität zu gefährden. Dadurch trage ich unmittelbar zum Erfolg der Produkte auf dem internationalen Markt bei.
 
+### 5. Laborausstattung
+
+In meinem Labor stehen verschiedene hochspezialisierte Messgeräte zur Verfügung, die für die umfassende Analyse und Prüfung von Elektromotoren und deren Ansteuerung unverzichtbar sind. Ein Stromversorgungsgerät (Netzgerät) liefert die benötigte Betriebsspannung unter kontrollierten Bedingungen. Mit einem Erdungswiderstand-Prüfgerät wird die elektrische Sicherheit durch die Messung des Erdungswiderstands überprüft. Zur Analyse **elektromagnetischer Störungen und Signale** dient ein **Spektrumanalysator**, falls ein **oscilloscope und multimeter** reicht nicht, während ein Leistungsmessgerät präzise elektrische Parameter wie Spannung, Strom, Leistung und Wirkungsgrad erfasst. Ein **Signalgenerator** ermöglicht die Erzeugung definierter Eingangssignale für Funktions- und Belastungstests. Ergänzend wird ein Netzwerkanalysator eingesetzt, um die frequenzabhängigen Eigenschaften elektrischer Schaltungen und Systeme, etwa Impedanz oder Übertragungsverhalten, zu untersuchen.
+
 ## Schluss
 
 Zusammenfassend lässt sich sagen, dass meine Arbeit als Testingenieur eine zentrale Schnittstelle zwischen **Entwicklung, Qualitätssicherung und Marktzulassung** bildet. Sie verbindet detailliertes technisches Fachwissen, präzise Messtechnik und die Umsetzung internationaler Standards. Durch den Aufbau effizienter Testumgebungen und den Einsatz moderner Regelungsverfahren leiste ich einen wichtigen Beitrag dazu, dass Elektrowerkzeuge von heute **sicher, zuverlässig und zukunftsfähig** sind.
