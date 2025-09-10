@@ -1,4 +1,4 @@
-„Also, ich habe mich sehr über die Einladung zu diesem Gespräch gefreut. Es war schon lange mein Wunsch, an einer Hochschule zu arbeiten, weil ich die akademische Umgebung mag.
+„Also, ich habe mich sehr über die Einladung zu diesem Gespräch gefreut. 
 
 1.momentan arbeite ich zusammen mit mein Freund selbstständig, wir arbeite meisten mit 3D-Druckern, wir bastelln gerade einen Industrie-3D-Drucker mit großem Bauraum für großformatige Teile wie Möbelstücke.  
 
