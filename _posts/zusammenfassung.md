@@ -1,7 +1,7 @@
 „Also, ich habe mich sehr über die Einladung zu diesem Gespräch gefreut. Es war schon lange mein Wunsch, an einer Hochschule zu arbeiten, weil ich die akademische Umgebung mag.
 
 1.momentan arbeite ich zusammen mit mein Freund selbstständig, wir arbeite meisten mit 3D-Druckern, wir bastelln gerade einen Industrie-3D-Drucker mit großem Bauraum für großformatige Teile wie Möbelstücke.  
-2.gemeinsam haben wir ein klein elektrische Labor aufgebaut, haben notwendige Ausstattung ein paar  Laborgeräte beschafft ,  Spektrumanalysator,  falls osilliscope reicht nicht, Zur messung elektromagnetischer Störungen und Signalgenerator, falls bestimmte Signal braucht, und Netzgerät
+2.gemeinsam haben wir ein klein elektrische Labor Ausgestattet, ein paar  Laborgeräte beschafft ,  Spektrumanalysator,  falls osilliscope reicht nicht, Zur messung elektromagnetischer Störungen und Signalgenerator, falls bestimmte Signal braucht, und Netzgerät
 3.und parallel arbeite ich mit ROS und lernen weiter und  beschäftigen auch mit bastelln Roboterarme,,  und ab und zu kommt Kunde besuch und bringt Geräte zur Reparatur und mach wir EMI-Tests und PCB 
 Er arbeite gerade zusammen mit HS Heilbronn zum entwikeln Versuchsstände, einem Teststand zur Oberfläche Hupe-Vermessung von Nockenwellen, 
 
