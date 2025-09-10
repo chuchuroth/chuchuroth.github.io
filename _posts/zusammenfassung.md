@@ -9,7 +9,7 @@
 Er arbeite gerade zusammen mit HS Heilbronn zum entwikeln Versuchsstände, einem Teststand zur Oberfläche Hupe-Vermessung von Nockenwellen, 
 
 
-4.Vorher war bei FLEX da war ich in der Entwicklung tätig, und habe an ein paar Projekten mitgemacht. habe einem autonomen Rasenmäher prototyp gebaut, mein aufgaben ist software, 
+4.Vorher war bei FLEX da war ich in der Entwicklung tätig, und habe an ein paar Produkte mitgemacht. habe einem autonomen Rasenmäher prototyp gebaut, mein aufgaben ist software, 
 
 5.und meisten beschäftigt mich mit  Motorsteuerung, Der ist auch wichtigste Teil beim Design von Elektrowerkzeugen, gründsätzlich gibts drei arten , einmal die einfachsten Six-Step,  PWM-Signale im offenen Regelkreis, ohne feedback, zum Beispiel Laubbläser, Kettensägen oder Gartenscheren , Elektrowerkzeugen mit geringen Genauigkeitsanforderungen
 
@@ -31,10 +31,12 @@ Er arbeite gerade zusammen mit HS Heilbronn zum entwikeln Versuchsstände, einem
 13.Bei HELLA war ich für CAD-Zeichnung verantwortlich und habe Konstruktionspläne vor der Freigabe nach Standards überprüft. 
 
 14.Zusätzlich habe ich in der Planung von Scheinwerfer-Produktionslinien mitgearbeitet und dabei Erfahrungen mit SPS-Programmierung, Stromlaufplänen und fehlersuchen, und dabei habe erfahrung mit siemens TIA gesammelt. 
+Habe bisl Erfahrungen aus der Industrie und aus Studium 
 
+dann hab Studium von kit abgeschlossen 
+damals habe gearbeitet asl HIWI Laborhilfkraft.
 
-
-Für diese Stelle habe ich mir bereits einige Gedanken gemacht. Ich glaube, es wäre sinnvoll, die Laborversuche so zu gestalten, wie damals Praktikum bei KIT, natürlich ist nur als muster Praktikum von KIT . Habe bisl Erfahrungen aus der Industrie und aus Studium , damals habe gearbeitet asl HIWI Laborhilfkraft.
+Für diese Stelle habe ich mir bereits einige Gedanken gemacht. Ich glaube, es wäre sinnvoll, die Laborversuche so zu gestalten, wie damals Praktikum bei KIT, natürlich ist nur als muster Praktikum von KIT .  
 
 Außerdem habe ich bereits vier Module zu klassischen Regelungsthemen aufgebaut, hier sind zwei PID Beispiele geschreiben mit Python und Arduino.
 
