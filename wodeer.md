@@ -166,7 +166,7 @@ Harbin Institute of Technology, September 2007 – Juni 2011
 - Weitere: Git, Linux, Docker, SQL, REST-APIs.  
 
 ## Sprachkenntnisse
-- **Deutsch:** C1 (verhandlungssicher, fließend).  
+- **Deutsch:** DSH-2 | Gute technische Ausdrucksfähigkeit (B2+), sicher in Teamkommunikation und Dokumentation
 - **Englisch:** C1 (verhandlungssicher, fließend).  
 - **Chinesisch:** Muttersprache.  
 
