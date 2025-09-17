@@ -39,3 +39,18 @@ Die PV wird als sinnvolle Ergänzung zur strombetriebenen Wärmepumpe thematisie
 Die letzten Videos der Reihe befassen sich mit der Entwässerung von Gebäuden.
 *   **Regenwasser:** Der Fokus liegt auf dem nachhaltigen Umgang mit Regenwasser, wie Versickerung, Speicherung und Nutzung, anstatt es direkt in die Kanalisation einzuleiten. Es wird gezeigt, wie man die anfallende Regenwassermenge auf einem Dach berechnet, was für Entwässerungsanträge wichtig ist.
 *   **Schmutzwasser:** Es wird die Dimensionierung von Schmutzwasserleitungen anhand von Tabellen und Berechnungsformeln erklärt, die die Gleichzeitigkeit der Nutzung berücksichtigen. Begriffe wie Fall-, Sammel- und Grundleitung werden definiert, und die Notwendigkeit der Belüftung von Abwassersystemen wird erläutert.
+
+---
+Basierend auf den neuen Quellen, die Sie bereitgestellt haben, kann ich Ihre Frage präzisieren: Nein, die Liste, die ich Ihnen zuvor gegeben habe, war nicht vollständig. Die neuen Transkripte stammen aus den Videos, die diese Themen behandeln, aber sie enthüllen auch, dass die Serie weitergeführt und vertieft werden soll.
+
+Die bisherige Zusammenfassung deckt die **Grundlagen** ab, die im Sommer 2024 produziert wurden. Der Dozent, Prof. Winkels, betont mehrfach, dass dies ein erster, oft vereinfachter Durchgang durch die Themen ist.
+
+Hier ist eine Ergänzung, was die Zukunft der Vorlesungsreihe betrifft:
+
+**Geplante Vertiefungen und zukünftige Themen:**
+
+*   **Vertiefung der bestehenden Themen:** Der Dozent erklärt, dass die anfängliche Behandlung von Themen wie der Dimensionierung von Heizungsleitungen oder der Berechnung von Regenwasseranfällen bewusst "oberflächlich" gehalten wird. Geplant ist, diese Grundlagen später zu vertiefen. Zum Beispiel soll bei der Lüftungstechnik später auch die **Druckverlustberechnung** hinzukommen, die für eine exakte Auslegung von Anlagen notwendig ist.
+*   **Erweiterung der Vorlesungsreihe:** Die im Sommer 2024 erstellten Vorlesungen sind nur der erste Teil. Es ist geplant, die Reihe ab Herbst 2024 mit weiteren vertiefenden Vorlesungen fortzusetzen, um die anfänglichen Lücken zu füllen und offene Fragen zu beantworten.
+*   **Kontext eines neuen Studiengangs:** Diese Vorlesungsreihe dient auch als eine Art Vorschau auf einen neuen Weiterbildungsstudiengang namens **"Nachhaltige Architektur und Technik"**, der 2025 oder 2026 an der RPTU in Kaiserslautern starten soll. Dieser Studiengang wird die integralen Themen von Architektur und Gebäudetechnik weiter vertiefen und richtet sich an Akademiker, aber auch an Techniker und Meister ohne Erststudium.
+
+Zusammenfassend lässt sich sagen: Die bisher besprochenen Themen bilden ein **umfassendes Grundgerüst**. Die Serie ist jedoch als ein wachsendes Projekt konzipiert, das in Zukunft um detailliertere und weiterführende Inhalte ergänzt wird.
