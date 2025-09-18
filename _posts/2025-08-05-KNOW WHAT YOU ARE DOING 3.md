@@ -13,8 +13,11 @@ to-dos:
 + reading material for today
 + 根据modulhandbuch gebaudetechnik把每个topic准备一小段讲义
 + 那几家供应商稍微了解一下，他们的产品
++ 找一本经典的书，把思维导图画出来
 + 
-+ 
+
+---
+先解释什么是debaudetechnik，它主要解决哪些问题，有哪些主要的研究对象，跟regelungstechnik有何关系，如何运用regelungstechnik的方法在各个实际应用场景中，
 
 ---
 实验一，一个简单的面板，有几个信号
@@ -28,7 +31,7 @@ basiert auf Input von letzte mal, ich habe folgenden vorbereitet, mit ein paar f
 
 
 
-挑选一个经典的topic，准备一节三十分钟的课，demo
+挑选一个经典的topic，准备一节三十分钟的课，demo（ich habe sowieso kein konkrete thema, also mache ich ein Erörterung uber allgemein Gebäudetechnik, als Probelauf.
 
 控制系统：
 第一层理解（从易到难，层层递进，不要马上上数学公式和晦涩的理论，容易感到挫折感）
