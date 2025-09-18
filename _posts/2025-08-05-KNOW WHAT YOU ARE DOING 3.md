@@ -11,11 +11,20 @@ was muss sofort machen, was kann später machen
 
 to-dos:
 + reading material for today
++ 根据modulhandbuch gebaudetechnik把每个topic准备一小段讲义
++ 那几家供应商稍微了解一下，他们的产品
++ 
++ 
 
+---
+实验一，一个简单的面板，有几个信号
+实验二，schneider的一个类似于plc的机器，貌似用来控制一栋楼debaude
+实验三，一个analog的控制器，在一张纸上画线，那叫什么？他说要digitalisieren。。
+实验四，一个什么软件的lizenz，什么软件？
 
 ---
 
-
+basiert auf Input von letzte mal, ich habe folgenden vorbereitet, mit ein paar frage von meiner seite
 
 
 
