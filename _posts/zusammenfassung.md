@@ -1,4 +1,4 @@
-„Also, ich habe mich sehr über die Einladung zu diesem Gespräch gefreut. 
+
 
 1.momentan arbeite ich zusammen mit mein Freund selbstständig, wir arbeite meisten mit 3D-Druckern, wir bastelln gerade einen Industrie-3D-Drucker mit großem Bauraum für großformatige Teile wie Möbelstücke.  
 
@@ -61,7 +61,13 @@ Ich sehe mich als Schnittstelle zwischen Theorie und Praxis also aus Konzept fun
 
 
 
+---
 
+
+
+
+
+---
 
 
 
