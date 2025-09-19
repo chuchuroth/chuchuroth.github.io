@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "softskills"
+date:   2025-09-19
+categories: jekyll update
+---
+
+
 Hier sind Antworten auf die Fragen zu den Soft Skills basierend auf dem Dokument:
 
 ### **Analytisches Denken**
