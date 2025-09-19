@@ -13,7 +13,7 @@ to-dos:
 + reading material for today
 + 根据modulhandbuch gebaudetechnik把每个topic准备一小段讲义
 + 那几家供应商稍微了解一下，他们的产品
-+ 找一本经典的书，把思维导图画出来
++ 找一本经典的书，把思维导图画出来，内圈是第一层理解，第二圈是第二层理解，依次类推
 + 设备更新需要根据多方的feedback，尤其是学生的反馈，这里得有一个process
 
 ---
