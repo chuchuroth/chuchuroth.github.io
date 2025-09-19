@@ -31,8 +31,8 @@ basiert auf Input von letzte mal, ich habe folgenden vorbereitet, mit ein paar f
 
 
 
-挑选一个经典的topic，准备一节三十分钟的课，demo（ich habe sowieso kein konkrete thema, also mache ich ein Erörterung uber allgemein Gebäudetechnik, auf didaktische Art und weise, als Probelauf.
-
+挑选一个经典的topic，准备一节三十分钟的课，demo - also mache ich ein Erörterung uber allgemein Gebäudetechnik, auf didaktische Art und weise, als Probelauf.
+spater wenn ich habe konkrete aufgaben oder thema, dann mache demo fur das thema
 控制系统：
 第一层理解（从易到难，层层递进，不要马上上数学公式和晦涩的理论，容易感到挫折感）
 第二层理解
