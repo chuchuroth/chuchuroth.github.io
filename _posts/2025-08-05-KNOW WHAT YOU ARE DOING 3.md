@@ -14,7 +14,7 @@ to-dos:
 + 根据modulhandbuch gebaudetechnik把每个topic准备一小段讲义
 + 那几家供应商稍微了解一下，他们的产品
 + 找一本经典的书，把思维导图画出来
-+ 
++ 设备更新需要根据多方的feedback，尤其是学生的反馈，这里得有一个process
 
 ---
 先解释什么是debaudetechnik，它主要解决哪些问题，有哪些主要的研究对象，跟regelungstechnik有何关系，如何运用regelungstechnik的方法在各个实际应用场景中，
