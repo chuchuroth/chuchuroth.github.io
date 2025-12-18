@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "electrical one line drawings"
+date:   2025-10-13
+categories: jekyll update
+---
+
+
+
 The knowledgeable information from the video "Reading electrical one line drawings | Eaton PSEC" focuses entirely on the conventions, symbols, components, and practices involved in reading and understanding single line diagrams (also known as one-line diagrams or single line drawings) used in electrical power systems.
 
 Here is a comprehensive list of the main points and knowledgeable information:
