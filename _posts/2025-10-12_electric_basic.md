@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "electric_basic"
+date:   2025-10-12
+categories: jekyll update
+---
+
+
 This response draws together all the knowledgeable information, know-how, and industry practices detailed across the provided video transcripts.
 
 ---
