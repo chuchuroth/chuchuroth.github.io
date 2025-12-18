@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Medium Voltage technology_2"
+date:   2025-10-11
+categories: jekyll update
+---
+
+
 The knowledgeable information, know-how, industry practices, and technical details extracted from the two videos regarding Medium Voltage (MV) technology, power supply, and switchgear components are presented below.
 
 ---
