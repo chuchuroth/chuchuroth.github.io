@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Electrical_faults_explained_types_causes_calculations_protection"
+date:   2025-10-10
+categories: jekyll update
+---
+
+
 The knowledgeable information contained in the video "Electrical faults explained: types, causes, calculations, and protection" focuses on defining electrical faults, differentiating them from overloads, explaining various types of faults, detailing fault current calculation methods, and outlining protective strategies.
 
 Here is a comprehensive summary of the information:
