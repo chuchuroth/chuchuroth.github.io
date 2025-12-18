@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "medium voltage technology"
+date:   2025-10-14
+categories: jekyll update
+---
+
+
+
 The main points, knowledgeable information, know-how, and industry practices regarding medium voltage (MV) technology and switchgear, drawn from the provided sources, are listed below.
 
 ---
