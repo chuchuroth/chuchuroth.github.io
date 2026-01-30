@@ -104,3 +104,141 @@ This response draws together all the knowledgeable information, know-how, and in
 *   **Oscilloscope Use (Know-How):** Provides a visual display of the signal waveform. Key to stability is proper **triggering** (e.g., automatic internal triggering). Use a specific checklist for control settings (X, Y, Z axes, Trigger). Set intensity low to prevent burning the screen.
 *   **Transistor/Diode Testing:** Use an analog ohm meter for forward/reverse resistance ratios. A DMM's diode test feature displays the barrier voltage. Thermal failure is common; use freeze spray to diagnose heat-related component faults.
 *   **ESD Protection:** MOSFETs are highly sensitive to Electrostatic Discharge (ESD). Technicians must use proper grounding protocols (wrist/heel straps, grounded iron).
+
+---
+---
+---
+下面按**类别**列举一些**常用的电子元器件**，适合电子基础学习、电路设计和维修参考：
+
+---
+
+## 一、被动元器件
+
+### 1. 电阻器
+
+* 固定电阻
+* 可变电阻（电位器）
+* 热敏电阻（NTC / PTC）
+* 光敏电阻
+* 精密电阻
+* 功率电阻
+
+### 2. 电容器
+
+* 陶瓷电容
+* 电解电容（铝电解、钽电解）
+* 薄膜电容（聚酯、聚丙烯）
+* 可变电容
+* 安规电容（X2、Y2）
+
+### 3. 电感器
+
+* 绕线电感
+* 功率电感
+* 共模电感
+* 磁珠
+
+---
+
+## 二、半导体器件
+
+### 4. 二极管
+
+* 整流二极管
+* 稳压二极管（齐纳二极管）
+* 肖特基二极管
+* 发光二极管（LED）
+* 光电二极管
+
+### 5. 晶体管
+
+* 双极型晶体管（BJT：NPN、PNP）
+* 场效应管（MOSFET：NMOS、PMOS）
+* 结型场效应管（JFET）
+
+---
+
+## 三、集成电路（IC）
+
+### 6. 模拟 IC
+
+* 运算放大器（如 LM358、OPA 系列）
+* 比较器
+* 稳压芯片（7805、LM317、LDO）
+
+### 7. 数字 IC
+
+* 逻辑门电路（74HC 系列）
+* 计数器、移位寄存器
+* 存储器（EEPROM、Flash、RAM）
+
+### 8. 微控制器 / 处理器
+
+* 单片机（51、STM32、AVR、PIC）
+* SoC 芯片
+
+---
+
+## 四、机电与接口器件
+
+### 9. 继电器与开关
+
+* 电磁继电器
+* 固态继电器
+* 按键开关
+* 拨动开关
+* 旋转开关
+
+### 10. 连接与接口
+
+* 排针 / 排母
+* USB 接口
+* HDMI / RJ45 接口
+* 接线端子
+* 插座
+
+---
+
+## 五、传感与显示器件
+
+### 11. 传感器
+
+* 温度传感器（DS18B20、NTC）
+* 湿度传感器
+* 光敏传感器
+* 压力传感器
+* 霍尔传感器
+
+### 12. 显示与指示
+
+* 数码管
+* LCD 显示屏
+* OLED 显示屏
+* 指示灯
+
+---
+
+## 六、电源与保护器件
+
+### 13. 电源相关
+
+* 变压器
+* 开关电源模块
+* DC-DC 模块
+
+### 14. 保护器件
+
+* 保险丝
+* TVS 二极管
+* 压敏电阻
+* 防反接二极管
+
+---
+
+如果你愿意，我也可以：
+
+* 📘 按**入门学习清单**推荐元器件
+* 🔧 按**电路功能**分类（电源、放大、驱动等）
+* 🧪 提供**常见元器件识别图和选型建议**
+
+你可以告诉我你的使用场景（学习 / 项目 / 维修）。
